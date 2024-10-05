@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TheGame_Fixed/TutorialProject/Content/WB_HUD.uasset",
+				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TheGame_Fixed/TutorialProject/Content/Pistol/WB_HUD.uasset",
+				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TheGame_Fixed/TutorialProject/Content/UI/WB_HUD.uasset",
+				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TheGame_Fixed/TutorialProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TutorialProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TutorialProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/TutorialProject/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
