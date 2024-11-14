@@ -11,6 +11,8 @@
     <None Include="..\..\Source\TutorialProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -26,12 +28,21 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TutorialProject">
       <UniqueIdentifier>{4CE553E8-E69D-357B-B8BF-0342E416E254}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.cpp">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.h">
+      <Filter>Source\TutorialProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TutorialProject\MyCharacter.cpp">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
