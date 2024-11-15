@@ -281,8 +281,8 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\TheGame_Fixed\TutorialProject\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT"
-/I "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\TheGame_Fixed\TutorialProject\Source"
+/I "C:\Users\akhta\Capstone\Rokos_Basilisk\TutorialProject\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT"
+/I "C:\Users\akhta\Capstone\Rokos_Basilisk\TutorialProject\Source"
 /external:W0
 /external:I "ThirdParty\LibTiff\Source\Win64"
 /external:I "ThirdParty\LibTiff\Source"
