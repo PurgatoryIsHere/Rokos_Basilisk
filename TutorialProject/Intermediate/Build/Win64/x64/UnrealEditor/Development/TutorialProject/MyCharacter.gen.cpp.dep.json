@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\mycharacter.gen.cpp",
+        "Source": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\mycharacter.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "PCH": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
         "Includes": [
-            "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
-            "c:\\github\\rokos_basilisk\\tutorialproject\\source\\tutorialproject\\mycharacter.h",
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\source\\tutorialproject\\mycharacter.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
@@ -15,7 +15,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\mycharacter.generated.h"
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\mycharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\tutorialproject.init.gen.cpp",
+        "Source": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\tutorialproject.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "PCH": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
         "Includes": [
-            "c:\\github\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h"
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\thegame_fixed\\tutorialproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

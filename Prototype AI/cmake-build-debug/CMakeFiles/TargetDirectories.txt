@@ -1,0 +1,3 @@
+C:/Users/EdgeN/OneDrive/PLU/24-25 Year/Capstone/Prototype AI/cmake-build-debug/CMakeFiles/Prototype_AI.dir
+C:/Users/EdgeN/OneDrive/PLU/24-25 Year/Capstone/Prototype AI/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/EdgeN/OneDrive/PLU/24-25 Year/Capstone/Prototype AI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
