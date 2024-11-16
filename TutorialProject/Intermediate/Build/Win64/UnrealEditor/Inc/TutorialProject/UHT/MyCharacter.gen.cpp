@@ -77,14 +77,14 @@ AMyCharacter::~AMyCharacter() {}
 // End Class AMyCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMyCharacter, AMyCharacter::StaticClass, TEXT("AMyCharacter"), &Z_Registration_Info_UClass_AMyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyCharacter), 1389654617U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_1560772742(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_1560772742(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_TutorialProject_Source_TutorialProject_MyCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

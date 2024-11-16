@@ -26,7 +26,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float PistolDamage;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
@@ -39,7 +39,7 @@ public:
 	int32 ShotsHit;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
-	float Accuracy;*/
+	float Accuracy;
 
 
 private:

@@ -9,11 +9,11 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//PistolDamage = 15.0f;
-	//Health = 100.0f;
-	//ShotsFired = 0;
-	//ShotsHit = 0;
-	//Accuracy = 0.0f;
+	PistolDamage = 15.0f;
+	Health = 100.0f;
+	ShotsFired = 0;
+	ShotsHit = 0;
+	Accuracy = 0.0f;
 }
 
 // Called when the game starts or when spawned
