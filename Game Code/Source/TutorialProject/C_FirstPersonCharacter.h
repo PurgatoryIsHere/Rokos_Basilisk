@@ -34,10 +34,10 @@ public:
 	float Health;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
-	int32 ShotsFired;
+	float ShotsFired;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
-	int32 ShotsHit;
+	float ShotsHit;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float Accuracy;
@@ -50,6 +50,15 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetAccuracy() { return Accuracy; }
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateShotsFired();
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateShotsHit();
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateAccuracy();
 
 
 private:

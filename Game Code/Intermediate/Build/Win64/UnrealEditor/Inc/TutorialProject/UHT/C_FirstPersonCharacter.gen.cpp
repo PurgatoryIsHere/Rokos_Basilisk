@@ -143,6 +143,96 @@ DEFINE_FUNCTION(AC_FirstPersonCharacter::execTakeDamage)
 }
 // End Class AC_FirstPersonCharacter Function TakeDamage
 
+// Begin Class AC_FirstPersonCharacter Function UpdateAccuracy
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Update" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "UpdateAccuracy", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateAccuracy)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdateAccuracy();
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function UpdateAccuracy
+
+// Begin Class AC_FirstPersonCharacter Function UpdateShotsFired
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Update" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "UpdateShotsFired", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateShotsFired)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdateShotsFired();
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function UpdateShotsFired
+
+// Begin Class AC_FirstPersonCharacter Function UpdateShotsHit
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Update" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "UpdateShotsHit", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateShotsHit)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdateShotsHit();
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function UpdateShotsHit
+
 // Begin Class AC_FirstPersonCharacter
 void AC_FirstPersonCharacter::StaticRegisterNativesAC_FirstPersonCharacter()
 {
@@ -151,6 +241,9 @@ void AC_FirstPersonCharacter::StaticRegisterNativesAC_FirstPersonCharacter()
 		{ "GetAccuracy", &AC_FirstPersonCharacter::execGetAccuracy },
 		{ "GetHealth", &AC_FirstPersonCharacter::execGetHealth },
 		{ "TakeDamage", &AC_FirstPersonCharacter::execTakeDamage },
+		{ "UpdateAccuracy", &AC_FirstPersonCharacter::execUpdateAccuracy },
+		{ "UpdateShotsFired", &AC_FirstPersonCharacter::execUpdateShotsFired },
+		{ "UpdateShotsHit", &AC_FirstPersonCharacter::execUpdateShotsHit },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -190,8 +283,8 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_PistolDamage;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_ShotsFired;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_ShotsHit;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ShotsFired;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ShotsHit;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Accuracy;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
@@ -199,6 +292,9 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetAccuracy, "GetAccuracy" }, // 789475363
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetHealth, "GetHealth" }, // 2425182468
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_TakeDamage, "TakeDamage" }, // 3463837870
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy, "UpdateAccuracy" }, // 477216252
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired, "UpdateShotsFired" }, // 3699157549
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit, "UpdateShotsHit" }, // 2116860451
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -208,8 +304,8 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_PistolDamage = { "PistolDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, PistolDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PistolDamage_MetaData), NewProp_PistolDamage_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, Health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Health_MetaData), NewProp_Health_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_ShotsFired = { "ShotsFired", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, ShotsFired), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShotsFired_MetaData), NewProp_ShotsFired_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_ShotsHit = { "ShotsHit", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, ShotsHit), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShotsHit_MetaData), NewProp_ShotsHit_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_ShotsFired = { "ShotsFired", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, ShotsFired), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShotsFired_MetaData), NewProp_ShotsFired_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_ShotsHit = { "ShotsHit", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, ShotsHit), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShotsHit_MetaData), NewProp_ShotsHit_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_Accuracy = { "Accuracy", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, Accuracy), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Accuracy_MetaData), NewProp_Accuracy_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_FirstPersonCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_PistolDamage,
@@ -256,14 +352,14 @@ AC_FirstPersonCharacter::~AC_FirstPersonCharacter() {}
 // End Class AC_FirstPersonCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_TutorialProject_Source_TutorialProject_C_FirstPersonCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_FirstPersonCharacter, AC_FirstPersonCharacter::StaticClass, TEXT("AC_FirstPersonCharacter"), &Z_Registration_Info_UClass_AC_FirstPersonCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_FirstPersonCharacter), 3718533615U) },
+		{ Z_Construct_UClass_AC_FirstPersonCharacter, AC_FirstPersonCharacter::StaticClass, TEXT("AC_FirstPersonCharacter"), &Z_Registration_Info_UClass_AC_FirstPersonCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_FirstPersonCharacter), 3828806781U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_TutorialProject_Source_TutorialProject_C_FirstPersonCharacter_h_1390772841(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_TutorialProject_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_TutorialProject_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_3371497304(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

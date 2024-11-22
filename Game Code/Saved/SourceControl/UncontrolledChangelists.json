@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/GitHub/Rokos_Basilisk/Game Code/Content/UI/WB_HUD.uasset",
 				"C:/GitHub/Rokos_Basilisk/TutorialProject/Content/EnemyAI/BP_Basic_AI.uasset",
 				"C:/GitHub/Rokos_Basilisk/TutorialProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/GitHub/Rokos_Basilisk/TutorialProject/Content/Prefabs/Basic_Triangle.uasset",

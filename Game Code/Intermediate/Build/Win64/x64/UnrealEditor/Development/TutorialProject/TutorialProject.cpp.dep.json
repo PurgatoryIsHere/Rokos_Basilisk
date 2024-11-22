@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\tutorialproject\\source\\tutorialproject\\tutorialproject.cpp",
+        "Source": "c:\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\tutorialproject.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\tutorialproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
-            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\tutorialproject\\source\\tutorialproject\\tutorialproject.h"
+            "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\tutorialproject.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

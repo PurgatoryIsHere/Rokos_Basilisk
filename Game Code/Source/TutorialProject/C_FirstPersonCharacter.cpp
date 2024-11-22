@@ -11,8 +11,8 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
 
 	PistolDamage = 15.0f;
 	Health = 100.0f;
-	ShotsFired = 0;
-	ShotsHit = 0;
+	ShotsFired = 0.0f;
+	ShotsHit = 0.0f;
 	Accuracy = 0.0f;
 }
 
@@ -68,5 +68,20 @@ void AC_FirstPersonCharacter::TakeDamage(float Damage)
 			DisableInput(PlayerController);
 		}
 	}
+}
+
+void AC_FirstPersonCharacter::UpdateShotsFired()
+{
+	ShotsFired += 1.0;
+}
+
+void AC_FirstPersonCharacter::UpdateShotsHit()
+{
+	ShotsHit += 1.0;
+}
+
+void AC_FirstPersonCharacter::UpdateAccuracy()
+{
+	Accuracy = ShotsHit / ShotsFired;
 }
 
