@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\GitHub\\Rokos_Basilisk\\TutorialProject\\Source\\TutorialProject\\TutorialProject.Build.cs",
-		"C:\\GitHub\\Rokos_Basilisk\\TutorialProject\\Source\\TutorialProject.Target.cs",
-		"C:\\GitHub\\Rokos_Basilisk\\TutorialProject\\Source\\TutorialProjectEditor.Target.cs"
-	],
-	"EngineVersion": "5.5.0"
-}
