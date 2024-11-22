@@ -53,3 +53,20 @@ void AC_FirstPersonCharacter::MoveRight(float ActionValueX)
 	AddMovementInput(GetActorRightVector(), ActionValueX);
 }
 
+void AC_FirstPersonCharacter::TakeDamage(float Damage)
+{
+	Health -= Damage;
+
+	if (Health <= 0.0f)
+	{
+		this->GetMesh()->SetSimulatePhysics(true);
+
+		APlayerController* PlayerController = Cast<APlayerController>(GetController());
+
+		if (PlayerController)
+		{
+			DisableInput(PlayerController);
+		}
+	}
+}
+

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/PlayerController.h"
 #include "C_FirstPersonCharacter.generated.h"
 
 UCLASS()
@@ -40,6 +41,15 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float Accuracy;
+
+	UFUNCTION(BlueprintCallable, Category = "Damage")
+	void TakeDamage(float Damage);
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetHealth() { return Health; }
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetAccuracy() { return Accuracy; }
 
 
 private:

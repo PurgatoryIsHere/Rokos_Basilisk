@@ -40,23 +40,29 @@
     <ClCompile Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.cpp">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.h">
+    <ClCompile Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.h">
       <Filter>Source\TutorialProject</Filter>
-    </ClInclude>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TutorialProject\MyCharacter.cpp">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TutorialProject\MyCharacter.h">
+    <ClCompile Include="..\..\Source\TutorialProject\MyCharacter.h">
       <Filter>Source\TutorialProject</Filter>
-    </ClInclude>
+    </ClCompile>
     <None Include="..\..\Source\TutorialProject\TutorialProject.Build.cs">
       <Filter>Source\TutorialProject</Filter>
     </None>
     <ClCompile Include="..\..\Source\TutorialProject\TutorialProject.cpp">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TutorialProject\TutorialProject.h">
+    <ClCompile Include="..\..\Source\TutorialProject\TutorialProject.h">
       <Filter>Source\TutorialProject</Filter>
-    </ClInclude>
+    </ClCompile>
+    <Filter Include="Source\TutorialProject\.vscode">
+      <UniqueIdentifier>{4BE7D4D2-46D1-3E71-97A2-D1DC75F7AFB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TutorialProject\.vscode\c_cpp_properties.json">
+      <Filter>Source\TutorialProject\.vscode</Filter>
+    </None>
   </ItemGroup>
 </Project>

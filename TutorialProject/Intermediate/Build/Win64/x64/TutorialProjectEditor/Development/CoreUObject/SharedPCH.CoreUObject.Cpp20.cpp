@@ -1,2 +1,2 @@
-// Compiler: 14.41.34123
-#include "C:/Users/akhta/Capstone/Rokos_Basilisk/TutorialProject/Intermediate/Build/Win64/x64/TutorialProjectEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h"
+// Compiler: 14.38.33143
+#include "SharedPCH.CoreUObject.Cpp20.h"
