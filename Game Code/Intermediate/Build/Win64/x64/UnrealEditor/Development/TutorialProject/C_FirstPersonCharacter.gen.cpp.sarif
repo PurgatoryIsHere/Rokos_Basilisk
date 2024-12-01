@@ -10,13 +10,13 @@
                         "text": "'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Intermediate/Build/Win64/UnrealEditor/Inc/TutorialProject/UHT/C_FirstPersonCharacter.gen.cpp"
+                        "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Intermediate/Build/Win64/UnrealEditor/Inc/TutorialProject/UHT/C_FirstPersonCharacter.gen.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
+                                    "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
                                 },
                                 "region": {
                                     "startLine": 46,
@@ -32,13 +32,13 @@
                         "text": "'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Intermediate/Build/Win64/UnrealEditor/Inc/TutorialProject/UHT/C_FirstPersonCharacter.gen.cpp"
+                        "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Intermediate/Build/Win64/UnrealEditor/Inc/TutorialProject/UHT/C_FirstPersonCharacter.gen.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
+                                    "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
                                 },
                                 "region": {
                                     "startLine": 70,

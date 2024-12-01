@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TUTORIALPROJECT_C_FirstPersonCharacter_generated_h
 
-#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execUpdateAccuracy); \
 	DECLARE_FUNCTION(execUpdateShotsHit); \
 	DECLARE_FUNCTION(execUpdateShotsFired); \
@@ -23,7 +23,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execTakeDamage);
 
 
-#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC_FirstPersonCharacter(); \
 	friend struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(AC_FirstPersonCharacter)
 
 
-#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AC_FirstPersonCharacter(AC_FirstPersonCharacter&&); \
@@ -44,13 +44,13 @@ public: \
 	NO_API virtual ~AC_FirstPersonCharacter();
 
 
-#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_10_PROLOG
-#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_GENERATED_BODY \
+#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_10_PROLOG
+#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
-	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,7 +58,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TUTORIALPROJECT_API UClass* StaticClass<class AC_FirstPersonCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h
+#define CURRENT_FILE_ID FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
