@@ -38,7 +38,7 @@ void AC_Basic_AI::TakeDamage(float Damage)
 {
 	Health -= Damage;
 
-	if (Health <= 0.0f)
+	if (Health == 0.0f)
 	{
 		this->GetMesh()->SetSimulatePhysics(true);
 
