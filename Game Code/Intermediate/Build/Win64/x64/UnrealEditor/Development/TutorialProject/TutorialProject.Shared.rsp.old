@@ -285,8 +285,8 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-/I "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\TutorialProject\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT"
-/I "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\TutorialProject\Source"
+/I "C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT"
+/I "C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Source"
 /external:W0
 /external:I "ThirdParty\GuidelinesSupportLibrary\GSL-1144\include"
 /external:I "ThirdParty\RapidJSON\1.1.0"
