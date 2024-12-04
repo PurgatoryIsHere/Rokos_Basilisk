@@ -42,6 +42,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float Accuracy;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float JumpPref;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
@@ -65,6 +68,7 @@ private:
 
 	void MoveForward(float ActionValueY);
 	void MoveRight(float ActionValueX);
+	void Jump();
 
 
 };

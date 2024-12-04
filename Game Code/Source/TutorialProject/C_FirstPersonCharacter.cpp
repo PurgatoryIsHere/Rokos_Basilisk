@@ -14,6 +14,7 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
 	ShotsFired = 0.0f;
 	ShotsHit = 0.0f;
 	Accuracy = 0.0f;
+	JumpPref = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -38,7 +39,7 @@ void AC_FirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis(TEXT("Move Forward / Backward"), this, &AC_FirstPersonCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Move Right / Left"), this, &AC_FirstPersonCharacter::MoveRight);
 
-	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &AC_FirstPersonCharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Released, this, &ACharacter::StopJumping);
 
 }
@@ -51,6 +52,12 @@ void AC_FirstPersonCharacter::MoveForward(float ActionValueY)
 void AC_FirstPersonCharacter::MoveRight(float ActionValueX)
 {
 	AddMovementInput(GetActorRightVector(), ActionValueX);
+}
+
+void AC_FirstPersonCharacter::Jump()
+{
+	Super::Jump();
+	JumpPref++;
 }
 
 void AC_FirstPersonCharacter::TakeDamage(float Damage)
