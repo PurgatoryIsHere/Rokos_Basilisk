@@ -22,6 +22,10 @@ void AC_FirstPersonCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	StartingPosition = GetActorLocation();
+	DistanceMoved = 0.0f;
+
+	PreviousPosition = StartingPosition;
 }
 
 // Called every frame
@@ -29,6 +33,13 @@ void AC_FirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	CurrentPosition = GetActorLocation();
+
+	float DistanceMovedThisFrame = FVector::Dist(CurrentPosition, PreviousPosition);
+
+	DistanceMoved += DistanceMovedThisFrame;
+
+	PreviousPosition = CurrentPosition;
 }
 
 // Called to bind functionality to input
