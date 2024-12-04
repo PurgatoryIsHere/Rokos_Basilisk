@@ -41,13 +41,13 @@ vector<vector<int>> generatePrefabs() {
 //Outputs newLevel which includes the prefabs in the level as well as their values
 void outputNewLevel(map<vector<int>, int> newLevel) {
     // Iterate through the map to display its content
-    cout << "Generated Levels:" << endl;
+    cout << "Generated Level:" << endl;
     for (const auto& entry : newLevel) {
         cout << "Prefab: ";
         for (int val : entry.first) {
             cout << val << " ";
         }
-        cout << " -> Level: " << entry.second << endl;
+        cout << " -> Tile: " << entry.second << endl;
     }
 }
 
