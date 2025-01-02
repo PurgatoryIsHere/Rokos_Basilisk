@@ -15,6 +15,15 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
 	ShotsHit = 0.0f;
 	Accuracy = 0.0f;
 	JumpPref = 0.0f;
+	DistanceMoved = 0.0f;
+	TimeToComplete = 0.0f;
+
+	StartingPosition = {};
+	PreviousPosition = {};
+	CurrentPosition = {};
+
+	StartingTime = 0.0f;
+	ElapsedTime = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -40,6 +49,8 @@ void AC_FirstPersonCharacter::Tick(float DeltaTime)
 	DistanceMoved += DistanceMovedThisFrame;
 
 	PreviousPosition = CurrentPosition;
+
+	ElapsedTime = GetWorld()->GetTimeSeconds() - StartingTime;
 }
 
 // Called to bind functionality to input
@@ -103,3 +114,7 @@ void AC_FirstPersonCharacter::UpdateAccuracy()
 	Accuracy = ShotsHit / ShotsFired;
 }
 
+void AC_FirstPersonCharacter::UpdateTimeToComplete()
+{
+	TimeToComplete = ElapsedTime;
+}

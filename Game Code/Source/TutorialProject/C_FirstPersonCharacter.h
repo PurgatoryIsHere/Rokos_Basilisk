@@ -48,6 +48,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float DistanceMoved;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float TimeToComplete;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
@@ -66,12 +69,18 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateAccuracy();
 
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateTimeToComplete();
+
 
 private:
 
 	FVector StartingPosition;
 	FVector PreviousPosition;
 	FVector CurrentPosition;
+
+	float StartingTime;
+	float ElapsedTime;
 
 	void MoveForward(float ActionValueY);
 	void MoveRight(float ActionValueX);
