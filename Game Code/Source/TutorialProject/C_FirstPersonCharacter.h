@@ -54,6 +54,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float DistanceFromKill;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float TimeToKill;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
@@ -75,6 +78,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetDistanceFromKill() { return DistanceFromKill; }
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetTimeToKill() { return TimeToKill; }
+
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateShotsFired();
 
@@ -92,6 +98,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void AverageDistanceFromKill(float NumEnemies);
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateTimeToKill(float NumEnemies);
 
 
 private:

@@ -312,6 +312,48 @@ DEFINE_FUNCTION(AC_FirstPersonCharacter::execGetTimeToComplete)
 }
 // End Class AC_FirstPersonCharacter Function GetTimeToComplete
 
+// Begin Class AC_FirstPersonCharacter Function GetTimeToKill
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics
+{
+	struct C_FirstPersonCharacter_eventGetTimeToKill_Parms
+	{
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Getter" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_FirstPersonCharacter_eventGetTimeToKill_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "GetTimeToKill", nullptr, nullptr, Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::C_FirstPersonCharacter_eventGetTimeToKill_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::C_FirstPersonCharacter_eventGetTimeToKill_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execGetTimeToKill)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=P_THIS->GetTimeToKill();
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function GetTimeToKill
+
 // Begin Class AC_FirstPersonCharacter Function TakeDamage
 struct Z_Construct_UFunction_AC_FirstPersonCharacter_TakeDamage_Statics
 {
@@ -523,6 +565,49 @@ DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateTimeToComplete)
 }
 // End Class AC_FirstPersonCharacter Function UpdateTimeToComplete
 
+// Begin Class AC_FirstPersonCharacter Function UpdateTimeToKill
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics
+{
+	struct C_FirstPersonCharacter_eventUpdateTimeToKill_Parms
+	{
+		float NumEnemies;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Update" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_NumEnemies;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::NewProp_NumEnemies = { "NumEnemies", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_FirstPersonCharacter_eventUpdateTimeToKill_Parms, NumEnemies), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::NewProp_NumEnemies,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "UpdateTimeToKill", nullptr, nullptr, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::C_FirstPersonCharacter_eventUpdateTimeToKill_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::C_FirstPersonCharacter_eventUpdateTimeToKill_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateTimeToKill)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_NumEnemies);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdateTimeToKill(Z_Param_NumEnemies);
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function UpdateTimeToKill
+
 // Begin Class AC_FirstPersonCharacter
 void AC_FirstPersonCharacter::StaticRegisterNativesAC_FirstPersonCharacter()
 {
@@ -535,12 +620,14 @@ void AC_FirstPersonCharacter::StaticRegisterNativesAC_FirstPersonCharacter()
 		{ "GetHealth", &AC_FirstPersonCharacter::execGetHealth },
 		{ "GetJumpPref", &AC_FirstPersonCharacter::execGetJumpPref },
 		{ "GetTimeToComplete", &AC_FirstPersonCharacter::execGetTimeToComplete },
+		{ "GetTimeToKill", &AC_FirstPersonCharacter::execGetTimeToKill },
 		{ "TakeDamage", &AC_FirstPersonCharacter::execTakeDamage },
 		{ "UpdateAccuracy", &AC_FirstPersonCharacter::execUpdateAccuracy },
 		{ "UpdateDistanceFromKill", &AC_FirstPersonCharacter::execUpdateDistanceFromKill },
 		{ "UpdateShotsFired", &AC_FirstPersonCharacter::execUpdateShotsFired },
 		{ "UpdateShotsHit", &AC_FirstPersonCharacter::execUpdateShotsHit },
 		{ "UpdateTimeToComplete", &AC_FirstPersonCharacter::execUpdateTimeToComplete },
+		{ "UpdateTimeToKill", &AC_FirstPersonCharacter::execUpdateTimeToKill },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -593,6 +680,10 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 		{ "Category", "Variables" },
 		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TimeToKill_MetaData[] = {
+		{ "Category", "Variables" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_PistolDamage;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
@@ -603,6 +694,7 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceMoved;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeToComplete;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceFromKill;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeToKill;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -613,12 +705,14 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetHealth, "GetHealth" }, // 2425182468
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetJumpPref, "GetJumpPref" }, // 4071807378
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToComplete, "GetTimeToComplete" }, // 3587344135
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill, "GetTimeToKill" }, // 1709936340
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_TakeDamage, "TakeDamage" }, // 3463837870
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy, "UpdateAccuracy" }, // 477216252
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateDistanceFromKill, "UpdateDistanceFromKill" }, // 2845905192
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired, "UpdateShotsFired" }, // 3699157549
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit, "UpdateShotsHit" }, // 2116860451
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToComplete, "UpdateTimeToComplete" }, // 2166445765
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateTimeToKill, "UpdateTimeToKill" }, // 3464031221
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -635,6 +729,7 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonC
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_DistanceMoved = { "DistanceMoved", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, DistanceMoved), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DistanceMoved_MetaData), NewProp_DistanceMoved_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_TimeToComplete = { "TimeToComplete", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, TimeToComplete), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimeToComplete_MetaData), NewProp_TimeToComplete_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_DistanceFromKill = { "DistanceFromKill", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, DistanceFromKill), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DistanceFromKill_MetaData), NewProp_DistanceFromKill_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_TimeToKill = { "TimeToKill", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_FirstPersonCharacter, TimeToKill), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimeToKill_MetaData), NewProp_TimeToKill_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_FirstPersonCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_PistolDamage,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_Health,
@@ -645,6 +740,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_FirstP
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_DistanceMoved,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_TimeToComplete,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_DistanceFromKill,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_FirstPersonCharacter_Statics::NewProp_TimeToKill,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AC_FirstPersonCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AC_FirstPersonCharacter_Statics::DependentSingletons[])() = {
@@ -687,10 +783,10 @@ AC_FirstPersonCharacter::~AC_FirstPersonCharacter() {}
 struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_FirstPersonCharacter, AC_FirstPersonCharacter::StaticClass, TEXT("AC_FirstPersonCharacter"), &Z_Registration_Info_UClass_AC_FirstPersonCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_FirstPersonCharacter), 1062114573U) },
+		{ Z_Construct_UClass_AC_FirstPersonCharacter, AC_FirstPersonCharacter::StaticClass, TEXT("AC_FirstPersonCharacter"), &Z_Registration_Info_UClass_AC_FirstPersonCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_FirstPersonCharacter), 1057504126U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_440332640(TEXT("/Script/TutorialProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_249157770(TEXT("/Script/TutorialProject"),
 	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

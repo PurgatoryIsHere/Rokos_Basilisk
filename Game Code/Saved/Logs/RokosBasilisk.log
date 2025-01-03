@@ -4480,3 +4480,186 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2025.01.03-07.46.05:783][769]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
 [2025.01.03-07.46.05:785][769]AssetCheck: /Game/FirstPerson/WinLoseScreen/W_Winrar Validating asset
 [2025.01.03-07.46.05:789][769]AssetCheck: /Game/UI/WB_HUD Validating asset
+[2025.01.03-07.51.49:297][190]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5609.221191
+[2025.01.03-07.51.49:431][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.03-07.51.49:431][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5609.346680, Update Interval: 329.076202
+[2025.01.03-07.58.12:790][ 84]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5992.751953
+[2025.01.03-07.58.13:791][ 87]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.03-07.58.13:791][ 87]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5993.420410, Update Interval: 326.322205
+[2025.01.03-08.00.17:123][716]Candidate modules for hot reload:
+[2025.01.03-08.00.17:123][716]  TutorialProject
+[2025.01.03-08.00.17:129][716]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TutorialProject,3426 TutorialProjectEditor Win64 Development -Project="C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject" "C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject"  -IgnoreJunk]
+[2025.01.03-08.00.17:152][716]Warning: Starting HotReload took  0.1s.
+[2025.01.03-08.00.30:633][677]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TutorialProject,3426 TutorialProjectEditor Win64 Development -Project="C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject" "C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject"  -IgnoreJunk
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Log file: C:\Users\RinAn\AppData\Local\UnrealBuildTool\Log.txt
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GitHub\Rokos_Basilisk).
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Parsing headers for TutorialProjectEditor
+[2025.01.03-08.00.30:634][677]CompilerResultsLog:   Running Internal UnrealHeaderTool "C:\GitHub\Rokos_Basilisk\Game Code\RokosBasilisk.uproject" "C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\TutorialProjectEditor\Development\TutorialProjectEditor.uhtmanifest" -WarningsAsErrors -installed
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Total of 3 written
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Reflection code generated for TutorialProjectEditor in 3.6049112 seconds
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Building TutorialProjectEditor...
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Using Visual Studio 2022 14.38.33143 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [Upgrade]
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;' in TutorialProjectEditor.Target.cs.
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [Upgrade]
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.01.03-08.00.30:634][677]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.01.03-08.00.30:634][677]CompilerResultsLog:   Requested 1.5 GB memory per action, 3.78 GB available: limiting max parallel actions to 2
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 6 action(s)
+[2025.01.03-08.00.30:634][677]CompilerResultsLog:   Storage capacity 40Gb
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: ---- Starting trace: 250103_000022 ----
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [1/6] Compile [x64] C_FirstPersonCharacter.gen.cpp
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(61): warning C4263: 'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(120): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(285): note: see declaration of 'APawn::TakeDamage'
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(42): note: see declaration of 'APawn'
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [2/6] Compile [x64] C_FirstPersonCharacter.cpp
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(61): warning C4263: 'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(120): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(285): note: see declaration of 'APawn::TakeDamage'
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(42): note: see declaration of 'APawn'
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [3/6] Compile [x64] TutorialProject.init.gen.cpp
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-TutorialProject-3426.lib
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-TutorialProject-3426.dll
+[2025.01.03-08.00.30:634][677]CompilerResultsLog:    Creating object C:\GitHub\Rokos_Basilisk\Game Code\Binaries\Win64\UnrealEditor-TutorialProject-3426.exp
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: [6/6] WriteMetadata TutorialProjectEditor.target (UBA disabled)
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Trace file written to C:/Users/RinAn/AppData/Local/UnrealBuildTool/Log.uba with size 4.0kb
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 8.29 seconds
+[2025.01.03-08.00.30:634][677]CompilerResultsLog: Total execution time: 13.19 seconds
+[2025.01.03-08.00.30:634][677]LogMainFrame: MainFrame: Module compiling took 13.534 seconds
+[2025.01.03-08.00.30:673][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.01.03-08.00.30:754][677]LogClass: UPackage /Script/TutorialProject Reload.
+[2025.01.03-08.00.30:754][677]LogClass: UClass C_FirstPersonCharacter Reload.
+[2025.01.03-08.00.30:757][677]LogClass: Could not find existing class C_FirstPersonCharacter in package /Script/TutorialProject for reload, assuming new or modified class
+[2025.01.03-08.00.30:757][677]LogClass: Function AverageDistanceFromKill is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetAccuracy is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetDistanceFromKill is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetDistanceMoved is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetHealth is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetJumpPref is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetTimeToComplete is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function GetTimeToKill is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function TakeDamage is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function UpdateAccuracy is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function UpdateDistanceFromKill is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function UpdateShotsFired is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function UpdateShotsHit is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function UpdateTimeToComplete is new or belongs to a modified class.
+[2025.01.03-08.00.30:757][677]LogClass: Function UpdateTimeToKill is new or belongs to a modified class.
+[2025.01.03-08.00.30:787][677]Re-instancing C_FirstPersonCharacter after reload.
+[2025.01.03-08.00.31:786][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.01.03-08.00.31:816][677]Display: HotReload took 14.8s.
+[2025.01.03-08.00.31:816][677]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged, 1 function remapped
+[2025.01.03-08.01.24:207][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.01.03-08.01.26:251][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.03-08.01.26:258][913]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.01.03-08.01.26:258][913]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.01.03-08.01.26:272][913]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 13.559 ms (total: 124.110 ms)
+[2025.01.03-08.01.26:275][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.03-08.01.26:275][913]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.03-08.01.26:281][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006128s)
+[2025.01.03-08.01.26:281][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006204s)
+[2025.01.03-08.01.26:351][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.01.03-08.01.26:362][913]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.03-08.01.26:365][913]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.03-08.01.26:365][913]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.03-08.01.26:365][913]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.03-08.01.26:365][913]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.03-08.01.26:366][913]LogWorldPartition: Display: WorldPartition initialize took 1.941 ms (total: 786.896 ms)
+[2025.01.03-08.01.26:367][913]LogPlayLevel: PIE: World Init took: (0.004173s)
+[2025.01.03-08.01.26:367][913]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.03-08.01.26:368][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.01.03-08.01.26:368][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.03-08.01.26:368][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.03-08.01.26:368][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.03-08.01.26:368][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.03-08.01.26:370][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.03-08.01.26:416][913]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.03-08.01.26:416][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.03-08.01.26:416][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.03-08.01.26:416][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.03-08.01.26:416][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.01.03-08.01.26:416][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=18
+[2025.01.03-08.01.26:419][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.01.03-08.01.26:419][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.01.03-08.01.26:419][913]LogInit: FAudioDevice initialized with ID 18.
+[2025.01.03-08.01.26:419][913]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2025.01.03-08.01.26:419][913]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.01.03-08.01.26:423][913]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.03-08.01.26:428][913]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-00.01.26
+[2025.01.03-08.01.26:429][913]LogWorld: Bringing up level for play took: 0.005477
+[2025.01.03-08.01.26:433][913]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.01.03-08.01.26:436][913]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.01.03-08.01.26:439][913]PIE: Server logged in
+[2025.01.03-08.01.26:441][913]PIE: Play in editor total start time 0.183 seconds.
+[2025.01.03-08.01.40:449][ 97]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.03-08.01.40:449][ 97]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.03-08.01.40:449][ 97]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.03-08.01.40:449][ 97]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.03-08.01.40:454][ 97]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.03-08.01.40:454][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.03-08.01.40:455][ 97]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.03-08.01.40:511][ 97]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.03-08.01.40:515][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.01.03-08.01.40:519][ 97]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.03-08.01.40:526][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006259s)
+[2025.01.03-08.01.40:526][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006325s)
+[2025.01.03-08.01.40:526][ 97]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2025.01.03-08.01.40:526][ 97]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.03-08.01.40:528][ 97]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.03-08.01.40:528][ 97]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.03-08.01.40:528][ 97]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.03-08.01.40:528][ 97]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.03-08.01.40:530][ 97]LogWorldPartition: Display: WorldPartition initialize took 1.964 ms (total: 788.861 ms)
+[2025.01.03-08.01.40:530][ 97]LogPlayLevel: PIE: World Init took: (0.004014s)
+[2025.01.03-08.01.40:530][ 97]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.03-08.01.40:535][ 97]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-00.01.40
+[2025.01.03-08.01.40:536][ 97]LogWorld: Bringing up level for play took: 0.006109
+[2025.01.03-08.01.40:544][ 97]LogLoad: Took 0.095166 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.03-08.01.40:544][ 97]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.03-08.01.41:321][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.03-08.01.41:321][158]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.03-08.01.41:321][158]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.03-08.01.41:322][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.03-08.01.41:322][158]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.03-08.01.41:328][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.03-08.01.41:334][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.03-08.01.41:364][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.03-08.01.41:365][158]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.01.03-08.01.41:365][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.01.03-08.01.41:368][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.01.03-08.01.41:383][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.03-08.01.41:438][159]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.01.03-08.02.51:641][ 92]LogEditorTransaction: Undo Move Node
+[2025.01.03-08.02.52:544][133]LogEditorTransaction: Undo Create Pin Link
+[2025.01.03-08.03.17:225][605]LogEditorTransaction: Undo Move Node
+[2025.01.03-08.03.21:576][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.01.03-08.03.35:448][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.01.03-08.03.37:051][651]LogSlate: Window 'Save Content' being destroyed
+[2025.01.03-08.03.37:072][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.03-08.03.37:130][651]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.01.03-08.03.37:130][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.01.03-08.03.37:139][651]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2025.01.03-08.03.37:140][651]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_FirstPersonGameMode6DC9A8AE43EF48EE2DCDCBB067BF4BF9.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.01.03-08.03.37:157][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.138 ms (total: 688.216 ms)
+[2025.01.03-08.03.37:229][651]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.03-08.03.37:229][651]LogContentValidation: Enabled validators:
+[2025.01.03-08.03.37:229][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.03-08.03.37:229][651]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.03-08.03.37:229][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.03-08.03.37:229][651]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.03-08.03.37:229][651]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.03-08.03.37:229][651]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.03-08.03.37:229][651]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
