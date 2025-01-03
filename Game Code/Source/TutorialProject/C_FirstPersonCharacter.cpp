@@ -17,6 +17,7 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
 	JumpPref = 0.0f;
 	DistanceMoved = 0.0f;
 	TimeToComplete = 0.0f;
+	DistanceFromKill = 0.0f;
 
 	StartingPosition = {};
 	PreviousPosition = {};
@@ -118,3 +119,17 @@ void AC_FirstPersonCharacter::UpdateTimeToComplete()
 {
 	TimeToComplete = ElapsedTime;
 }
+
+void AC_FirstPersonCharacter::UpdateDistanceFromKill(FVector PlayerPostion, FVector EnemyPosition)
+{
+	float Distance = FVector::Dist(PlayerPostion, EnemyPosition);
+
+	DistanceFromKill += Distance;
+}
+
+void AC_FirstPersonCharacter::AverageDistanceFromKill(float NumEnemies)
+{
+	DistanceFromKill /= NumEnemies;
+}
+
+

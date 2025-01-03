@@ -15,10 +15,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TUTORIALPROJECT_C_FirstPersonCharacter_generated_h
 
 #define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAverageDistanceFromKill); \
+	DECLARE_FUNCTION(execUpdateDistanceFromKill); \
 	DECLARE_FUNCTION(execUpdateTimeToComplete); \
 	DECLARE_FUNCTION(execUpdateAccuracy); \
 	DECLARE_FUNCTION(execUpdateShotsHit); \
 	DECLARE_FUNCTION(execUpdateShotsFired); \
+	DECLARE_FUNCTION(execGetDistanceFromKill); \
+	DECLARE_FUNCTION(execGetTimeToComplete); \
+	DECLARE_FUNCTION(execGetDistanceMoved); \
+	DECLARE_FUNCTION(execGetJumpPref); \
 	DECLARE_FUNCTION(execGetAccuracy); \
 	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execTakeDamage);

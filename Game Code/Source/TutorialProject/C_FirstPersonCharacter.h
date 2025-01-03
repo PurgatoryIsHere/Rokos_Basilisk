@@ -51,6 +51,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float TimeToComplete;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float DistanceFromKill;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
@@ -59,6 +62,18 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetAccuracy() { return Accuracy; }
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetJumpPref() { return JumpPref; }
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetDistanceMoved() { return DistanceMoved; }
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetTimeToComplete() { return TimeToComplete; }
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetDistanceFromKill() { return DistanceFromKill; }
 
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateShotsFired();
@@ -71,6 +86,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateTimeToComplete();
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateDistanceFromKill(FVector PlayerPosition, FVector EnemyPosition);
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void AverageDistanceFromKill(float NumEnemies);
 
 
 private:
