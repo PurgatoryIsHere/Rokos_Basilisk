@@ -33,7 +33,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	bool isDead;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float TimeSurvived;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetTimeSurvived() { return TimeSurvived; };
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateTimeSurvived();
+
+private:
+
+	float StartingTime;
+	float ElapsedTime;
 };

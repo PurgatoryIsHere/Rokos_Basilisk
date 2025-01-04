@@ -34,8 +34,6 @@ void AC_FirstPersonCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	StartingPosition = GetActorLocation();
-	DistanceMoved = 0.0f;
-
 	PreviousPosition = StartingPosition;
 }
 
@@ -133,9 +131,14 @@ void AC_FirstPersonCharacter::AverageDistanceFromKill(float NumEnemies)
 	DistanceFromKill /= NumEnemies;
 }
 
-void AC_FirstPersonCharacter::UpdateTimeToKill(float NumEnemies)
+void AC_FirstPersonCharacter::UpdateTimeToKill(float EnemyTimeSurvived)
 {
-	TimeToKill = TimeToComplete / NumEnemies;
+	TimeToKill += EnemyTimeSurvived;
+}
+
+void AC_FirstPersonCharacter::AverageTimeToKill(float NumEnemies)
+{
+	TimeToKill /= NumEnemies;
 }
 
 

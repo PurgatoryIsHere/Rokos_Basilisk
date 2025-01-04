@@ -15,6 +15,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TUTORIALPROJECT_C_Basic_AI_generated_h
 
 #define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execUpdateTimeSurvived); \
+	DECLARE_FUNCTION(execGetTimeSurvived); \
 	DECLARE_FUNCTION(execTakeDamage);
 
 

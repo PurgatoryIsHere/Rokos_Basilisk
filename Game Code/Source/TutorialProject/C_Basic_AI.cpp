@@ -11,6 +11,10 @@ AC_Basic_AI::AC_Basic_AI()
 
 	Health = 30.0f;
 	isDead = false;
+	TimeSurvived = 0.0f;
+
+	StartingTime = 0.0f;
+	ElapsedTime = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -24,6 +28,11 @@ void AC_Basic_AI::BeginPlay()
 void AC_Basic_AI::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if(!isDead)
+	{
+		ElapsedTime = GetWorld()->GetTimeSeconds() - StartingTime;
+	}
 
 }
 
@@ -45,6 +54,13 @@ void AC_Basic_AI::TakeDamage(float Damage)
 		this->GetController()->UnPossess();
 
 		isDead = true;
+
+		UpdateTimeSurvived();
 	}
+}
+
+void AC_Basic_AI::UpdateTimeSurvived()
+{
+	TimeSurvived = ElapsedTime;
 }
 

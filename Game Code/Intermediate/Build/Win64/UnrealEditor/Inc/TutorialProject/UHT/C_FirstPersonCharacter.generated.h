@@ -15,6 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TUTORIALPROJECT_C_FirstPersonCharacter_generated_h
 
 #define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAverageTimeToKill); \
 	DECLARE_FUNCTION(execUpdateTimeToKill); \
 	DECLARE_FUNCTION(execAverageDistanceFromKill); \
 	DECLARE_FUNCTION(execUpdateDistanceFromKill); \

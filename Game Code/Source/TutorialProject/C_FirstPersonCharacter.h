@@ -100,7 +100,10 @@ public:
 	void AverageDistanceFromKill(float NumEnemies);
 
 	UFUNCTION(BlueprintCallable, Category = "Update")
-	void UpdateTimeToKill(float NumEnemies);
+	void UpdateTimeToKill(float EnemyTimeSurvived);
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void AverageTimeToKill(float NumEnemies);
 
 
 private:
