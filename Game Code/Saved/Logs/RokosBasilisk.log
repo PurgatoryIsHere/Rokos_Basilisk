@@ -1930,3 +1930,712 @@ LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dum
 [2025.01.04-04.28.17:340][ 44]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.01.04-04.28.17:345][ 44]AssetCheck: /Game/EnemyAI/BP_Basic_AI Validating asset
 [2025.01.04-04.28.17:345][ 44]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
+[2025.01.04-04.30.37:207][ 83]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EnemyAI/BP_Basic_AI_Controller.BP_Basic_AI_Controller
+[2025.01.04-04.30.37:210][ 83]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
+[2025.01.04-04.35.02:411][985]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2163.619141
+[2025.01.04-04.35.03:413][988]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-04.35.03:413][988]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2164.285889, Update Interval: 304.715118
+[2025.01.04-04.40.56:466][ 48]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2517.680664
+[2025.01.04-04.40.57:465][ 50]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-04.40.57:466][ 51]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2518.349609, Update Interval: 321.812195
+[2025.01.04-04.47.04:623][251]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2885.842773
+[2025.01.04-04.47.05:623][254]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-04.47.05:623][254]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2886.509766, Update Interval: 300.230713
+[2025.01.04-04.52.55:012][302]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3236.233398
+[2025.01.04-04.52.56:012][305]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-04.52.56:012][306]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3236.898438, Update Interval: 339.379852
+[2025.01.04-04.59.30:070][487]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3631.291016
+[2025.01.04-04.59.31:068][490]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-04.59.31:069][490]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3631.958740, Update Interval: 323.800781
+[2025.01.04-05.00.47:794][721]LogDerivedDataCache: C:/Users/RinAn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.04-05.03.49:598][476]Candidate modules for hot reload:
+[2025.01.04-05.03.49:598][476]  TutorialProject
+[2025.01.04-05.03.49:733][476]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TutorialProject,2272 TutorialProjectEditor Win64 Development -Project="C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject" "C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject"  -IgnoreJunk]
+[2025.01.04-05.03.49:767][476]Warning: Starting HotReload took  0.4s.
+[2025.01.04-05.04.09:194][547]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.01.04-05.04.09:195][547]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TutorialProject,2272 TutorialProjectEditor Win64 Development -Project="C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject" "C:/GitHub/Rokos_Basilisk/Game Code/RokosBasilisk.uproject"  -IgnoreJunk
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Log file: C:\Users\RinAn\AppData\Local\UnrealBuildTool\Log.txt
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GitHub\Rokos_Basilisk).
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Parsing headers for TutorialProjectEditor
+[2025.01.04-05.04.09:196][547]CompilerResultsLog:   Running Internal UnrealHeaderTool "C:\GitHub\Rokos_Basilisk\Game Code\RokosBasilisk.uproject" "C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\TutorialProjectEditor\Development\TutorialProjectEditor.uhtmanifest" -WarningsAsErrors -installed
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Total of 3 written
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Reflection code generated for TutorialProjectEditor in 7.9973452 seconds
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Building TutorialProjectEditor...
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Using Visual Studio 2022 14.38.33143 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [Upgrade]
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;' in TutorialProjectEditor.Target.cs.
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [Upgrade]
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2025.01.04-05.04.09:196][547]CompilerResultsLog:   Executing up to 8 processes, one per physical core
+[2025.01.04-05.04.09:196][547]CompilerResultsLog:   Requested 1.5 GB memory per action, 3.3 GB available: limiting max parallel actions to 2
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 6 action(s)
+[2025.01.04-05.04.09:196][547]CompilerResultsLog:   Storage capacity 40Gb
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: ---- Starting trace: 250103_210400 ----
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [1/6] Compile [x64] C_FirstPersonCharacter.gen.cpp
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(64): warning C4263: 'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(139): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(285): note: see declaration of 'APawn::TakeDamage'
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(42): note: see declaration of 'APawn'
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [2/6] Compile [x64] C_FirstPersonCharacter.cpp
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(64): warning C4263: 'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\GitHub\Rokos_Basilisk\Game Code\Source\TutorialProject\C_FirstPersonCharacter.h(139): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(285): note: see declaration of 'APawn::TakeDamage'
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: C:\Program Files\Epic Games\UE_5.5\Engine\Source\Runtime\Engine\Classes\GameFramework\Pawn.h(42): note: see declaration of 'APawn'
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [3/6] Compile [x64] TutorialProject.init.gen.cpp
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-TutorialProject-2272.lib
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-TutorialProject-2272.dll
+[2025.01.04-05.04.09:196][547]CompilerResultsLog:    Creating object C:\GitHub\Rokos_Basilisk\Game Code\Binaries\Win64\UnrealEditor-TutorialProject-2272.exp
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: [6/6] WriteMetadata TutorialProjectEditor.target (UBA disabled)
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Trace file written to C:/Users/RinAn/AppData/Local/UnrealBuildTool/Log.uba with size 4.0kb
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 8.14 seconds
+[2025.01.04-05.04.09:196][547]CompilerResultsLog: Total execution time: 18.08 seconds
+[2025.01.04-05.04.09:196][547]LogMainFrame: MainFrame: Module compiling took 19.728 seconds
+[2025.01.04-05.04.09:507][547]LogUObjectHash: Compacting FUObjectHashTables data took   9.35ms
+[2025.01.04-05.04.09:658][547]LogClass: UPackage /Script/TutorialProject Reload.
+[2025.01.04-05.04.09:658][547]LogClass: UClass C_FirstPersonCharacter Reload.
+[2025.01.04-05.04.09:664][547]LogClass: Could not find existing class C_FirstPersonCharacter in package /Script/TutorialProject for reload, assuming new or modified class
+[2025.01.04-05.04.09:664][547]LogClass: Function AverageDistanceFromKill is new or belongs to a modified class.
+[2025.01.04-05.04.09:664][547]LogClass: Function AverageTimeToKill is new or belongs to a modified class.
+[2025.01.04-05.04.09:664][547]LogClass: Function GetAccuracy is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetDistanceFromKill is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetDistanceMoved is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetHealth is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetJumpPref is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetStealth is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetTimeToComplete is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function GetTimeToKill is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function TakeDamage is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateAccuracy is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateDistanceFromKill is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateIsDetected is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateShotsFired is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateShotsHit is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateStealth is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateTimeToComplete is new or belongs to a modified class.
+[2025.01.04-05.04.09:665][547]LogClass: Function UpdateTimeToKill is new or belongs to a modified class.
+[2025.01.04-05.04.09:721][547]Re-instancing C_FirstPersonCharacter after reload.
+[2025.01.04-05.04.10:684][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.01.04-05.04.10:731][547]Display: HotReload took 21.3s.
+[2025.01.04-05.04.10:732][547]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged, 3 functions remapped
+[2025.01.04-05.05.41:034][691]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4002.249268
+[2025.01.04-05.05.41:184][700]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-05.05.41:184][701]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4002.383301, Update Interval: 356.954865
+[2025.01.04-05.05.53:329][409]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/EnemyAI/BD_Basic_AI.BD_Basic_AI
+[2025.01.04-05.08.32:875][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2025.01.04-05.08.32:878][ 76]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.191
+[2025.01.04-05.08.32:881][ 76]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EnemyAI/BP_Basic_AI_Controller] ([2] browsable assets)...
+[2025.01.04-05.08.32:884][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/EnemyAI/BP_Basic_AI_Controller]
+[2025.01.04-05.08.32:920][ 76]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/EnemyAI/BP_Basic_AI_Controller_Auto2
+[2025.01.04-05.08.32:920][ 76]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI_Controller_Auto2F6EECAAA402DA19432ECA7BFFCF89911.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/EnemyAI/BP_Basic_AI_Controller_Auto2.uasset'
+[2025.01.04-05.08.32:929][ 76]LogFileHelpers: Auto-saving content packages took 0.051
+[2025.01.04-05.09.00:152][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.01.04-05.11.09:820][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2025.01.04-05.11.16:049][481]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.04-05.11.16:067][481]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.01.04-05.11.16:067][481]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.01.04-05.11.16:085][481]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 17.313 ms (total: 57.874 ms)
+[2025.01.04-05.11.16:142][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.04-05.11.16:149][481]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.11.16:191][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040764s)
+[2025.01.04-05.11.16:191][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.041537s)
+[2025.01.04-05.11.16:219][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.04-05.11.16:228][481]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.11.16:273][481]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.11.16:274][481]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.11.16:274][481]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.11.16:274][481]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.11.16:280][481]LogWorldPartition: Display: WorldPartition initialize took 6.759 ms (total: 608.091 ms)
+[2025.01.04-05.11.16:282][481]LogPlayLevel: PIE: World Init took: (0.054679s)
+[2025.01.04-05.11.16:285][481]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.04-05.11.16:287][481]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.01.04-05.11.16:287][481]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.04-05.11.16:289][481]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.04-05.11.16:289][481]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.04-05.11.16:289][481]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.04-05.11.16:297][481]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.04-05.11.16:362][481]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.04-05.11.16:365][481]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.04-05.11.16:365][481]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.04-05.11.16:367][481]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.04-05.11.16:370][481]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.01.04-05.11.16:370][481]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2025.01.04-05.11.16:373][481]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.01.04-05.11.16:373][481]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.01.04-05.11.16:373][481]LogInit: FAudioDevice initialized with ID 5.
+[2025.01.04-05.11.16:373][481]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2025.01.04-05.11.16:374][481]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.01.04-05.11.16:392][481]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.11.16:410][481]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.11.16
+[2025.01.04-05.11.16:424][481]LogWorld: Bringing up level for play took: 0.030432
+[2025.01.04-05.11.16:438][481]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.01.04-05.11.16:465][481]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.01.04-05.11.16:485][481]PIE: Server logged in
+[2025.01.04-05.11.16:486][481]PIE: Play in editor total start time 0.424 seconds.
+[2025.01.04-05.11.24:340][189]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.11.24:340][189]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.11.24:340][189]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.11.24:340][189]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.11.24:348][189]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.11.24:351][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.11.24:351][189]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.11.24:430][189]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.11.24:440][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.01.04-05.11.24:443][189]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.11.24:449][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005260s)
+[2025.01.04-05.11.24:449][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005315s)
+[2025.01.04-05.11.24:449][189]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2025.01.04-05.11.24:449][189]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.11.24:452][189]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.11.24:452][189]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.11.24:452][189]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.11.24:452][189]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.11.24:453][189]LogWorldPartition: Display: WorldPartition initialize took 1.787 ms (total: 609.879 ms)
+[2025.01.04-05.11.24:453][189]LogPlayLevel: PIE: World Init took: (0.004280s)
+[2025.01.04-05.11.24:453][189]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.11.24:458][189]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.11.24
+[2025.01.04-05.11.24:459][189]LogWorld: Bringing up level for play took: 0.004985
+[2025.01.04-05.11.24:465][189]LogLoad: Took 0.125041 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.11.24:465][189]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.11.25:074][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.04-05.11.25:074][243]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.11.25:075][243]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.11.25:077][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.11.25:077][243]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.11.25:088][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.04-05.11.25:094][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.11.25:121][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.04-05.11.25:122][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.01.04-05.11.25:123][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.01.04-05.11.25:126][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.01.04-05.11.25:143][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.01.04-05.11.25:201][244]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.01.04-05.12.27:427][ 54]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4408.625000
+[2025.01.04-05.12.27:542][ 67]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.04-05.12.27:542][ 67]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4408.731934, Update Interval: 310.809052
+[2025.01.04-05.14.45:118][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.01.04-05.14.49:907][644]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.04-05.14.49:916][644]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.01.04-05.14.49:916][644]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.01.04-05.14.49:918][644]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.587 ms (total: 60.462 ms)
+[2025.01.04-05.14.49:920][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.04-05.14.49:920][644]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.14.49:925][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005569s)
+[2025.01.04-05.14.49:925][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005612s)
+[2025.01.04-05.14.49:953][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.04-05.14.49:959][644]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.14.49:961][644]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.14.49:961][644]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.14.49:961][644]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.14.49:961][644]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.14.49:963][644]LogWorldPartition: Display: WorldPartition initialize took 2.345 ms (total: 612.225 ms)
+[2025.01.04-05.14.49:963][644]LogPlayLevel: PIE: World Init took: (0.004462s)
+[2025.01.04-05.14.49:964][644]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.04-05.14.49:964][644]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.01.04-05.14.49:964][644]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.04-05.14.49:964][644]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.04-05.14.49:964][644]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.04-05.14.49:964][644]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.04-05.14.49:968][644]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.04-05.14.50:017][644]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.04-05.14.50:017][644]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.04-05.14.50:017][644]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.04-05.14.50:017][644]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.04-05.14.50:017][644]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.01.04-05.14.50:017][644]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2025.01.04-05.14.50:020][644]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.01.04-05.14.50:020][644]LogInit: FAudioDevice initialized with ID 6.
+[2025.01.04-05.14.50:020][644]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.01.04-05.14.50:020][644]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.14.50:021][644]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.01.04-05.14.50:024][644]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.14.50:029][644]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.14.50
+[2025.01.04-05.14.50:030][644]LogWorld: Bringing up level for play took: 0.005650
+[2025.01.04-05.14.50:033][644]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.01.04-05.14.50:037][644]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.01.04-05.14.50:039][644]PIE: Server logged in
+[2025.01.04-05.14.50:040][644]PIE: Play in editor total start time 0.125 seconds.
+[2025.01.04-05.14.57:753][345]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.14.57:753][345]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.14.57:753][345]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.14.57:753][345]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.14.57:755][345]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.14.57:757][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.14.57:757][345]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.14.57:817][345]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.14.57:821][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.01.04-05.14.57:825][345]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.14.57:831][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006023s)
+[2025.01.04-05.14.57:831][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006096s)
+[2025.01.04-05.14.57:831][345]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.14.57:831][345]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.14.57:833][345]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.14.57:833][345]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.14.57:833][345]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.14.57:833][345]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.14.57:834][345]LogWorldPartition: Display: WorldPartition initialize took 1.881 ms (total: 614.106 ms)
+[2025.01.04-05.14.57:835][345]LogPlayLevel: PIE: World Init took: (0.003651s)
+[2025.01.04-05.14.57:835][345]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.14.57:839][345]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.14.57
+[2025.01.04-05.14.57:841][345]LogWorld: Bringing up level for play took: 0.005342
+[2025.01.04-05.14.57:847][345]LogLoad: Took 0.092987 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.14.57:847][345]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.04:367][940]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.15.04:367][940]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.04:367][940]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.04:367][940]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.04:370][940]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.15.04:371][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.15.04:371][940]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.15.04:428][940]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.15.04:433][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.01.04-05.15.04:437][940]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.04:443][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006438s)
+[2025.01.04-05.15.04:443][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006510s)
+[2025.01.04-05.15.04:443][940]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.15.04:443][940]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.15.04:445][940]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.15.04:445][940]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.15.04:445][940]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.15.04:445][940]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.15.04:447][940]LogWorldPartition: Display: WorldPartition initialize took 1.889 ms (total: 615.996 ms)
+[2025.01.04-05.15.04:447][940]LogPlayLevel: PIE: World Init took: (0.003837s)
+[2025.01.04-05.15.04:447][940]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.15.04:452][940]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.15.04
+[2025.01.04-05.15.04:454][940]LogWorld: Bringing up level for play took: 0.005883
+[2025.01.04-05.15.04:460][940]LogLoad: Took 0.092684 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.15.04:460][940]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.12:006][618]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.15.12:007][618]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.12:007][618]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.12:017][618]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.12:017][618]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.15.12:017][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.15.12:017][618]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.15.12:067][618]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.15.12:072][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.01.04-05.15.12:075][618]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.12:083][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006980s)
+[2025.01.04-05.15.12:083][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007044s)
+[2025.01.04-05.15.12:083][618]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.15.12:083][618]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.15.12:084][618]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.15.12:084][618]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.15.12:084][618]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.15.12:084][618]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.15.12:087][618]LogWorldPartition: Display: WorldPartition initialize took 2.230 ms (total: 618.227 ms)
+[2025.01.04-05.15.12:087][618]LogPlayLevel: PIE: World Init took: (0.004006s)
+[2025.01.04-05.15.12:087][618]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.15.12:091][618]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.15.12
+[2025.01.04-05.15.12:092][618]LogWorld: Bringing up level for play took: 0.005897
+[2025.01.04-05.15.12:100][618]LogLoad: Took 0.093180 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.15.12:100][618]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.21:490][450]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.15.21:490][450]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.21:490][450]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.21:490][450]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.21:493][450]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.15.21:494][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.15.21:494][450]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.15.21:555][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.15.21:560][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.01.04-05.15.21:565][450]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.21:570][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006150s)
+[2025.01.04-05.15.21:570][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006235s)
+[2025.01.04-05.15.21:570][450]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.15.21:570][450]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.15.21:572][450]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.15.21:572][450]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.15.21:572][450]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.15.21:572][450]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.15.21:574][450]LogWorldPartition: Display: WorldPartition initialize took 1.788 ms (total: 620.016 ms)
+[2025.01.04-05.15.21:574][450]LogPlayLevel: PIE: World Init took: (0.003772s)
+[2025.01.04-05.15.21:574][450]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.15.21:579][450]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.15.21
+[2025.01.04-05.15.21:580][450]LogWorld: Bringing up level for play took: 0.005394
+[2025.01.04-05.15.21:587][450]LogLoad: Took 0.096819 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.15.21:587][450]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.36:192][731]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.15.36:192][731]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.36:192][731]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.36:192][731]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.36:195][731]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.15.36:196][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.15.36:196][731]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.15.36:254][731]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.15.36:258][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.01.04-05.15.36:262][731]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.36:269][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006334s)
+[2025.01.04-05.15.36:269][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006389s)
+[2025.01.04-05.15.36:269][731]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.15.36:269][731]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.15.36:271][731]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.15.36:271][731]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.15.36:271][731]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.15.36:271][731]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.15.36:273][731]LogWorldPartition: Display: WorldPartition initialize took 2.196 ms (total: 622.212 ms)
+[2025.01.04-05.15.36:273][731]LogPlayLevel: PIE: World Init took: (0.004181s)
+[2025.01.04-05.15.36:273][731]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.15.36:278][731]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.15.36
+[2025.01.04-05.15.36:279][731]LogWorld: Bringing up level for play took: 0.006112
+[2025.01.04-05.15.36:287][731]LogLoad: Took 0.094827 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.15.36:287][731]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.44:646][454]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.15.44:646][454]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.44:646][454]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.44:646][454]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.44:648][454]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.15.44:649][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.15.44:649][454]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.15.44:706][454]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.15.44:711][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.01.04-05.15.44:714][454]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.44:721][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006617s)
+[2025.01.04-05.15.44:721][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006681s)
+[2025.01.04-05.15.44:721][454]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.15.44:721][454]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.15.44:723][454]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.15.44:723][454]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.15.44:723][454]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.15.44:723][454]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.15.44:725][454]LogWorldPartition: Display: WorldPartition initialize took 2.215 ms (total: 624.428 ms)
+[2025.01.04-05.15.44:725][454]LogPlayLevel: PIE: World Init took: (0.004339s)
+[2025.01.04-05.15.44:725][454]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.15.44:731][454]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.15.44
+[2025.01.04-05.15.44:733][454]LogWorld: Bringing up level for play took: 0.006309
+[2025.01.04-05.15.44:740][454]LogLoad: Took 0.093610 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.15.44:740][454]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.55:039][322]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.15.55:040][322]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.55:040][322]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.15.55:040][322]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.55:042][322]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.15.55:043][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.15.55:043][322]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.15.55:098][322]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.15.55:102][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.04-05.15.55:107][322]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.15.55:114][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007152s)
+[2025.01.04-05.15.55:114][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007240s)
+[2025.01.04-05.15.55:114][322]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.15.55:114][322]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.15.55:116][322]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.15.55:116][322]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.15.55:116][322]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.15.55:116][322]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.15.55:118][322]LogWorldPartition: Display: WorldPartition initialize took 2.250 ms (total: 626.679 ms)
+[2025.01.04-05.15.55:118][322]LogPlayLevel: PIE: World Init took: (0.004318s)
+[2025.01.04-05.15.55:118][322]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.15.55:123][322]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.15.55
+[2025.01.04-05.15.55:125][322]LogWorld: Bringing up level for play took: 0.006460
+[2025.01.04-05.15.55:132][322]LogLoad: Took 0.092704 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.15.55:132][322]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.02:527][940]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.02:527][940]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.02:527][940]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.02:527][940]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.02:530][940]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.02:531][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.02:531][940]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.02:589][940]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.02:593][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.01.04-05.16.02:598][940]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.02:605][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006929s)
+[2025.01.04-05.16.02:605][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006995s)
+[2025.01.04-05.16.02:605][940]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.02:605][940]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.02:607][940]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.02:607][940]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.02:607][940]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.02:607][940]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.02:610][940]LogWorldPartition: Display: WorldPartition initialize took 2.387 ms (total: 629.066 ms)
+[2025.01.04-05.16.02:610][940]LogPlayLevel: PIE: World Init took: (0.004470s)
+[2025.01.04-05.16.02:610][940]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.02:615][940]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.02
+[2025.01.04-05.16.02:616][940]LogWorld: Bringing up level for play took: 0.006388
+[2025.01.04-05.16.02:631][940]LogLoad: Took 0.096625 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.02:631][940]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.15:283][982]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.15:283][982]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.15:283][982]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.15:283][982]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.15:286][982]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.15:287][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.15:287][982]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.15:349][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.15:353][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.01.04-05.16.15:356][982]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.15:363][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006455s)
+[2025.01.04-05.16.15:363][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006512s)
+[2025.01.04-05.16.15:363][982]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.15:363][982]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.15:365][982]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.15:365][982]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.15:365][982]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.15:365][982]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.15:367][982]LogWorldPartition: Display: WorldPartition initialize took 1.986 ms (total: 631.053 ms)
+[2025.01.04-05.16.15:367][982]LogPlayLevel: PIE: World Init took: (0.004083s)
+[2025.01.04-05.16.15:367][982]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.15:372][982]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.15
+[2025.01.04-05.16.15:374][982]LogWorld: Bringing up level for play took: 0.006049
+[2025.01.04-05.16.15:381][982]LogLoad: Took 0.098172 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.15:381][982]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.24:897][795]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.24:897][795]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.24:897][795]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.24:897][795]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.24:899][795]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.24:900][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.24:900][795]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.24:969][795]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.24:974][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.01.04-05.16.24:978][795]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.24:984][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006533s)
+[2025.01.04-05.16.24:984][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006613s)
+[2025.01.04-05.16.24:984][795]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.24:984][795]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.24:987][795]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.24:987][795]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.24:987][795]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.24:987][795]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.24:989][795]LogWorldPartition: Display: WorldPartition initialize took 2.075 ms (total: 633.128 ms)
+[2025.01.04-05.16.24:989][795]LogPlayLevel: PIE: World Init took: (0.004075s)
+[2025.01.04-05.16.24:989][795]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.24:994][795]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.24
+[2025.01.04-05.16.24:995][795]LogWorld: Bringing up level for play took: 0.006320
+[2025.01.04-05.16.25:002][795]LogLoad: Took 0.105323 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.25:002][795]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.31:780][365]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.31:780][365]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.31:780][365]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.31:780][365]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.31:783][365]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.31:784][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.31:784][365]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.31:858][365]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.31:862][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.04-05.16.31:866][365]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.31:872][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006730s)
+[2025.01.04-05.16.31:873][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006809s)
+[2025.01.04-05.16.31:873][365]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.31:873][365]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.31:875][365]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.31:875][365]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.31:875][365]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.31:875][365]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.31:877][365]LogWorldPartition: Display: WorldPartition initialize took 2.117 ms (total: 635.245 ms)
+[2025.01.04-05.16.31:877][365]LogPlayLevel: PIE: World Init took: (0.004315s)
+[2025.01.04-05.16.31:877][365]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.31:883][365]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.31
+[2025.01.04-05.16.31:884][365]LogWorld: Bringing up level for play took: 0.006668
+[2025.01.04-05.16.31:891][365]LogLoad: Took 0.110975 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.31:891][365]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.41:945][208]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.41:945][208]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.41:947][208]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.41:947][208]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.41:949][208]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.41:951][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.41:951][208]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.42:003][208]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.42:007][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.01.04-05.16.42:010][208]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.42:016][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006487s)
+[2025.01.04-05.16.42:016][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006565s)
+[2025.01.04-05.16.42:016][208]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.42:017][208]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.42:018][208]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.42:018][208]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.42:018][208]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.42:018][208]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.42:021][208]LogWorldPartition: Display: WorldPartition initialize took 2.201 ms (total: 637.447 ms)
+[2025.01.04-05.16.42:022][208]LogPlayLevel: PIE: World Init took: (0.004237s)
+[2025.01.04-05.16.42:022][208]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.42:027][208]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.42
+[2025.01.04-05.16.42:028][208]LogWorld: Bringing up level for play took: 0.006379
+[2025.01.04-05.16.42:035][208]LogLoad: Took 0.088536 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.42:035][208]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.51:741][ 25]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.51:741][ 25]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.51:741][ 25]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.51:741][ 25]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.51:744][ 25]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.51:745][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.51:745][ 25]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.51:798][ 25]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.51:802][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.04-05.16.51:806][ 25]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.51:813][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006546s)
+[2025.01.04-05.16.51:813][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006609s)
+[2025.01.04-05.16.51:813][ 25]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.51:813][ 25]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.51:815][ 25]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.51:815][ 25]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.51:815][ 25]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.51:815][ 25]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.51:817][ 25]LogWorldPartition: Display: WorldPartition initialize took 2.285 ms (total: 639.732 ms)
+[2025.01.04-05.16.51:817][ 25]LogPlayLevel: PIE: World Init took: (0.004353s)
+[2025.01.04-05.16.51:817][ 25]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.51:823][ 25]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.51
+[2025.01.04-05.16.51:825][ 25]LogWorld: Bringing up level for play took: 0.007174
+[2025.01.04-05.16.51:833][ 25]LogLoad: Took 0.091160 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.51:833][ 25]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.58:945][618]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.16.58:945][618]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.58:945][618]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.16.58:945][618]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.58:948][618]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.16.58:950][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.16.58:950][618]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.16.59:008][618]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.16.59:012][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.04-05.16.59:017][618]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.16.59:023][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006555s)
+[2025.01.04-05.16.59:023][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006625s)
+[2025.01.04-05.16.59:023][618]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.16.59:023][618]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.16.59:025][618]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.16.59:025][618]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.16.59:025][618]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.16.59:025][618]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.16.59:028][618]LogWorldPartition: Display: WorldPartition initialize took 2.160 ms (total: 641.892 ms)
+[2025.01.04-05.16.59:028][618]LogPlayLevel: PIE: World Init took: (0.004085s)
+[2025.01.04-05.16.59:028][618]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.16.59:033][618]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.16.59
+[2025.01.04-05.16.59:035][618]LogWorld: Bringing up level for play took: 0.006618
+[2025.01.04-05.16.59:041][618]LogLoad: Took 0.096421 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.16.59:041][618]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.06:036][192]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.17.06:036][192]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.17.06:036][192]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.17.06:036][192]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.06:039][192]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.17.06:040][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.17.06:040][192]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.17.06:099][192]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.17.06:104][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.04-05.17.06:108][192]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.06:115][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006544s)
+[2025.01.04-05.17.06:115][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006606s)
+[2025.01.04-05.17.06:115][192]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.17.06:115][192]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.17.06:117][192]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.17.06:117][192]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.17.06:117][192]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.17.06:117][192]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.17.06:119][192]LogWorldPartition: Display: WorldPartition initialize took 1.965 ms (total: 643.858 ms)
+[2025.01.04-05.17.06:119][192]LogPlayLevel: PIE: World Init took: (0.004101s)
+[2025.01.04-05.17.06:119][192]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.17.06:125][192]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.17.06
+[2025.01.04-05.17.06:126][192]LogWorld: Bringing up level for play took: 0.006527
+[2025.01.04-05.17.06:133][192]LogLoad: Took 0.096931 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.17.06:133][192]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.21:592][479]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.17.21:592][479]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.17.21:592][479]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.17.21:592][479]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.21:595][479]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.17.21:596][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.17.21:596][479]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.17.21:650][479]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.17.21:654][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.01.04-05.17.21:657][479]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.21:664][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006680s)
+[2025.01.04-05.17.21:664][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006744s)
+[2025.01.04-05.17.21:664][479]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.17.21:664][479]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.17.21:666][479]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.17.21:666][479]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.17.21:666][479]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.17.21:666][479]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.17.21:669][479]LogWorldPartition: Display: WorldPartition initialize took 2.233 ms (total: 646.091 ms)
+[2025.01.04-05.17.21:669][479]LogPlayLevel: PIE: World Init took: (0.004612s)
+[2025.01.04-05.17.21:669][479]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.17.21:675][479]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.17.21
+[2025.01.04-05.17.21:676][479]LogWorld: Bringing up level for play took: 0.006555
+[2025.01.04-05.17.21:684][479]LogLoad: Took 0.092028 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.17.21:684][479]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.37:624][833]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.04-05.17.37:624][833]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.17.37:624][833]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.04-05.17.37:624][833]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.37:627][833]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.17.37:627][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.17.37:627][833]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.17.37:689][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.04-05.17.37:693][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.01.04-05.17.37:697][833]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.37:703][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006565s)
+[2025.01.04-05.17.37:703][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006641s)
+[2025.01.04-05.17.37:703][833]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.01.04-05.17.37:703][833]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.04-05.17.37:705][833]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.04-05.17.37:705][833]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.04-05.17.37:705][833]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.04-05.17.37:705][833]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.04-05.17.37:708][833]LogWorldPartition: Display: WorldPartition initialize took 2.118 ms (total: 648.210 ms)
+[2025.01.04-05.17.37:708][833]LogPlayLevel: PIE: World Init took: (0.004162s)
+[2025.01.04-05.17.37:708][833]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.04-05.17.37:713][833]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.01.03-21.17.37
+[2025.01.04-05.17.37:715][833]LogWorld: Bringing up level for play took: 0.006699
+[2025.01.04-05.17.37:723][833]LogLoad: Took 0.099039 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.04-05.17.37:723][833]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.43:779][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.04-05.17.43:780][331]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.04-05.17.43:780][331]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.04-05.17.43:780][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.17.43:780][331]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.04-05.17.43:786][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.04-05.17.43:792][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.04-05.17.43:821][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.04-05.17.43:821][331]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.01.04-05.17.43:821][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.01.04-05.17.43:824][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.01.04-05.17.43:841][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.01.04-05.17.43:898][332]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.01.04-05.17.49:303][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.01.04-05.17.51:444][919]LogSlate: Window 'Save Content' being destroyed
+[2025.01.04-05.17.51:465][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.04-05.17.51:532][919]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EnemyAI/BP_Basic_AI_Controller] ([2] browsable assets)...
+[2025.01.04-05.17.51:533][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/EnemyAI/BP_Basic_AI_Controller]
+[2025.01.04-05.17.51:533][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/BP_Basic_AI_Controller" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/EnemyAI/BP_Basic_AI_Controller.uasset" SILENT=true
+[2025.01.04-05.17.51:540][919]LogSavePackage: Moving output files for package: /Game/EnemyAI/BP_Basic_AI_Controller
+[2025.01.04-05.17.51:541][919]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI_ControllerC6D0B1764F138E8491C3B39824C798BD.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/EnemyAI/BP_Basic_AI_Controller.uasset'
+[2025.01.04-05.17.51:553][919]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.01.04-05.17.51:553][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.01.04-05.17.51:564][919]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2025.01.04-05.17.51:564][919]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_FirstPersonGameMode8EC8145F4849EAED623FE3A1B2F41FB7.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.01.04-05.17.51:565][919]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/WinLoseScreen/W_Winrar] ([2] browsable assets)...
+[2025.01.04-05.17.51:580][919]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/FirstPerson/WinLoseScreen/W_Winrar.W_Winrar]
+[2025.01.04-05.17.51:580][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/WinLoseScreen/W_Winrar]
+[2025.01.04-05.17.51:580][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/WinLoseScreen/W_Winrar" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/WinLoseScreen/W_Winrar.uasset" SILENT=true
+[2025.01.04-05.17.51:598][919]LogSavePackage: Moving output files for package: /Game/FirstPerson/WinLoseScreen/W_Winrar
+[2025.01.04-05.17.51:598][919]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/W_Winrar1EAC5C984388DC69ED767090BDC43748.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/WinLoseScreen/W_Winrar.uasset'
+[2025.01.04-05.17.51:615][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 149.794 ms (total: 553.789 ms)
+[2025.01.04-05.17.51:683][919]LogContentValidation: Display: Starting to validate 3 assets
+[2025.01.04-05.17.51:684][919]LogContentValidation: Enabled validators:
+[2025.01.04-05.17.51:684][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.04-05.17.51:684][919]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.04-05.17.51:684][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.04-05.17.51:684][919]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.04-05.17.51:684][919]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.04-05.17.51:684][919]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.04-05.17.51:685][919]AssetCheck: /Game/EnemyAI/BP_Basic_AI_Controller Validating asset
+[2025.01.04-05.17.51:685][919]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
+[2025.01.04-05.17.51:688][919]AssetCheck: /Game/FirstPerson/WinLoseScreen/W_Winrar Validating asset

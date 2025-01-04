@@ -57,6 +57,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float TimeToKill;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float Stealth;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
@@ -80,6 +83,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetTimeToKill() { return TimeToKill; }
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetStealth() { return Stealth; }
 
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateShotsFired();
@@ -105,6 +111,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void AverageTimeToKill(float NumEnemies);
 
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateIsDetected(bool isSeeingPlayer);
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateStealth();
+
 
 private:
 
@@ -114,6 +126,10 @@ private:
 
 	float StartingTime;
 	float ElapsedTime;
+
+	bool isDetected;
+	float DetectionTime;
+	float DetectionStartTime;
 
 	void MoveForward(float ActionValueY);
 	void MoveRight(float ActionValueX);

@@ -26,6 +26,10 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
 
 	StartingTime = 0.0f;
 	ElapsedTime = 0.0f;
+
+	isDetected = false;
+	DetectionTime = 0.0f;
+	DetectionStartTime = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -139,6 +143,26 @@ void AC_FirstPersonCharacter::UpdateTimeToKill(float EnemyTimeSurvived)
 void AC_FirstPersonCharacter::AverageTimeToKill(float NumEnemies)
 {
 	TimeToKill /= NumEnemies;
+}
+
+void AC_FirstPersonCharacter::UpdateIsDetected(bool isSeeingPlayer)
+{
+	if (isSeeingPlayer && !isDetected)
+	{
+		isDetected = true;
+		DetectionStartTime = GetWorld()->GetTimeSeconds();
+	}
+
+	else if(!isSeeingPlayer && isDetected)
+	{
+		isDetected = false;
+		DetectionTime += GetWorld()->GetTimeSeconds() - DetectionStartTime;
+	}
+}
+
+void AC_FirstPersonCharacter::UpdateStealth()
+{
+	Stealth = TimeToComplete - DetectionTime;
 }
 
 
