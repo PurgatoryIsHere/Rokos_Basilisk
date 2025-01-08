@@ -14,13 +14,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TUTORIALPROJECT_C_Basic_AI_generated_h
 
-#define FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execUpdateTimeSurvived); \
 	DECLARE_FUNCTION(execGetTimeSurvived); \
 	DECLARE_FUNCTION(execTakeDamage);
 
 
-#define FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC_Basic_AI(); \
 	friend struct Z_Construct_UClass_AC_Basic_AI_Statics; \
@@ -29,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(AC_Basic_AI)
 
 
-#define FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AC_Basic_AI(AC_Basic_AI&&); \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~AC_Basic_AI();
 
 
-#define FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_10_PROLOG
-#define FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_GENERATED_BODY \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_10_PROLOG
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,7 +55,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TUTORIALPROJECT_API UClass* StaticClass<class AC_Basic_AI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h
+#define CURRENT_FILE_ID FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
