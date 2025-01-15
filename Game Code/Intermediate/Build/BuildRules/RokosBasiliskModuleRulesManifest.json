@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Source\\TutorialProject\\TutorialProject.Build.cs",
-		"C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Source\\TutorialProject.Target.cs",
-		"C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Source\\TutorialProjectEditor.Target.cs"
+		"C:\\GitHub\\Rokos_Basilisk\\Game Code\\Source\\TutorialProject\\TutorialProject.Build.cs",
+		"C:\\GitHub\\Rokos_Basilisk\\Game Code\\Source\\TutorialProject.Target.cs",
+		"C:\\GitHub\\Rokos_Basilisk\\Game Code\\Source\\TutorialProjectEditor.Target.cs"
 	],
-	"EngineVersion": "5.5.1"
+	"EngineVersion": "5.5.0"
 }

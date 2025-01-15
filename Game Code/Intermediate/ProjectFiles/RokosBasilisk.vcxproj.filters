@@ -49,6 +49,12 @@
     <ClCompile Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.h">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TutorialProject\C_LevelBuilderAI.cpp">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TutorialProject\C_LevelBuilderAI.h">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TutorialProject\MyCharacter.cpp">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
