@@ -13,6 +13,11 @@ AC_LevelBuilderAI::AC_LevelBuilderAI()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    PlayerSkill = 0.0f;
+    PlayerScore = 0.0f;
+    PlayerMovement = 0.0f;
+    PlayerPreservation = 0.0f;
+
 }
 
 // Called when the game starts or when spawned
@@ -82,3 +87,34 @@ void AC_LevelBuilderAI::PrintPrefabInfo()
     }
 }
 
+void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth)
+{
+    PlayerSkill = CalculatePlayerSkill(Health, Accuracy);
+    //PlayerScore = CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
+    //PlayerMovement = CalculatePlayerMovement(JumpPref, DistanceMoved);
+    //PlayerPreservation = CalculatePlayerPreservation(Health, DistanceFromKill, Stealth);
+}
+
+float AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
+{
+    PlayerSkill = (Health * Accuracy) / 10;
+
+    UE_LOG(LogTemp, Log, TEXT("Player Skill Rating:"), PlayerSkill);
+
+    return PlayerSkill;
+}
+
+float AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete)
+{
+    return 0.0f;
+}
+
+float AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
+{
+    return 0.0f;
+}
+
+float AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
+{
+    return 0.0f;
+}

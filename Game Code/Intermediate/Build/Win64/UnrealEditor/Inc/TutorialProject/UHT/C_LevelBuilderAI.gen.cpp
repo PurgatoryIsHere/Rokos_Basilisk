@@ -16,6 +16,84 @@ TUTORIALPROJECT_API UClass* Z_Construct_UClass_AC_LevelBuilderAI_NoRegister();
 UPackage* Z_Construct_UPackage__Script_TutorialProject();
 // End Cross Module References
 
+// Begin Class AC_LevelBuilderAI Function CalculatePlayerStats
+struct Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics
+{
+	struct C_LevelBuilderAI_eventCalculatePlayerStats_Parms
+	{
+		float Health;
+		float Accuracy;
+		float TimeToKill;
+		float DistanceFromKill;
+		float TimeToComplete;
+		float JumpPref;
+		float DistanceMoved;
+		float Stealth;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "LevelBuilderAI" },
+		{ "ModuleRelativePath", "C_LevelBuilderAI.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Accuracy;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeToKill;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceFromKill;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeToComplete;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_JumpPref;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceMoved;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Stealth;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, Health), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_Accuracy = { "Accuracy", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, Accuracy), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_TimeToKill = { "TimeToKill", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, TimeToKill), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_DistanceFromKill = { "DistanceFromKill", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, DistanceFromKill), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_TimeToComplete = { "TimeToComplete", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, TimeToComplete), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_JumpPref = { "JumpPref", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, JumpPref), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_DistanceMoved = { "DistanceMoved", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, DistanceMoved), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_Stealth = { "Stealth", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventCalculatePlayerStats_Parms, Stealth), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_Health,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_Accuracy,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_TimeToKill,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_DistanceFromKill,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_TimeToComplete,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_JumpPref,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_DistanceMoved,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::NewProp_Stealth,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_LevelBuilderAI, nullptr, "CalculatePlayerStats", nullptr, nullptr, Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::C_LevelBuilderAI_eventCalculatePlayerStats_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::C_LevelBuilderAI_eventCalculatePlayerStats_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_LevelBuilderAI::execCalculatePlayerStats)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Health);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Accuracy);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_TimeToKill);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DistanceFromKill);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_TimeToComplete);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_JumpPref);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DistanceMoved);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Stealth);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->CalculatePlayerStats(Z_Param_Health,Z_Param_Accuracy,Z_Param_TimeToKill,Z_Param_DistanceFromKill,Z_Param_TimeToComplete,Z_Param_JumpPref,Z_Param_DistanceMoved,Z_Param_Stealth);
+	P_NATIVE_END;
+}
+// End Class AC_LevelBuilderAI Function CalculatePlayerStats
+
 // Begin Class AC_LevelBuilderAI Function LoadPrefabs
 struct Z_Construct_UFunction_AC_LevelBuilderAI_LoadPrefabs_Statics
 {
@@ -97,6 +175,7 @@ void AC_LevelBuilderAI::StaticRegisterNativesAC_LevelBuilderAI()
 {
 	UClass* Class = AC_LevelBuilderAI::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "CalculatePlayerStats", &AC_LevelBuilderAI::execCalculatePlayerStats },
 		{ "LoadPrefabs", &AC_LevelBuilderAI::execLoadPrefabs },
 		{ "PrintPrefabInfo", &AC_LevelBuilderAI::execPrintPrefabInfo },
 	};
@@ -117,6 +196,7 @@ struct Z_Construct_UClass_AC_LevelBuilderAI_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats, "CalculatePlayerStats" }, // 1576124650
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_LoadPrefabs, "LoadPrefabs" }, // 487319879
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_PrintPrefabInfo, "PrintPrefabInfo" }, // 3929879533
 	};
@@ -166,10 +246,10 @@ AC_LevelBuilderAI::~AC_LevelBuilderAI() {}
 struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_LevelBuilderAI, AC_LevelBuilderAI::StaticClass, TEXT("AC_LevelBuilderAI"), &Z_Registration_Info_UClass_AC_LevelBuilderAI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_LevelBuilderAI), 1571584027U) },
+		{ Z_Construct_UClass_AC_LevelBuilderAI, AC_LevelBuilderAI::StaticClass, TEXT("AC_LevelBuilderAI"), &Z_Registration_Info_UClass_AC_LevelBuilderAI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_LevelBuilderAI), 348440844U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_2244913029(TEXT("/Script/TutorialProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_2145150941(TEXT("/Script/TutorialProject"),
 	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
