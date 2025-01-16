@@ -6,6 +6,7 @@
 #include "Engine/Engine.h"
 #include "Misc/Paths.h"
 #include "HAL/FileManager.h"
+#include <cmath>
 
 // Sets default values
 AC_LevelBuilderAI::AC_LevelBuilderAI()
@@ -89,32 +90,32 @@ void AC_LevelBuilderAI::PrintPrefabInfo()
 
 void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth)
 {
-    PlayerSkill = CalculatePlayerSkill(Health, Accuracy);
+    CalculatePlayerSkill(Health, Accuracy);
     //PlayerScore = CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
     //PlayerMovement = CalculatePlayerMovement(JumpPref, DistanceMoved);
     //PlayerPreservation = CalculatePlayerPreservation(Health, DistanceFromKill, Stealth);
 }
 
-float AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
+void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
 {
-    PlayerSkill = (Health * Accuracy) / 10;
+    float SkillCalculation = round((Health * (Accuracy * 100)) / 100.0f);
 
-    UE_LOG(LogTemp, Log, TEXT("Player Skill Rating:"), PlayerSkill);
+    PlayerSkill = FMath::Clamp(SkillCalculation, 1.0f, 100.0f);
 
-    return PlayerSkill;
+    UE_LOG(LogTemp, Log, TEXT("Player Skill Rating: %.2f"), PlayerSkill);
 }
 
-float AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete)
+void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete)
 {
-    return 0.0f;
+    return;
 }
 
-float AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
+void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
 {
-    return 0.0f;
+    return;
 }
 
-float AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
+void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
 {
-    return 0.0f;
+    return;
 }

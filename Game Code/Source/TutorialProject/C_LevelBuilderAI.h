@@ -45,8 +45,8 @@ private:
 	// Helper to process the assets found
 	void ProcessPrefabAssets(const TArray<FAssetData>& AssetDataList);
 
-	float CalculatePlayerSkill(float Health, float Accuracy);
-	float CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete);
-	float CalculatePlayerMovement(float JumpPref, float DistanceMoved);
-	float CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth);
+	void CalculatePlayerSkill(float Health, float Accuracy);
+	void CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete);
+	void CalculatePlayerMovement(float JumpPref, float DistanceMoved);
+	void CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth);
 };
