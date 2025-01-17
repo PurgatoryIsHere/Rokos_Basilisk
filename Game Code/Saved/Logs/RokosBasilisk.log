@@ -2175,3 +2175,323 @@ Script Stack (4 frames) :
 [2025.01.17-17.04.22:275][880]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.01.17-17.04.22:275][880]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
 [2025.01.17-17.04.22:275][880]AssetCheck: /Game/Prefabs/SM_perfab1_shortHall Validating asset
+[2025.01.17-17.07.20:454][533]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 677.848877
+[2025.01.17-17.07.21:454][535]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.07.21:454][535]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 678.520081, Update Interval: 353.538025
+[2025.01.17-17.13.19:190][608]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1036.584839
+[2025.01.17-17.13.20:191][611]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.13.20:191][611]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1037.250122, Update Interval: 320.323486
+[2025.01.17-17.18.50:144][598]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1367.538818
+[2025.01.17-17.18.51:144][601]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.18.51:145][601]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1368.203369, Update Interval: 342.038635
+[2025.01.17-17.22.51:545][681]LogSlate: Window 'Create Merged Actor' being destroyed
+[2025.01.17-17.22.51:662][681]LogStaticMesh: Display: Building static mesh SM_perefab2_longHall (Required Memory Estimate: 6.877975 MB)...
+[2025.01.17-17.22.51:722][683]LogStaticMesh: Built static mesh [0.06s] /Game/Prefabs/SM_perefab2_longHall.SM_perefab2_longHall
+[2025.01.17-17.22.54:777][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.17-17.22.54:782][861]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/KG/E84TDUNQH4059K2IGLU999_Auto1
+[2025.01.17-17.22.54:782][861]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/E84TDUNQH4059K2IGLU999_Auto17F3154F84CE6D444E61B78A903F2E1DF.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/KG/E84TDUNQH4059K2IGLU999_Auto1.uasset'
+[2025.01.17-17.22.54:792][861]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YC/96CKHXYWIHG7DPSMWZAE2X_Auto1
+[2025.01.17-17.22.54:792][861]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/96CKHXYWIHG7DPSMWZAE2X_Auto1D3707EB2417C8598B934FE8B6B3A8AE4.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YC/96CKHXYWIHG7DPSMWZAE2X_Auto1.uasset'
+[2025.01.17-17.22.54:799][861]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/LN/36EDM20EB7WMJYZ29TNB0H_Auto1
+[2025.01.17-17.22.54:799][861]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/36EDM20EB7WMJYZ29TNB0H_Auto142611ECE44283E1A26E918B62264489B.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/LN/36EDM20EB7WMJYZ29TNB0H_Auto1.uasset'
+[2025.01.17-17.22.54:801][861]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W4/QC549MOCI3MDJABQBF2Q36_Auto1
+[2025.01.17-17.22.54:801][861]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/QC549MOCI3MDJABQBF2Q36_Auto15ABFEEFD4589FC13D360A2AD0C767DAE.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W4/QC549MOCI3MDJABQBF2Q36_Auto1.uasset'
+[2025.01.17-17.22.54:801][861]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.050
+[2025.01.17-17.22.54:801][861]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2025.01.17-17.22.54:802][861]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prefabs/SM_perefab2_longHall] ([1] browsable assets)...
+[2025.01.17-17.22.54:833][861]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Prefabs/SM_perefab2_longHall.SM_perefab2_longHall]
+[2025.01.17-17.22.54:833][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prefabs/SM_perefab2_longHall]
+[2025.01.17-17.22.54:837][861]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Prefabs/SM_perefab2_longHall_Auto1
+[2025.01.17-17.22.54:837][861]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/SM_perefab2_longHall_Auto1568D7C5A421D4A09960918954A1A8E29.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/Prefabs/SM_perefab2_longHall_Auto1.uasset'
+[2025.01.17-17.22.54:837][861]LogFileHelpers: Auto-saving content packages took 0.036
+[2025.01.17-17.24.58:458][279]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1735.848999
+[2025.01.17-17.24.58:809][299]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.24.58:809][299]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1736.182739, Update Interval: 340.941803
+[2025.01.17-17.31.29:829][760]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2127.217529
+[2025.01.17-17.31.29:995][771]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.31.29:995][771]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2127.367432, Update Interval: 341.833557
+[2025.01.17-17.37.47:214][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2504.621826
+[2025.01.17-17.37.47:481][371]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.37.47:481][371]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2504.871094, Update Interval: 323.372284
+[2025.01.17-17.44.03:302][920]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2880.702393
+[2025.01.17-17.44.03:452][928]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.44.03:453][928]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2880.835693, Update Interval: 307.126678
+[2025.01.17-17.48.04:668][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.01.17-17.48.04:673][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-17.48.04:729][  8]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/KG/E84TDUNQH4059K2IGLU999
+[2025.01.17-17.48.04:730][  8]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/E84TDUNQH4059K2IGLU9997F1F85E940CA440DBDDDFBB821D60832.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/KG/E84TDUNQH4059K2IGLU999.uasset'
+[2025.01.17-17.48.04:739][  8]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YC/96CKHXYWIHG7DPSMWZAE2X
+[2025.01.17-17.48.04:740][  8]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/96CKHXYWIHG7DPSMWZAE2X9C0C36FE42CA51B52B88B5BB7061EDD4.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YC/96CKHXYWIHG7DPSMWZAE2X.uasset'
+[2025.01.17-17.48.04:748][  8]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/LN/36EDM20EB7WMJYZ29TNB0H
+[2025.01.17-17.48.04:749][  8]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/36EDM20EB7WMJYZ29TNB0HF322AD194A9503B39A2DE2BA656CCF0F.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/LN/36EDM20EB7WMJYZ29TNB0H.uasset'
+[2025.01.17-17.48.04:750][  8]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W4/QC549MOCI3MDJABQBF2Q36
+[2025.01.17-17.48.04:750][  8]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/QC549MOCI3MDJABQBF2Q36F47F2B4E47366733722334AE915BA044.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W4/QC549MOCI3MDJABQBF2Q36.uasset'
+[2025.01.17-17.48.04:751][  8]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Prefabs/SM_perefab2_longHall] ([1] browsable assets)...
+[2025.01.17-17.48.04:751][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prefabs/SM_perefab2_longHall]
+[2025.01.17-17.48.04:755][  8]LogSavePackage: Moving output files for package: /Game/Prefabs/SM_perefab2_longHall
+[2025.01.17-17.48.04:755][  8]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/SM_perefab2_longHallC281A8C94CAC47B643333A9ACDF8D6D0.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/Prefabs/SM_perefab2_longHall.uasset'
+[2025.01.17-17.48.04:773][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.974 ms (total: 496.407 ms)
+[2025.01.17-17.48.04:825][  8]LogContentValidation: Display: Starting to validate 5 assets
+[2025.01.17-17.48.04:826][  8]LogContentValidation: Enabled validators:
+[2025.01.17-17.48.04:826][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.17-17.48.04:826][  8]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-17.48.04:826][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-17.48.04:826][  8]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.17-17.48.04:826][  8]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-17.48.04:826][  8]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.17-17.48.04:826][  8]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.01.17-17.48.04:826][  8]AssetCheck: /Game/Prefabs/SM_perefab2_longHall Validating asset
+[2025.01.17-17.48.12:270][450]Cmd: DELETE
+[2025.01.17-17.48.12:270][450]Cmd: ACTOR DELETE
+[2025.01.17-17.48.12:273][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.01.17-17.48.12:274][450]LogEditorActor: Deleted Actor: BP_SplineWall_C
+[2025.01.17-17.48.12:281][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.01.17-17.48.12:282][450]LogEditorActor: Deleted Actor: BP_SplineWall_C
+[2025.01.17-17.48.12:290][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.01.17-17.48.12:297][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.01.17-17.48.12:299][450]LogEditorActor: Deleted 5 Actors (0.029 secs)
+[2025.01.17-17.48.15:887][658]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_N-Hallway.SM_N-Hallway
+[2025.01.17-17.48.15:887][658]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_N-Hallway.SM_N-Hallway
+[2025.01.17-17.48.15:887][658]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_N-Hallway.SM_N-Hallway as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_48
+[2025.01.17-17.48.20:483][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.17-17.48.20:485][933]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2025.01.17-17.48.20:491][933]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_N-Hallway.SM_N-Hallway
+[2025.01.17-17.48.20:491][933]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_N-Hallway.SM_N-Hallway
+[2025.01.17-17.48.20:493][933]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_N-Hallway.SM_N-Hallway as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B81EA4C4C0286C4302_1301995265
+[2025.01.17-17.49.39:961][667]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.49.39:961][667]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.49.39:961][667]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_52
+[2025.01.17-17.49.41:509][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.01.17-17.49.41:509][759]LogEditorActor: Deleted 0 Actors (0.013 secs)
+[2025.01.17-17.49.41:517][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.49.41:517][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.49.41:519][759]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B81EA4C4C0286C4302_1383021266
+[2025.01.17-17.50.03:807][ 91]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3241.197266
+[2025.01.17-17.50.03:989][102]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.17-17.50.03:989][102]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3241.363770, Update Interval: 325.236359
+[2025.01.17-17.50.07:766][324]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.07:766][324]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.07:766][324]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_53
+[2025.01.17-17.50.12:146][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.01.17-17.50.12:147][586]LogEditorActor: Deleted 0 Actors (0.013 secs)
+[2025.01.17-17.50.12:168][586]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.12:168][586]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.12:170][586]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B81EA4C4C0286C4302_1413672267
+[2025.01.17-17.50.13:191][647]Cmd: DELETE
+[2025.01.17-17.50.13:191][647]Cmd: ACTOR DELETE
+[2025.01.17-17.50.13:203][647]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.01.17-17.50.13:219][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.01.17-17.50.13:220][647]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.01.17-17.50.15:391][777]Cmd: DELETE
+[2025.01.17-17.50.15:391][777]Cmd: ACTOR DELETE
+[2025.01.17-17.50.15:393][777]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.01.17-17.50.15:425][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.17-17.50.15:426][777]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.01.17-17.50.17:160][876]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.17:160][876]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.17:160][876]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_54
+[2025.01.17-17.50.19:340][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.01.17-17.50.19:341][  6]LogEditorActor: Deleted 0 Actors (0.013 secs)
+[2025.01.17-17.50.19:349][  6]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.19:349][  6]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.19:351][  6]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B81EA4C4C0286C4302_1420853268
+[2025.01.17-17.50.25:746][384]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.25:746][384]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.25:747][384]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_55
+[2025.01.17-17.50.30:863][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.01.17-17.50.30:863][690]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2025.01.17-17.50.30:871][690]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.30:871][690]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.50.30:873][690]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B81EA4C4C0286C4302_1432375269
+[2025.01.17-17.50.50:027][835]Cmd: TRANSACTION UNDO
+[2025.01.17-17.50.50:027][835]LogEditorTransaction: Undo Move Elements
+[2025.01.17-17.50.50:210][842]Cmd: TRANSACTION UNDO
+[2025.01.17-17.50.50:210][842]LogEditorTransaction: Undo Move Elements
+[2025.01.17-17.50.50:398][848]Cmd: TRANSACTION UNDO
+[2025.01.17-17.50.50:398][848]LogEditorTransaction: Undo Move Elements
+[2025.01.17-17.51.58:270][891]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.51.58:270][891]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.51.58:270][891]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_56
+[2025.01.17-17.51.59:767][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.01.17-17.51.59:768][980]LogEditorActor: Deleted 0 Actors (0.013 secs)
+[2025.01.17-17.51.59:777][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.51.59:777][980]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece
+[2025.01.17-17.51.59:778][980]LogActorFactory: Actor Factory spawned StaticMesh /Game/Prefabs/SM_doorwayPiece.SM_doorwayPiece as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B81EA4C4C0286C4302_1521281270
+[2025.01.17-17.53.49:543][524]Cmd: DELETE
+[2025.01.17-17.53.49:543][524]Cmd: ACTOR DELETE
+[2025.01.17-17.53.49:545][524]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.01.17-17.53.49:553][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.01.17-17.53.49:556][524]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2025.01.17-17.53.53:546][763]Cmd: SELECT NONE
+[2025.01.17-17.57.56:906][257]LogDerivedDataCache: C:/Users/EdgeN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.17-17.58.30:033][257]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.01.17-18.00.40:484][257]LogSlate: Window 'Create Merged Actor' being destroyed
+[2025.01.17-18.00.40:642][257]LogStaticMesh: Display: Building static mesh SM_prefab3_nHall (Required Memory Estimate: 1.361547 MB)...
+[2025.01.17-18.00.40:676][258]LogStaticMesh: Built static mesh [0.04s] /Game/Prefabs/SM_prefab3_nHall.SM_prefab3_nHall
+[2025.01.17-18.00.41:061][258]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:60355'.
+[2025.01.17-18.00.41:066][258]LogUdpMessaging: Display: Added local interface '192.168.12.203' to multicast group '230.0.0.1:6666'
+[2025.01.17-18.00.41:122][261]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2025.01.17-18.00.44:059][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.17-18.00.44:062][315]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/4E/TJVZGUX76QFVPVRRVBGRZ5_Auto2
+[2025.01.17-18.00.44:062][315]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/TJVZGUX76QFVPVRRVBGRZ5_Auto29D0E098C4C08BF533AAC3199327F6BF9.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/4E/TJVZGUX76QFVPVRRVBGRZ5_Auto2.uasset'
+[2025.01.17-18.00.44:064][315]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/O3/0XOY8FGD6JG8YNXINBMJZX_Auto2
+[2025.01.17-18.00.44:064][315]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/0XOY8FGD6JG8YNXINBMJZX_Auto2E44B86504F0399943D6190BB03B17840.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/O3/0XOY8FGD6JG8YNXINBMJZX_Auto2.uasset'
+[2025.01.17-18.00.44:066][315]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/SM/M5SWJOR1J09CUUYB1DVDW9_Auto2
+[2025.01.17-18.00.44:066][315]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/M5SWJOR1J09CUUYB1DVDW9_Auto2A93BA842482D7D5AF3155A8C34FF81AE.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/SM/M5SWJOR1J09CUUYB1DVDW9_Auto2.uasset'
+[2025.01.17-18.00.44:066][315]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.020
+[2025.01.17-18.00.44:066][315]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.020
+[2025.01.17-18.00.44:066][315]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Prefabs/SM_prefab3_nHall] ([1] browsable assets)...
+[2025.01.17-18.00.44:123][315]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Prefabs/SM_prefab3_nHall.SM_prefab3_nHall]
+[2025.01.17-18.00.44:123][315]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prefabs/SM_prefab3_nHall]
+[2025.01.17-18.00.44:128][315]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Prefabs/SM_prefab3_nHall_Auto2
+[2025.01.17-18.00.44:128][315]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/SM_prefab3_nHall_Auto2F94281444F1150C57A9E3E988212827A.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/Prefabs/SM_prefab3_nHall_Auto2.uasset'
+[2025.01.17-18.00.44:128][315]LogFileHelpers: Auto-saving content packages took 0.061
+[2025.01.17-18.00.53:528][335]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.01.17-18.47.30:329][335]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6687.865234
+[2025.01.17-18.47.32:214][336]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.01.17-18.47.32:215][336]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=15072
+[2025.01.17-18.47.32:241][336]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B32DEA7E7-4112-AB96-FEA3-A3AA8BB5322B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.01.17-18.47.32:243][336]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.01.17-18.47.32:243][336]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 0 (Too old connection (2809 seconds idle), disconnect it)
+[2025.01.17-18.47.32:243][336]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 1 (Connection 6 seems to be dead)
+[2025.01.17-18.47.32:243][336]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 2 (Closing connection)
+[2025.01.17-18.47.32:243][336]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 4 (Too old connection (2809 seconds idle), disconnect it)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 5 (Connection 7 seems to be dead)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 6 (Closing connection)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 8 (Too old connection (2809 seconds idle), disconnect it)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 9 (Connection 8 seems to be dead)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 10 (Closing connection)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 12 (Hostname in DNS cache was stale, zapped)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 13 (Could not resolve host: api.epicgames.dev)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: 00000661E3176C00: libcurl info message cache 14 (Closing connection)
+[2025.01.17-18.47.32:243][337]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B32DEA7E7-4112-AB96-FEA3-A3AA8BB5322B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 0 (Too old connection (2811 seconds idle), disconnect it)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 2 (Closing connection)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 4 (Hostname in DNS cache was stale, zapped)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 5 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.01.17-18.47.32:264][337]LogHttp: Warning: 00000661E54E8500: libcurl info message cache 6 (Closing connection)
+[2025.01.17-18.47.32:606][338]LogEOSSDK: Warning: LogHttp: 00000661E3177E00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3177E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3177E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3177E00: libcurl info message cache 1 (Closing connection)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E317A800: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B649EE52B-4CB6-B22E-3985-FEB1EBE44555%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E317A800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E317A800: libcurl info message cache 0 (Found bundle for host: 0x661e1880db0 [serially])
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E317A800: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E317A800: libcurl info message cache 2 (Closing connection)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3173C00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3173C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3173C00: libcurl info message cache 0 (Found bundle for host: 0x661e1880db0 [serially])
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3173C00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3173C00: libcurl info message cache 2 (Closing connection)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3179000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93AC6E55411C256A6EB162B646F61AF9, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3179000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3179000: libcurl info message cache 0 (Found bundle for host: 0x661e1880db0 [serially])
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3179000: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: 00000661E3179000: libcurl info message cache 2 (Closing connection)
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B649EE52B-4CB6-B22E-3985-FEB1EBE44555%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93AC6E55411C256A6EB162B646F61AF9
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30
+[2025.01.17-18.47.32:606][339]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
+[2025.01.17-18.47.32:910][339]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.01.17-18.47.32:915][339]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{a8925bf5-9b64-488a-b9b1-9a493fd5050a}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=373.48
+[2025.01.17-18.47.32:915][339]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.01.17-18.47.32:919][339]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.01.17-18.47.32:938][339]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: f46...d41
+[2025.01.17-18.47.32:939][339]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 45.250404 seconds
+[2025.01.17-18.47.33:916][343]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.01.17-18.47.33:916][343]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93AC6E55411C256A6EB162B646F61AF9
+[2025.01.17-18.47.34:583][345]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.01.17-18.47.34:915][345]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=93AC6E55411C256A6EB162B646F61AF9
+[2025.01.17-18.47.47:362][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.01.17-18.47.47:370][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.17-18.47.47:547][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.01.17-18.47.47:574][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.01.17-18.47.47:601][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.01.17-18.47.47:607][464]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/4E/TJVZGUX76QFVPVRRVBGRZ5
+[2025.01.17-18.47.47:607][464]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/TJVZGUX76QFVPVRRVBGRZ580D8A15445EF55D3BFE4ADA20B316B78.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/4E/TJVZGUX76QFVPVRRVBGRZ5.uasset'
+[2025.01.17-18.47.47:612][464]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/O3/0XOY8FGD6JG8YNXINBMJZX
+[2025.01.17-18.47.47:612][464]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/0XOY8FGD6JG8YNXINBMJZXAA59706341F418312ECCAD8F3F78C186.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/O3/0XOY8FGD6JG8YNXINBMJZX.uasset'
+[2025.01.17-18.47.47:616][464]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/SM/M5SWJOR1J09CUUYB1DVDW9
+[2025.01.17-18.47.47:617][464]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/M5SWJOR1J09CUUYB1DVDW94748C8294289CFE4E2287FB8F53C320E.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/SM/M5SWJOR1J09CUUYB1DVDW9.uasset'
+[2025.01.17-18.47.47:618][464]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Prefabs/SM_prefab3_nHall] ([1] browsable assets)...
+[2025.01.17-18.47.47:618][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Prefabs/SM_prefab3_nHall]
+[2025.01.17-18.47.47:624][464]LogSavePackage: Moving output files for package: /Game/Prefabs/SM_prefab3_nHall
+[2025.01.17-18.47.47:624][464]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/SM_prefab3_nHallC873620B4BDE81884B1A9F803F70FD62.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/Prefabs/SM_prefab3_nHall.uasset'
+[2025.01.17-18.47.47:671][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 300.152 ms (total: 796.559 ms)
+[2025.01.17-18.47.47:809][464]LogContentValidation: Display: Starting to validate 4 assets
+[2025.01.17-18.47.47:809][464]LogContentValidation: Enabled validators:
+[2025.01.17-18.47.47:809][464]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.17-18.47.47:809][464]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.17-18.47.47:809][464]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.17-18.47.47:809][464]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.17-18.47.47:809][464]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.17-18.47.47:809][464]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.17-18.47.47:810][464]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.01.17-18.47.47:810][464]AssetCheck: /Game/Prefabs/SM_prefab3_nHall Validating asset
+[2025.01.17-18.47.58:280][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.17-18.48.01:189][988]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.17-18.48.05:768][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.01.17-18.48.05:826][209]LogStall: Shutdown...
+[2025.01.17-18.48.05:826][209]LogStall: Shutdown complete.
+[2025.01.17-18.48.05:877][209]LogSlate: Window 'RokosBasilisk - Unreal Editor' being destroyed
+[2025.01.17-18.48.05:880][209]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.01.17-18.48.06:023][209]Cmd: QUIT_EDITOR
+[2025.01.17-18.48.06:024][210]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.01.17-18.48.06:032][210]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.01.17-18.48.06:033][210]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.01.17-18.48.06:033][210]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.01.17-18.48.06:041][210]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.17-18.48.06:042][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.17-18.48.06:042][210]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.01.17-18.48.06:054][210]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.01.17-18.48.06:057][210]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.01.17-18.48.06:062][210]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.01.17-18.48.06:063][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.17-18.48.06:065][210]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.01.17-18.48.06:068][210]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.01.17-18.48.06:068][210]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.01.17-18.48.06:068][210]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.01.17-18.48.06:636][210]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.01.17-18.48.06:636][210]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.01.17-18.48.06:636][210]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2025.01.17-18.48.06:636][210]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.01.17-18.48.06:637][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.17-18.48.06:640][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.17-18.48.06:651][210]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.01.17-18.48.06:651][210]LogAudio: Display: Audio Device Manager Shutdown
+[2025.01.17-18.48.06:659][210]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.01.17-18.48.06:659][210]LogExit: Preparing to exit.
+[2025.01.17-18.48.06:696][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.01.17-18.48.07:558][210]LogEditorDataStorage: Deinitializing
+[2025.01.17-18.48.07:630][210]LogDirectoryWatcher: Display: Refresh of ReadDirectoryChangesW failed. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/]. Aborting watch request...
+[2025.01.17-18.48.07:661][210]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.01.17-18.48.07:700][210]LogExit: Editor shut down
+[2025.01.17-18.48.07:705][210]LogExit: Transaction tracking system shut down
+[2025.01.17-18.48.07:947][210]LogExit: Object subsystem successfully closed.
+[2025.01.17-18.48.08:013][210]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.01.17-18.48.08:743][210]LogMemoryProfiler: Shutdown
+[2025.01.17-18.48.08:743][210]LogNetworkingProfiler: Shutdown
+[2025.01.17-18.48.08:743][210]LoadingProfiler: Shutdown
+[2025.01.17-18.48.08:743][210]LogTimingProfiler: Shutdown
+[2025.01.17-18.48.09:202][210]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.01.17-18.48.09:204][210]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.01.17-18.48.09:204][210]LogNFORDenoise: NFORDenoise function shutting down
+[2025.01.17-18.48.09:207][210]RenderDocPlugin: plugin has been unloaded.
+[2025.01.17-18.48.09:230][210]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.01.17-18.48.09:230][210]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5022DF65-4966-0784-5D10-1B8E0DEE5C23%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.0-37670630%2B%2B%2BUE5%2BRelease-5.5&UserID=7630993f4663acea449bbebec1815438%7Cf46757f6a8f04900afc7b99b58000d41%7C0936f1cb-0c2f-4c70-a43d-c30ad7e11feb&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.01.17-18.48.10:301][210]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.01.17-18.48.10:322][210]LogXGEController: Cleaning working directory: C:/Users/EdgeN/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.01.17-18.48.10:331][210]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.01.17-18.48.10:331][210]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.01.17-18.48.10:331][210]LogPakFile: Destroying PakPlatformFile
+[2025.01.17-18.48.10:818][210]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.01.17-18.48.10:895][210]LogExit: Exiting.
+[2025.01.17-18.48.10:938][210]Log file closed, 01/17/25 10:48:10
