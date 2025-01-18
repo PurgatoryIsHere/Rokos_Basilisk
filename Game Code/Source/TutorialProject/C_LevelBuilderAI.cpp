@@ -112,6 +112,14 @@ void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFro
 
 void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
 {
+    if (JumpPref == 0) {
+        JumpPref = 1; //JumpPref being 0 would always make PlayerMovement 0
+    }
+
+    PlayerMovement = round((DistanceMoved / 10) / (JumpPref * 2)); //Rates higher for less jumps. Is this ok? Higher for more jumps?
+
+    UE_LOG(LogTemp, Log, TEXT("Player Movement Rating: %.2f"), PlayerMovement);
+
     return;
 }
 
