@@ -2030,3 +2030,384 @@ Script Stack (4 frames) :
 [2025.01.18-21.16.55:036][893]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1683.675781
 [2025.01.18-21.16.56:043][897]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.01.18-21.16.56:043][897]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1684.343384, Update Interval: 315.090179
+[2025.01.18-21.22.56:279][ 13]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2044.917603
+[2025.01.18-21.22.57:279][ 17]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.18-21.22.57:279][ 17]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2045.582886, Update Interval: 347.121796
+[2025.01.18-21.24.20:512][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.18-21.24.20:521][377]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.01.18-21.24.20:521][377]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.01.18-21.24.20:526][377]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4.330 ms (total: 14.529 ms)
+[2025.01.18-21.24.20:530][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.18-21.24.20:531][377]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.24.20:549][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018418s)
+[2025.01.18-21.24.20:549][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.018502s)
+[2025.01.18-21.24.20:566][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.01.18-21.24.20:568][377]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.18-21.24.20:571][377]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.18-21.24.20:571][377]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.18-21.24.20:571][377]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.18-21.24.20:571][377]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.18-21.24.20:574][377]LogWorldPartition: Display: WorldPartition initialize took 4.130 ms (total: 214.854 ms)
+[2025.01.18-21.24.20:574][377]LogPlayLevel: PIE: World Init took: (0.006949s)
+[2025.01.18-21.24.20:575][377]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.18-21.24.20:576][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.01.18-21.24.20:576][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.18-21.24.20:576][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.18-21.24.20:576][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.18-21.24.20:576][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.18-21.24.20:579][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.18-21.24.20:645][377]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.01.18-21.24.20:646][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.18-21.24.20:646][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.18-21.24.20:646][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.18-21.24.20:647][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.01.18-21.24.20:647][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.01.18-21.24.20:648][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.01.18-21.24.20:648][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.01.18-21.24.20:649][377]LogInit: FAudioDevice initialized with ID 4.
+[2025.01.18-21.24.20:649][377]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.01.18-21.24.20:649][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.01.18-21.24.20:660][377]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.18-21.24.20:671][377]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2025.01.18-13.24.20
+[2025.01.18-21.24.20:673][377]LogWorld: Bringing up level for play took: 0.012300
+[2025.01.18-21.24.20:676][377]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.01.18-21.24.20:680][377]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.01.18-21.24.20:715][377]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.035 s
+[2025.01.18-21.24.20:715][377]LogOutputDevice: Error: === Handled ensure: ===
+[2025.01.18-21.24.20:715][377]LogOutputDevice: Error: 
+[2025.01.18-21.24.20:715][377]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.01.18-21.24.20:715][377]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "Blueprint"
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: Stack: 
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb648ce99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb637a453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb637abda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb638ce3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x000002658b1c9abb UnrealEditor-TutorialProject-6890.dll!AC_LevelBuilderAI::LoadPrefabs() [C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Source\TutorialProject\C_LevelBuilderAI.cpp:54]
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x000002658b1c4bb5 UnrealEditor-TutorialProject-6890.dll!AC_LevelBuilderAI::execLoadPrefabs() [C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT\C_LevelBuilderAI.gen.cpp:138]
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc110b027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc10ef22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc10fdc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc113883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc113842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc599137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc551ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc5634f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc592e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc570e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbd209db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbd25b6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc116ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1172a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc10ef22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc10fdc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc113883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdc113842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc599137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc551ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbc5634f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbea70716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbd2f5871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbe7f4144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdbd243068 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb9593525 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb95bf749 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb9594264 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb95dfe10 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb95e42d3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb95e389e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb8e54622 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffdb9ae3d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ff754396b47 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ff7543b57ac UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ff7543b589a UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ff7543b9114 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ff7543cbd04 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ff7543cf0ba UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffe8b4de8d7 KERNEL32.DLL!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: [Callstack] 0x00007ffe8c47fbcc ntdll.dll!UnknownFunction []
+[2025.01.18-21.24.20:716][377]LogOutputDevice: Error: 
+[2025.01.18-21.24.20:719][377]LogStats:             FDebug::EnsureFailed -  0.038 s
+[2025.01.18-21.24.20:719][377]LogTemp: Loaded 2 prefabs.
+[2025.01.18-21.24.20:719][377]LogTemp: Prefab Information:
+[2025.01.18-21.24.20:719][377]LogTemp: Prefab: Basic_Triangle | Ratings: [0, 0, 0, 0]
+[2025.01.18-21.24.20:719][377]LogTemp: Prefab: EmptyHallwayPrefab | Ratings: [0, 0, 0, 0]
+[2025.01.18-21.24.20:719][377]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.01.18-21.24.20:722][377]PIE: Server logged in
+[2025.01.18-21.24.20:723][377]PIE: Play in editor total start time 0.202 seconds.
+[2025.01.18-21.24.32:988][110]LogTemp: Player Skill Rating: 71.00
+[2025.01.18-21.24.32:988][110]LogTemp: Player Preservation Rating: 58.36
+[2025.01.18-21.24.34:986][230]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.18-21.24.34:986][230]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.18-21.24.34:986][230]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.18-21.24.34:986][230]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.24.34:987][230]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.18-21.24.34:990][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.18-21.24.34:990][230]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.18-21.24.35:031][230]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.18-21.24.35:034][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.01.18-21.24.35:036][230]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.24.35:049][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013402s)
+[2025.01.18-21.24.35:049][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013449s)
+[2025.01.18-21.24.35:049][230]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.01.18-21.24.35:049][230]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.18-21.24.35:051][230]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.18-21.24.35:051][230]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.18-21.24.35:051][230]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.18-21.24.35:051][230]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.18-21.24.35:055][230]LogWorldPartition: Display: WorldPartition initialize took 4.249 ms (total: 219.103 ms)
+[2025.01.18-21.24.35:055][230]LogPlayLevel: PIE: World Init took: (0.006238s)
+[2025.01.18-21.24.35:055][230]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.18-21.24.35:064][230]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2025.01.18-13.24.35
+[2025.01.18-21.24.35:065][230]LogWorld: Bringing up level for play took: 0.009651
+[2025.01.18-21.24.35:068][230]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.01.18-21.24.35:097][230]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.029 s
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: === Handled ensure: ===
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: 
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "Blueprint"
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: Stack: 
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdb648ce99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdb637a453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdb637abda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdb638ce3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x000002658b1c9abb UnrealEditor-TutorialProject-6890.dll!AC_LevelBuilderAI::LoadPrefabs() [C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Source\TutorialProject\C_LevelBuilderAI.cpp:54]
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x000002658b1c4bb5 UnrealEditor-TutorialProject-6890.dll!AC_LevelBuilderAI::execLoadPrefabs() [C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT\C_LevelBuilderAI.gen.cpp:138]
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc110b027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc10ef22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc10fdc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc113883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc113842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc599137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc551ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc5634f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc592e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc570e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbd209db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbd25b6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:097][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc116ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1172a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc10ef22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc10fdc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc113883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdc113842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc599137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc551ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbc5634f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbea70716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbd2f5871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbe7f4144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbe69c05a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbe62ff32 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdbe6d3ad4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdb8e54a63 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffdb9ae3d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ff754396b47 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ff7543b57ac UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ff7543b589a UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ff7543b9114 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ff7543cbd04 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ff7543cf0ba UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffe8b4de8d7 KERNEL32.DLL!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: [Callstack] 0x00007ffe8c47fbcc ntdll.dll!UnknownFunction []
+[2025.01.18-21.24.35:098][230]LogOutputDevice: Error: 
+[2025.01.18-21.24.35:103][230]LogStats:             FDebug::EnsureFailed -  0.035 s
+[2025.01.18-21.24.35:103][230]LogTemp: Loaded 2 prefabs.
+[2025.01.18-21.24.35:103][230]LogTemp: Prefab Information:
+[2025.01.18-21.24.35:103][230]LogTemp: Prefab: Basic_Triangle | Ratings: [0, 0, 0, 0]
+[2025.01.18-21.24.35:103][230]LogTemp: Prefab: EmptyHallwayPrefab | Ratings: [0, 0, 0, 0]
+[2025.01.18-21.24.35:105][230]LogLoad: Took 0.119187 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.18-21.24.35:105][230]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.24.42:170][653]LogTemp: Player Skill Rating: 100.00
+[2025.01.18-21.24.42:170][653]LogTemp: Player Preservation Rating: 66.61
+[2025.01.18-21.24.44:167][773]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.01.18-21.24.44:168][773]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.18-21.24.44:168][773]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.01.18-21.24.44:168][773]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.24.44:169][773]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.18-21.24.44:171][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.18-21.24.44:171][773]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.18-21.24.44:234][773]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.18-21.24.44:236][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.01.18-21.24.44:239][773]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.24.44:251][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012531s)
+[2025.01.18-21.24.44:251][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.012572s)
+[2025.01.18-21.24.44:251][773]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.01.18-21.24.44:251][773]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.01.18-21.24.44:252][773]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.18-21.24.44:252][773]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.18-21.24.44:252][773]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.18-21.24.44:252][773]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.18-21.24.44:256][773]LogWorldPartition: Display: WorldPartition initialize took 3.575 ms (total: 222.679 ms)
+[2025.01.18-21.24.44:256][773]LogPlayLevel: PIE: World Init took: (0.004828s)
+[2025.01.18-21.24.44:256][773]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.01.18-21.24.44:264][773]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2025.01.18-13.24.44
+[2025.01.18-21.24.44:265][773]LogWorld: Bringing up level for play took: 0.008583
+[2025.01.18-21.24.44:268][773]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.01.18-21.24.44:295][773]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.027 s
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: === Handled ensure: ===
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: 
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "Blueprint"
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: Stack: 
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdb648ce99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdb637a453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdb637abda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdb638ce3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x000002658b1c9abb UnrealEditor-TutorialProject-6890.dll!AC_LevelBuilderAI::LoadPrefabs() [C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Source\TutorialProject\C_LevelBuilderAI.cpp:54]
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x000002658b1c4bb5 UnrealEditor-TutorialProject-6890.dll!AC_LevelBuilderAI::execLoadPrefabs() [C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT\C_LevelBuilderAI.gen.cpp:138]
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc110b027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc10ef22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc10fdc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc113883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc113842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc599137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc551ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc5634f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc592e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc570e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbd209db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbd25b6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc116ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1172a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc10ef22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc10fdc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc1138f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc113883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc0d40053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdc113842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc599137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc551ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:295][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbc5634f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbea70716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbd2f5871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbe7f4144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbe69c05a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbe62ff32 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdbe6d3ad4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdb8e54a63 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffdb9ae3d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ff754396b47 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ff7543b57ac UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ff7543b589a UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ff7543b9114 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ff7543cbd04 UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ff7543cf0ba UnrealEditor.exe!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffe8b4de8d7 KERNEL32.DLL!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: [Callstack] 0x00007ffe8c47fbcc ntdll.dll!UnknownFunction []
+[2025.01.18-21.24.44:296][773]LogOutputDevice: Error: 
+[2025.01.18-21.24.44:304][773]LogStats:             FDebug::EnsureFailed -  0.036 s
+[2025.01.18-21.24.44:304][773]LogTemp: Loaded 2 prefabs.
+[2025.01.18-21.24.44:304][773]LogTemp: Prefab Information:
+[2025.01.18-21.24.44:304][773]LogTemp: Prefab: Basic_Triangle | Ratings: [0, 0, 0, 0]
+[2025.01.18-21.24.44:304][773]LogTemp: Prefab: EmptyHallwayPrefab | Ratings: [0, 0, 0, 0]
+[2025.01.18-21.24.44:306][773]LogLoad: Took 0.137811 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.01.18-21.24.44:306][773]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.25.05:184][ 25]LogTemp: Player Skill Rating: 63.00
+[2025.01.18-21.25.05:184][ 25]LogTemp: Player Preservation Rating: 56.55
+[2025.01.18-21.25.06:323][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.18-21.25.06:323][ 92]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.01.18-21.25.06:323][ 92]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.18-21.25.06:326][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.18-21.25.06:326][ 92]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.01.18-21.25.06:330][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.18-21.25.06:332][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.18-21.25.06:339][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.18-21.25.06:341][ 92]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.01.18-21.25.06:341][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.01.18-21.25.06:343][ 92]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.01.18-21.25.06:353][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.01.18-21.25.06:399][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.01.18-21.29.19:395][760]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2428.032959
+[2025.01.18-21.29.20:395][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.18-21.29.20:395][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2428.699219, Update Interval: 306.985687
+[2025.01.18-21.30.53:087][ 41]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2025.01.18-21.30.53:174][ 41]Candidate modules for hot reload:
+[2025.01.18-21.30.53:174][ 41]  TutorialProject
+[2025.01.18-21.30.53:181][ 41]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=TutorialProject,3523 TutorialProjectEditor Win64 Development -Project="C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/RokosBasilisk.uproject" "C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/RokosBasilisk.uproject"  -IgnoreJunk]
+[2025.01.18-21.30.53:198][ 41]Warning: Starting HotReload took  0.1s.
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=TutorialProject,3523 TutorialProjectEditor Win64 Development -Project="C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/RokosBasilisk.uproject" "C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/RokosBasilisk.uproject"  -IgnoreJunk
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Log file: C:\Users\EdgeN\AppData\Local\UnrealBuildTool\Log.txt
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk).
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Building TutorialProjectEditor...
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Using Visual Studio 2022 14.38.33143 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [Upgrade]
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;' in TutorialProjectEditor.Target.cs.
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [Upgrade]
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Determining max actions to execute in parallel (20 physical cores, 28 logical cores)
+[2025.01.18-21.30.58:042][155]CompilerResultsLog:   Executing up to 20 processes, one per physical core
+[2025.01.18-21.30.58:042][155]CompilerResultsLog:   Requested 1.5 GB memory per action, 15.71 GB available: limiting max parallel actions to 10
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 4 action(s)
+[2025.01.18-21.30.58:042][155]CompilerResultsLog:   Storage capacity 40Gb
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: ---- Starting trace: 250118_133054 ----
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: ------ Building 4 action(s) started ------
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [1/4] Compile [x64] C_LevelBuilderAI.cpp
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Source\TutorialProject\C_LevelBuilderAI.cpp(47): warning C4996: 'FARFilter::ClassNames': Class names are now represented by path names. Please use ClassPaths. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-TutorialProject-3523.lib
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-TutorialProject-3523.dll
+[2025.01.18-21.30.58:042][155]CompilerResultsLog:    Creating object C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Binaries\Win64\UnrealEditor-TutorialProject-3523.exp
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: [4/4] WriteMetadata TutorialProjectEditor.target (UBA disabled)
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Trace file written to C:/Users/EdgeN/AppData/Local/UnrealBuildTool/Log.uba with size 3.4kb
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 3.79 seconds
+[2025.01.18-21.30.58:042][155]CompilerResultsLog: Total execution time: 4.61 seconds
+[2025.01.18-21.30.58:042][155]LogMainFrame: MainFrame: Module compiling took 4.955 seconds
+[2025.01.18-21.30.58:055][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.01.18-21.30.59:014][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.01.18-21.30.59:036][155]Display: HotReload took  5.9s.
+[2025.01.18-21.30.59:036][155]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged, 25 functions remapped

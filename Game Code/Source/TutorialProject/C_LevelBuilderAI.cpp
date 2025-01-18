@@ -107,7 +107,10 @@ void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
 
 void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete)
 {
-    return;
+    PlayerScore = round(((DistanceFromKill *.5) / (TimeToKill * 1.25)) / TimeToComplete); //Not sure if this works
+
+    UE_LOG(LogTemp, Log, TEXT("Player Score Rating: %.2f"), PlayerScore);
+  
 }
 
 void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
@@ -120,7 +123,6 @@ void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMo
 
     UE_LOG(LogTemp, Log, TEXT("Player Movement Rating: %.2f"), PlayerMovement);
 
-    return;
 }
 
 void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
