@@ -91,9 +91,9 @@ void AC_LevelBuilderAI::PrintPrefabInfo()
 void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth)
 {
     CalculatePlayerSkill(Health, Accuracy);
-    //PlayerScore = CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
-    //PlayerMovement = CalculatePlayerMovement(JumpPref, DistanceMoved);
-    //PlayerPreservation = CalculatePlayerPreservation(Health, DistanceFromKill, Stealth);
+    //CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
+    //CalculatePlayerMovement(JumpPref, DistanceMoved);
+    CalculatePlayerPreservation(Health, DistanceFromKill, Stealth);
 }
 
 void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
@@ -117,5 +117,7 @@ void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMo
 
 void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
 {
-    return;
+    PlayerPreservation = ((Health * .40) + ((DistanceFromKill / 10) * .25) + (Stealth * .35));
+
+    UE_LOG(LogTemp, Log, TEXT("Player Preservation Rating: %.2f"), PlayerPreservation);
 }

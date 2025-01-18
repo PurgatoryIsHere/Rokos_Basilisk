@@ -51,7 +51,11 @@ void AC_Basic_AI::TakeDamage(float Damage)
 	{
 		this->GetMesh()->SetSimulatePhysics(true);
 
-		this->GetController()->UnPossess();
+		if (UCharacterMovementComponent* MovementComponent = GetCharacterMovement())
+		{
+			MovementComponent->DisableMovement();
+			this->GetController()->UnPossess();
+		}
 
 		isDead = true;
 
