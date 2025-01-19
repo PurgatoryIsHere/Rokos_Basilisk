@@ -91,8 +91,8 @@ void AC_LevelBuilderAI::PrintPrefabInfo()
 void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth)
 {
     CalculatePlayerSkill(Health, Accuracy);
-    //CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
-    //CalculatePlayerMovement(JumpPref, DistanceMoved);
+    CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
+    CalculatePlayerMovement(JumpPref, DistanceMoved);
     CalculatePlayerPreservation(Health, DistanceFromKill, Stealth);
 }
 
@@ -115,19 +115,22 @@ void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFro
 
 void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
 {
-    if (JumpPref == 0) {
-        JumpPref = 1; //JumpPref being 0 would always make PlayerMovement 0
-    }
+    // Normalize variables due to the lack of a true upper bound.
+    float NJumpPref = FMath::Clamp(JumpPref / 10.0f, 0.1f, 1.0f);
+    float NDistanceMoved = FMath::Clamp(DistanceMoved / 10000.0f, 0.1f, 1.0f);
 
-    PlayerMovement = round((DistanceMoved / 10) / (JumpPref * 2)); //Rates higher for less jumps. Is this ok? Higher for more jumps?
+    float MovementCalculation = round((NJumpPref * 30.0f) + (NDistanceMoved * 70.0f));
+
+    PlayerMovement = FMath::Clamp(MovementCalculation, 1.0f, 100.0f);
 
     UE_LOG(LogTemp, Log, TEXT("Player Movement Rating: %.2f"), PlayerMovement);
-
 }
 
 void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
 {
-    PlayerPreservation = ((Health * .40) + ((DistanceFromKill / 10) * .25) + (Stealth * .35));
+    float PreservationCalculation = round((Health * .40) + ((DistanceFromKill / 10) * .25) + (Stealth * .35));
+
+    PlayerPreservation = FMath::Clamp(PreservationCalculation, 1.0f, 100.0f);
 
     UE_LOG(LogTemp, Log, TEXT("Player Preservation Rating: %.2f"), PlayerPreservation);
 }

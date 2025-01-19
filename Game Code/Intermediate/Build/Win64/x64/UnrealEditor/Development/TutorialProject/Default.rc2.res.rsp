@@ -84,5 +84,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="First Person BP Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=RokosBasilisk
-/fo "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Default.rc2.res"
+/fo "C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
