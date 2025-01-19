@@ -1662,3 +1662,28 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2025.01.19-22.06.47:090][730]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/W_MainMenu_Auto49A9EB5B047813CF8EA5C9489C1B898F8.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/FirstPerson/MainMenu/W_MainMenu_Auto4.uasset'
 [2025.01.19-22.06.47:090][730]LogFileHelpers: Auto-saving content packages took 0.066
 [2025.01.19-22.09.38:601][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.01.19-22.12.55:034][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.01.19-22.12.55:039][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.19-22.12.55:105][984]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/WinLoseScreen/W_Winrar] ([2] browsable assets)...
+[2025.01.19-22.12.55:113][984]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/FirstPerson/WinLoseScreen/W_Winrar.W_Winrar]
+[2025.01.19-22.12.55:113][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/WinLoseScreen/W_Winrar]
+[2025.01.19-22.12.55:127][984]LogSavePackage: Moving output files for package: /Game/FirstPerson/WinLoseScreen/W_Winrar
+[2025.01.19-22.12.55:127][984]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/W_Winrar69FFC66443B430C0C6452E9ECF9F46D5.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/FirstPerson/WinLoseScreen/W_Winrar.uasset'
+[2025.01.19-22.12.55:128][984]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/MainMenu/W_MainMenu] ([2] browsable assets)...
+[2025.01.19-22.12.55:128][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/MainMenu/W_MainMenu]
+[2025.01.19-22.12.55:133][984]LogSavePackage: Moving output files for package: /Game/FirstPerson/MainMenu/W_MainMenu
+[2025.01.19-22.12.55:133][984]LogSavePackage: Moving '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Saved/W_MainMenu239C22BB43B12E34184089850C7F9925.tmp' to '../../../../../../Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Content/FirstPerson/MainMenu/W_MainMenu.uasset'
+[2025.01.19-22.12.55:141][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.961 ms (total: 195.680 ms)
+[2025.01.19-22.12.55:196][984]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.19-22.12.55:196][984]LogContentValidation: Enabled validators:
+[2025.01.19-22.12.55:196][984]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.19-22.12.55:196][984]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.19-22.12.55:196][984]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.19-22.12.55:196][984]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.19-22.12.55:196][984]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.19-22.12.55:196][984]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.19-22.12.55:202][984]AssetCheck: /Game/FirstPerson/WinLoseScreen/W_Winrar Validating asset
+[2025.01.19-22.12.55:203][984]AssetCheck: /Game/FirstPerson/MainMenu/W_MainMenu Validating asset
+[2025.01.19-22.13.10:825][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3623.132324
+[2025.01.19-22.13.11:826][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.19-22.13.11:826][165]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3623.803223, Update Interval: 356.471436
