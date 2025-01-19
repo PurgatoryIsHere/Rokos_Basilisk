@@ -93,7 +93,7 @@ void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float
     CalculatePlayerSkill(Health, Accuracy);
     CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
     CalculatePlayerMovement(JumpPref, DistanceMoved);
-    CalculatePlayerPreservation(Health, DistanceFromKill, Stealth);
+    CalculatePlayerPreservation(Health, DistanceFromKill, Stealth, TimeToComplete);
 }
 
 void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
@@ -115,7 +115,7 @@ void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFro
 
 void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
 {
-    // Normalize variables due to the lack of a true upper bound.
+    // Normalize variables
     float NJumpPref = FMath::Clamp(JumpPref / 10.0f, 0.1f, 1.0f);
     float NDistanceMoved = FMath::Clamp(DistanceMoved / 10000.0f, 0.1f, 1.0f);
 
@@ -126,9 +126,14 @@ void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMo
     UE_LOG(LogTemp, Log, TEXT("Player Movement Rating: %.2f"), PlayerMovement);
 }
 
-void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth) 
+void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete) 
 {
-    float PreservationCalculation = round((Health * .40) + ((DistanceFromKill / 10) * .25) + (Stealth * .35));
+    // Normalize variables
+    float NHealth = FMath::Clamp(Health / 100.0f, 0.1f, 1.0f);
+    float NDistanceFromKill = FMath::Clamp(DistanceFromKill / 2000.0f, 0.1f, 1.0f);
+    float NStealth = FMath::Clamp(Stealth / TimeToComplete, 0.0f, 1.0f);
+
+    float PreservationCalculation = round((NHealth * 40.0f) + (NDistanceFromKill * 25.0f) + (NStealth * 35.0f));
 
     PlayerPreservation = FMath::Clamp(PreservationCalculation, 1.0f, 100.0f);
 

@@ -48,5 +48,5 @@ private:
 	void CalculatePlayerSkill(float Health, float Accuracy);
 	void CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete);
 	void CalculatePlayerMovement(float JumpPref, float DistanceMoved);
-	void CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth);
+	void CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete);
 };
