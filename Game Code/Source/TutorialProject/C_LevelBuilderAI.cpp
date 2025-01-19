@@ -107,7 +107,14 @@ void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
 
 void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete)
 {
-    PlayerScore = round(((DistanceFromKill *.5) / (TimeToKill * 1.25)) / TimeToComplete); //Not sure if this works
+    // Normalize variables
+    float NTimeToKill = FMath::Clamp(TimeToKill / 30.0f, 0.1f, 1.0f);
+    float NDistanceFromKill = FMath::Clamp(DistanceFromKill / 2000.0f, 0.1f, 1.0f);
+    float NTimeToComplete = FMath::Clamp(TimeToComplete / 180.0f, 0.1f, 1.0f);
+
+    float ScoreCalculation = round((NTimeToKill * 25.0f) + (NDistanceFromKill * 25.0f) + (NTimeToComplete * 50.0f));
+
+    PlayerScore = FMath::Clamp(ScoreCalculation, 1.0f, 100.0f);
 
     UE_LOG(LogTemp, Log, TEXT("Player Score Rating: %.2f"), PlayerScore);
   
