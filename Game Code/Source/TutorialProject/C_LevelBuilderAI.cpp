@@ -98,7 +98,10 @@ void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float
 
 void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
 {
-    float SkillCalculation = round((Health * (Accuracy * 100)) / 100.0f);
+    float NHealth = FMath::Clamp(Health / 100, 0.1f, 1.0f);
+    float NAccuracy = FMath::Clamp((Accuracy * 100) / 100, 0.1f, 1.0f);
+
+    float SkillCalculation = round((NHealth * 40.0f) + (NAccuracy * 60.0f));
 
     PlayerSkill = FMath::Clamp(SkillCalculation, 1.0f, 100.0f);
 
