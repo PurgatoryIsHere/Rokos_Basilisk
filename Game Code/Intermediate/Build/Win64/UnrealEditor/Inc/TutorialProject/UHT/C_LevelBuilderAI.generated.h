@@ -15,6 +15,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TUTORIALPROJECT_C_LevelBuilderAI_generated_h
 
 #define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetPlayerPreservationRating); \
+	DECLARE_FUNCTION(execGetPlayerMovementRating); \
+	DECLARE_FUNCTION(execGetPlayerScoreRating); \
+	DECLARE_FUNCTION(execGetPlayerSkillRating); \
 	DECLARE_FUNCTION(execCalculatePlayerStats); \
 	DECLARE_FUNCTION(execPrintPrefabInfo); \
 	DECLARE_FUNCTION(execLoadPrefabs);

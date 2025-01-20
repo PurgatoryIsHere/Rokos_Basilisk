@@ -40,6 +40,18 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	void CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth);
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetPlayerSkillRating() { return PlayerSkill; };
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetPlayerScoreRating() { return PlayerScore; };
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetPlayerMovementRating() { return PlayerMovement; };
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetPlayerPreservationRating() { return PlayerPreservation; };
+
 private:
 
 	// Helper to process the assets found
