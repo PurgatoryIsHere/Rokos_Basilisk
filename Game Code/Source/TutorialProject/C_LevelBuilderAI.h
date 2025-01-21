@@ -56,6 +56,7 @@ private:
 
 	// Helper to process the assets found
 	void ProcessPrefabAssets(const TArray<FAssetData>& AssetDataList);
+	void GeneratePrefabRatings();
 
 	void CalculatePlayerSkill(float Health, float Accuracy);
 	void CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete);

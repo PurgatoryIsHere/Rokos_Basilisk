@@ -72,8 +72,33 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     UE_LOG(LogTemp, Log, TEXT("Loaded %d prefabs."), PrefabNames.Num());
 }
 
+void AC_LevelBuilderAI::GeneratePrefabRatings()
+{
+    if (PrefabRatings.Num() == 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No prefabs found. Please load prefabs before generating ratings."));
+        return;
+    }
+
+    for (auto& Elem : PrefabRatings)
+    {
+        TArray<int32> Ratings;
+
+        for (int i = 0; i < 4; i++)
+        {
+            Ratings.Add(FMath::RandRange(1, 10));
+        }
+
+        Elem.Value = Ratings;
+    }
+
+    UE_LOG(LogTemp, Log, TEXT("Generated ratings for %d prefabs."), PrefabRatings.Num());
+}
+
 void AC_LevelBuilderAI::PrintPrefabInfo()
 {
+    GeneratePrefabRatings();
+
     UE_LOG(LogTemp, Log, TEXT("Prefab Information:"));
 
     for (const FString& PrefabName : PrefabNames)
