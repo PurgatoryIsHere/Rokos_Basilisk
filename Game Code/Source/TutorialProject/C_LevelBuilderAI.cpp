@@ -44,7 +44,8 @@ void AC_LevelBuilderAI::LoadPrefabs(const FString& PrefabFolderPath)
     TArray<FAssetData> AssetDataList;
     FARFilter Filter;
     Filter.PackagePaths.Add(*PrefabFolderPath); // Use the provided folder path
-    Filter.ClassNames.Add(FName("Blueprint")); // Filter for Blueprint Classes
+    Filter.ClassNames.Add(FName("Blueprint")); // Filter for Blueprint Class
+    Filter.ClassNames.Add(FName("StaticMesh")); // Filter for Static Mesh
     Filter.bRecursivePaths = true;            // Include subdirectories
 
     // Query the asset registry
