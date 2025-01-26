@@ -6,6 +6,7 @@
 #include "Engine/Engine.h"
 #include "Misc/Paths.h"
 #include "HAL/FileManager.h"
+#include <set>
 #include <cmath>
 
 // Sets default values
@@ -60,14 +61,29 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     PrefabNames.Empty(); // Clear any existing data
     PrefabRatings.Empty();
 
+    std::set<FString> AssetsToIgnore;
+
+    AssetsToIgnore.insert("SM_doorwayPiece");
+    AssetsToIgnore.insert("SM_N-Hallway");
+    AssetsToIgnore.insert("SM_startPiece");
+    AssetsToIgnore.insert("SmallSegment");
+    AssetsToIgnore.insert("EmptyHallwayPrefab");
+    AssetsToIgnore.insert("Basic_Triangle");
+    AssetsToIgnore.insert("SM_MERGED_StaticMeshActor_UAID_8C554A400221CF2802_1244089197");
+    AssetsToIgnore.insert("SM_EmptyHallway");
+    AssetsToIgnore.insert("Box_7F096962");
+
     for (const FAssetData& AssetData : AssetDataList)
     {
-        FString PrefabName = AssetData.AssetName.ToString();
-        PrefabNames.Add(PrefabName);
+        if (!AssetsToIgnore.contains(AssetData.AssetName.ToString()))
+        {
+            FString PrefabName = AssetData.AssetName.ToString();
+            PrefabNames.Add(PrefabName);
 
-        // Initialize ratings array (e.g., with default values)
-        static const TArray<int32> DefaultRatings = { 0, 0, 0, 0 };
-        PrefabRatings.Add(PrefabName, DefaultRatings); // Categories: [Skill, Score, Movement, Preservation]
+            // Initialize ratings array (e.g., with default values)
+            static const TArray<int32> DefaultRatings = { 0, 0, 0, 0 };
+            PrefabRatings.Add(PrefabName, DefaultRatings); // Categories: [Skill, Score, Movement, Preservation]
+        }
     }
 
     UE_LOG(LogTemp, Log, TEXT("Loaded %d prefabs."), PrefabNames.Num());
