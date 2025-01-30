@@ -40,6 +40,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	void CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth);
 
+	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
+	TArray<FString> GenerateLevel();
+
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetPlayerSkillRating() { return PlayerSkill; };
 

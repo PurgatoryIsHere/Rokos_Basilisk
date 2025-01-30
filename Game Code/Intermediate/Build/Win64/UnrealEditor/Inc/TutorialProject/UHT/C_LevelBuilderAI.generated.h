@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execGetPlayerMovementRating); \
 	DECLARE_FUNCTION(execGetPlayerScoreRating); \
 	DECLARE_FUNCTION(execGetPlayerSkillRating); \
+	DECLARE_FUNCTION(execGenerateLevel); \
 	DECLARE_FUNCTION(execCalculatePlayerStats); \
 	DECLARE_FUNCTION(execPrintPrefabInfo); \
 	DECLARE_FUNCTION(execLoadPrefabs);

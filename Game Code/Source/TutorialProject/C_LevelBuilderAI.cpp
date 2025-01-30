@@ -45,7 +45,6 @@ void AC_LevelBuilderAI::LoadPrefabs(const FString& PrefabFolderPath)
     TArray<FAssetData> AssetDataList;
     FARFilter Filter;
     Filter.PackagePaths.Add(*PrefabFolderPath); // Use the provided folder path
-    Filter.ClassNames.Add(FName("Blueprint")); // Filter for Blueprint Class
     Filter.ClassNames.Add(FName("StaticMesh")); // Filter for Static Mesh
     Filter.bRecursivePaths = true;            // Include subdirectories
 
@@ -190,4 +189,36 @@ void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float Distance
     PlayerPreservation = FMath::Clamp(PreservationCalculation, 1.0f, 100.0f);
 
     UE_LOG(LogTemp, Log, TEXT("Player Preservation Rating: %.2f"), PlayerPreservation);
+}
+
+TArray<FString> AC_LevelBuilderAI::GenerateLevel()
+{
+    TArray<FString> NewLevel;
+
+    for(FString Prefab : PrefabNames)
+    {
+        if (PrefabRatings[Prefab][0] < PlayerSkill && PrefabRatings[Prefab][1] < PlayerScore &&
+            PrefabRatings[Prefab][2] < PlayerMovement && PrefabRatings[Prefab][3] < PlayerPreservation)
+        {
+            NewLevel.Add(Prefab);
+
+            PlayerSkill -= PrefabRatings[Prefab][0];
+            PlayerScore -= PrefabRatings[Prefab][1];
+            PlayerMovement -= PrefabRatings[Prefab][2];
+            PlayerPreservation -= PrefabRatings[Prefab][3];
+        }
+
+        else
+        {
+            UE_LOG(LogTemp, Log, TEXT("End of Level"));
+
+            for (const FString& Elem : NewLevel) 
+            {
+                UE_LOG(LogTemp, Log, TEXT("Level Composition: %s"), *Elem);
+            }
+        }
+    }
+
+
+    return NewLevel;
 }
