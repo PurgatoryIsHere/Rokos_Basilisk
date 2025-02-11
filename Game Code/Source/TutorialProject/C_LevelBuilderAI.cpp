@@ -88,7 +88,7 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     UE_LOG(LogTemp, Log, TEXT("Loaded %d prefabs."), PrefabNames.Num());
 }
 
-void AC_LevelBuilderAI::GeneratePrefabRatings()
+void AC_LevelBuilderAI::AssignPrefabRatings()
 {
     if (PrefabRatings.Num() == 0)
     {
@@ -96,24 +96,43 @@ void AC_LevelBuilderAI::GeneratePrefabRatings()
         return;
     }
 
-    for (auto& Elem : PrefabRatings)
-    {
-        TArray<int32> Ratings;
-
-        for (int i = 0; i < 4; i++)
-        {
-            Ratings.Add(FMath::RandRange(1, 10));
-        }
-
-        Elem.Value = Ratings;
-    }
+    PrefabRatings["SM_prefab1_shortHall"] = {0, 1, 1, 5};
+    PrefabRatings["SM_prefab2_longHall"] = {1, 3, 3, 6};
+    PrefabRatings["SM_prefab3_nHall"] = {4, 3, 3, 5};
+    PrefabRatings["SM_prefab4_circle"] = {2, 0, 2, 2};
+    PrefabRatings["SM_prefab5_circleObstacle"] = {3, 0, 2, 4};
+    PrefabRatings["SM_prefab6_square"] = {2, 0, 3, 2};
+    PrefabRatings["SM_prefab7_choosePath4"] = {2, 5, 4, 4};
+    PrefabRatings["SM_prefab8_longWinding"] = {4, 6, 6, 5};
+    PrefabRatings["SM_prefab9_triangle"] = {6, 0, 1, 0};
+    PrefabRatings["SM_prefab10_triangleObstacle"] = {6, 0, 1, 1};
+    PrefabRatings["SM_prefab11_cross"] = {7, 0, 0, 0};
+    PrefabRatings["SM_prefab12_ledge"] = {0, 6, 4, 3};
+    PrefabRatings["SM_prefab13_ledgeTall"] = {0, 7, 5, 4};
+    PrefabRatings["SM_prefab14_upAndDown"] = {0, 6, 3, 2};
+    PrefabRatings["SM_prefab15_jumpForIt"] = {7, 5, 7, 8};
+    PrefabRatings["SM_prefab16_arenaClimb"] = {};
+    PrefabRatings["SM_prefab17_arenaPit"] = {};
+    PrefabRatings["SM_prefab18_arenaObstacles"] = {};
+    PrefabRatings["SM_prefab19_arenaHall"] = {};
+    PrefabRatings["SM_prefab20_arenaEmpty"] = {};
+    PrefabRatings["SM_prefab21_mazeSpiral"] = {};
+    PrefabRatings["SM_prefab22_mazeStandard"] = {};
+    PrefabRatings["SM_prefab23_mazeJump"] = {};
+    PrefabRatings["SM_prefab24_mazeAGGGHHHHHH"] = {};
+    PrefabRatings["SM_prefab25_mazeDontRush"] = {};
+    PrefabRatings["SM_prefab26_modelingArch"] = {};
+    PrefabRatings["SM_prefab27_modelingCylinderPit"] = {};
+    PrefabRatings["SM_prefab28_spiralStairs"] = {};
+    PrefabRatings["SM_prefab29_modelingPitTraverse"] = {};
+    PrefabRatings["SM_prefab30_modelingPlayingWithShapes"] = {};
 
     UE_LOG(LogTemp, Log, TEXT("Generated ratings for %d prefabs."), PrefabRatings.Num());
 }
 
 void AC_LevelBuilderAI::PrintPrefabInfo()
 {
-    GeneratePrefabRatings();
+    AssignPrefabRatings();
 
     UE_LOG(LogTemp, Log, TEXT("Prefab Information:"));
 
