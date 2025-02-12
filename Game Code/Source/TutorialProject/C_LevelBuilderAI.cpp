@@ -111,21 +111,21 @@ void AC_LevelBuilderAI::AssignPrefabRatings()
     PrefabRatings["SM_prefab13_ledgeTall"] = {0, 7, 5, 4};
     PrefabRatings["SM_prefab14_upAndDown"] = {0, 6, 3, 2};
     PrefabRatings["SM_prefab15_jumpForIt"] = {7, 5, 7, 8};
-    PrefabRatings["SM_prefab16_arenaClimb"] = {};
-    PrefabRatings["SM_prefab17_arenaPit"] = {};
-    PrefabRatings["SM_prefab18_arenaObstacles"] = {};
-    PrefabRatings["SM_prefab19_arenaHall"] = {};
-    PrefabRatings["SM_prefab20_arenaEmpty"] = {};
-    PrefabRatings["SM_prefab21_mazeSpiral"] = {};
-    PrefabRatings["SM_prefab22_mazeStandard"] = {};
-    PrefabRatings["SM_prefab23_mazeJump"] = {};
-    PrefabRatings["SM_prefab24_mazeAGGGHHHHHH"] = {};
-    PrefabRatings["SM_prefab25_mazeDontRush"] = {};
-    PrefabRatings["SM_prefab26_modelingArch"] = {};
-    PrefabRatings["SM_prefab27_modelingCylinderPit"] = {};
-    PrefabRatings["SM_prefab28_spiralStairs"] = {};
-    PrefabRatings["SM_prefab29_modelingPitTraverse"] = {};
-    PrefabRatings["SM_prefab30_modelingPlayingWithShapes"] = {};
+    PrefabRatings["SM_prefab16_arenaClimb"] = {3, 0, 3, 3};
+    PrefabRatings["SM_prefab17_arenaPit"] = {5, 1, 4, 6};
+    PrefabRatings["SM_prefab18_arenaObstacles"] = {4, 4, 2, 6};
+    PrefabRatings["SM_prefab19_arenaHall"] = {6, 5, 5, 4};
+    PrefabRatings["SM_prefab20_arenaEmpty"] = {2, 1, 3, 2};
+    PrefabRatings["SM_prefab21_mazeSpiral"] = {4, 3, 10, 2};
+    PrefabRatings["SM_prefab22_mazeStandard"] = {8, 6, 9, 8};
+    PrefabRatings["SM_prefab23_mazeJump"] = {9, 7, 10, 9};
+    PrefabRatings["SM_prefab24_mazeAGGGHHHHHH"] = {10, 10, 10, 10};
+    PrefabRatings["SM_prefab25_mazeDontRush"] = {7, 5, 10, 8};
+    PrefabRatings["SM_prefab26_modelingArch"] = {4, 1, 6, 2};
+    PrefabRatings["SM_prefab27_modelingCylinderPit"] = {5, 1, 9, 2};
+    PrefabRatings["SM_prefab28_spiralStairs"] = {4, 4, 8, 3};
+    PrefabRatings["SM_prefab29_modelingPitTraverse"] = {7, 7, 10, 9};
+    PrefabRatings["SM_prefab30_modelingPlayingWithShapes"] = {4, 5, 2, 3};
 
     UE_LOG(LogTemp, Log, TEXT("Generated ratings for %d prefabs."), PrefabRatings.Num());
 }
