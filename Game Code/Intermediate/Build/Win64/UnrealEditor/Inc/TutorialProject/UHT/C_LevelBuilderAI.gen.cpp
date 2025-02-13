@@ -94,12 +94,12 @@ DEFINE_FUNCTION(AC_LevelBuilderAI::execCalculatePlayerStats)
 }
 // End Class AC_LevelBuilderAI Function CalculatePlayerStats
 
-// Begin Class AC_LevelBuilderAI Function GenerateLevel
-struct Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics
+// Begin Class AC_LevelBuilderAI Function GenerateLevelGrammar
+struct Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics
 {
-	struct C_LevelBuilderAI_eventGenerateLevel_Parms
+	struct C_LevelBuilderAI_eventGenerateLevelGrammar_Parms
 	{
-		TArray<FString> ReturnValue;
+		FString ReturnValue;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
@@ -107,37 +107,34 @@ struct Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics
 		{ "ModuleRelativePath", "C_LevelBuilderAI.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
-	static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventGenerateLevel_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::NewProp_ReturnValue_Inner,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::NewProp_ReturnValue,
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_LevelBuilderAI_eventGenerateLevelGrammar_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::NewProp_ReturnValue,
 };
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_LevelBuilderAI, nullptr, "GenerateLevel", nullptr, nullptr, Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::C_LevelBuilderAI_eventGenerateLevel_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::Function_MetaDataParams) };
-static_assert(sizeof(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::C_LevelBuilderAI_eventGenerateLevel_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel()
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_LevelBuilderAI, nullptr, "GenerateLevelGrammar", nullptr, nullptr, Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::C_LevelBuilderAI_eventGenerateLevelGrammar_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::C_LevelBuilderAI_eventGenerateLevelGrammar_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar()
 {
 	static UFunction* ReturnFunction = nullptr;
 	if (!ReturnFunction)
 	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel_Statics::FuncParams);
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar_Statics::FuncParams);
 	}
 	return ReturnFunction;
 }
-DEFINE_FUNCTION(AC_LevelBuilderAI::execGenerateLevel)
+DEFINE_FUNCTION(AC_LevelBuilderAI::execGenerateLevelGrammar)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	*(TArray<FString>*)Z_Param__Result=P_THIS->GenerateLevel();
+	*(FString*)Z_Param__Result=P_THIS->GenerateLevelGrammar();
 	P_NATIVE_END;
 }
-// End Class AC_LevelBuilderAI Function GenerateLevel
+// End Class AC_LevelBuilderAI Function GenerateLevelGrammar
 
 // Begin Class AC_LevelBuilderAI Function GetPlayerMovementRating
 struct Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerMovementRating_Statics
@@ -389,7 +386,7 @@ void AC_LevelBuilderAI::StaticRegisterNativesAC_LevelBuilderAI()
 	UClass* Class = AC_LevelBuilderAI::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "CalculatePlayerStats", &AC_LevelBuilderAI::execCalculatePlayerStats },
-		{ "GenerateLevel", &AC_LevelBuilderAI::execGenerateLevel },
+		{ "GenerateLevelGrammar", &AC_LevelBuilderAI::execGenerateLevelGrammar },
 		{ "GetPlayerMovementRating", &AC_LevelBuilderAI::execGetPlayerMovementRating },
 		{ "GetPlayerPreservationRating", &AC_LevelBuilderAI::execGetPlayerPreservationRating },
 		{ "GetPlayerScoreRating", &AC_LevelBuilderAI::execGetPlayerScoreRating },
@@ -415,7 +412,7 @@ struct Z_Construct_UClass_AC_LevelBuilderAI_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_CalculatePlayerStats, "CalculatePlayerStats" }, // 1576124650
-		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevel, "GenerateLevel" }, // 605639808
+		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GenerateLevelGrammar, "GenerateLevelGrammar" }, // 486542089
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerMovementRating, "GetPlayerMovementRating" }, // 1495668044
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerPreservationRating, "GetPlayerPreservationRating" }, // 1758752943
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerScoreRating, "GetPlayerScoreRating" }, // 4227888821
@@ -469,10 +466,10 @@ AC_LevelBuilderAI::~AC_LevelBuilderAI() {}
 struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_LevelBuilderAI, AC_LevelBuilderAI::StaticClass, TEXT("AC_LevelBuilderAI"), &Z_Registration_Info_UClass_AC_LevelBuilderAI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_LevelBuilderAI), 1847174802U) },
+		{ Z_Construct_UClass_AC_LevelBuilderAI, AC_LevelBuilderAI::StaticClass, TEXT("AC_LevelBuilderAI"), &Z_Registration_Info_UClass_AC_LevelBuilderAI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_LevelBuilderAI), 4011517009U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_634040965(TEXT("/Script/TutorialProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_3066515583(TEXT("/Script/TutorialProject"),
 	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

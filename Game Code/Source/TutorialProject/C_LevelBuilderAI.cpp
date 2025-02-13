@@ -180,7 +180,7 @@ void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFro
     PlayerScore = FMath::Clamp(ScoreCalculation, 1.0f, 100.0f);
 
     UE_LOG(LogTemp, Log, TEXT("Player Score Rating: %.2f"), PlayerScore);
-  
+
 }
 
 void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
@@ -196,7 +196,7 @@ void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMo
     UE_LOG(LogTemp, Log, TEXT("Player Movement Rating: %.2f"), PlayerMovement);
 }
 
-void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete) 
+void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete)
 {
     // Normalize variables
     float NHealth = FMath::Clamp(Health / 100.0f, 0.1f, 1.0f);
@@ -210,34 +210,44 @@ void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float Distance
     UE_LOG(LogTemp, Log, TEXT("Player Preservation Rating: %.2f"), PlayerPreservation);
 }
 
-TArray<FString> AC_LevelBuilderAI::GenerateLevel()
+FString AC_LevelBuilderAI::GenerateLevelGrammar()
 {
-    TArray<FString> NewLevel;
+    FString LevelGrammar;
+    TArray<FString> PrefabPool;
 
-    for(FString Prefab : PrefabNames)
+    float TempPlayerSkill = PlayerSkill;
+    float TempPlayerScore = PlayerScore;
+    float TempPlayerMovement = PlayerMovement;
+    float TempPlayerPreservation = PlayerPreservation;
+
+    for (FString Prefab : PrefabNames)
     {
-        if (PrefabRatings[Prefab][0] < PlayerSkill && PrefabRatings[Prefab][1] < PlayerScore &&
-            PrefabRatings[Prefab][2] < PlayerMovement && PrefabRatings[Prefab][3] < PlayerPreservation)
-        {
-            NewLevel.Add(Prefab);
+        PrefabPool.Add(Prefab);
+    }
 
-            PlayerSkill -= PrefabRatings[Prefab][0];
-            PlayerScore -= PrefabRatings[Prefab][1];
-            PlayerMovement -= PrefabRatings[Prefab][2];
-            PlayerPreservation -= PrefabRatings[Prefab][3];
+    while (!PrefabPool.IsEmpty())
+    {
+        int dieRoll = FMath::RandRange(0, PrefabPool.Num() - 1);
+        FString selectedPrefab = PrefabPool[dieRoll];
+
+        if (PrefabRatings[selectedPrefab][0] <= TempPlayerSkill && PrefabRatings[selectedPrefab][1] <= TempPlayerScore &&
+            PrefabRatings[selectedPrefab][2] <= TempPlayerMovement && PrefabRatings[selectedPrefab][3] <= TempPlayerPreservation)
+        {
+            LevelGrammar.Append(selectedPrefab + ",");
+            PrefabPool.Remove(selectedPrefab);
         }
 
-        else
+        for (FString Prefab : PrefabPool)
         {
-            UE_LOG(LogTemp, Log, TEXT("End of Level"));
-
-            for (const FString& Elem : NewLevel) 
-            {
-                UE_LOG(LogTemp, Log, TEXT("Level Composition: %s"), *Elem);
-            }
+            if (PrefabRatings[Prefab][0] > TempPlayerSkill && PrefabRatings[Prefab][1] > TempPlayerScore &&
+                PrefabRatings[Prefab][2] > TempPlayerMovement && PrefabRatings[Prefab][3] > TempPlayerPreservation)
+                {
+                    PrefabPool.Remove(Prefab);
+                }
         }
     }
 
+    UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
 
-    return NewLevel;
+    return LevelGrammar;
 }
