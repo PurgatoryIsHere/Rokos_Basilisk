@@ -2,6 +2,10 @@
 	"BuildId": "37670630",
 	"Modules": 
 	{
-		"TutorialProject": "UnrealEditor-TutorialProject-5930.dll"
+<<<<<<< HEAD
+		"TutorialProject": "UnrealEditor-TutorialProject.dll"
+=======
+		"TutorialProject": "UnrealEditor-TutorialProject-4440.dll"
+>>>>>>> feb4f52ed915f73e31edce27ed1c6991d2b1bb8a
 	}
 }

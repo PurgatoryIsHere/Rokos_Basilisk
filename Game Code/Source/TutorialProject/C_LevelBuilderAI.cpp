@@ -213,37 +213,39 @@ void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float Distance
 FString AC_LevelBuilderAI::GenerateLevelGrammar()
 {
     FString LevelGrammar;
-    TArray<FString> PrefabPool;
+    TArray<FString> PrefabPool = PrefabNames;
 
-    float TempPlayerSkill = PlayerSkill;
-    float TempPlayerScore = PlayerScore;
-    float TempPlayerMovement = PlayerMovement;
-    float TempPlayerPreservation = PlayerPreservation;
-
-    for (FString Prefab : PrefabNames)
-    {
-        PrefabPool.Add(Prefab);
-    }
-
-    while (!PrefabPool.IsEmpty())
+    while (PrefabPool.Num() > 0)
     {
         int dieRoll = FMath::RandRange(0, PrefabPool.Num() - 1);
         FString selectedPrefab = PrefabPool[dieRoll];
 
-        if (PrefabRatings[selectedPrefab][0] <= TempPlayerSkill && PrefabRatings[selectedPrefab][1] <= TempPlayerScore &&
-            PrefabRatings[selectedPrefab][2] <= TempPlayerMovement && PrefabRatings[selectedPrefab][3] <= TempPlayerPreservation)
+        if (PrefabRatings[selectedPrefab][0] <= PlayerSkill && PrefabRatings[selectedPrefab][1] <= PlayerScore &&
+            PrefabRatings[selectedPrefab][2] <= PlayerMovement && PrefabRatings[selectedPrefab][3] <= PlayerPreservation)
         {
             LevelGrammar.Append(selectedPrefab + ",");
-            PrefabPool.Remove(selectedPrefab);
+            PrefabPool.RemoveAt(dieRoll);
+
+            PlayerSkill -= PrefabRatings[selectedPrefab][0];
+            PlayerScore -= PrefabRatings[selectedPrefab][1];
+            PlayerMovement -= PrefabRatings[selectedPrefab][2];
+            PlayerPreservation -= PrefabRatings[selectedPrefab][3];
         }
 
-        for (FString Prefab : PrefabPool)
+        TArray<FString> PrefabsToRemove;
+
+        for (const FString& Prefab : PrefabPool)
         {
-            if (PrefabRatings[Prefab][0] > TempPlayerSkill && PrefabRatings[Prefab][1] > TempPlayerScore &&
-                PrefabRatings[Prefab][2] > TempPlayerMovement && PrefabRatings[Prefab][3] > TempPlayerPreservation)
-                {
-                    PrefabPool.Remove(Prefab);
-                }
+            if (PrefabRatings[Prefab][0] > PlayerSkill || PrefabRatings[Prefab][1] > PlayerScore ||
+                PrefabRatings[Prefab][2] > PlayerMovement || PrefabRatings[Prefab][3] > PlayerPreservation)
+            {
+                PrefabsToRemove.Add(Prefab);
+            }
+        }
+
+        for (const FString& Prefab : PrefabsToRemove)
+        {
+            PrefabPool.Remove(Prefab);
         }
     }
 
