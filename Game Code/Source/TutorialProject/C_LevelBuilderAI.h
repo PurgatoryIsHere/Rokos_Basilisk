@@ -24,12 +24,17 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	TArray<FString> PrefabNames;
+	TMap<FString, FString> PrefabNumbers;
 	TMap<FString, TArray<int32>> PrefabRatings;
 
 	float PlayerSkill;
 	float PlayerScore;
 	float PlayerMovement;
 	float PlayerPreservation;
+
+	FString LevelGrammar;
+
+	float EnemyDensity;
 
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	void LoadPrefabs(const FString& PrefabFolderPath);
@@ -65,4 +70,6 @@ private:
 	void CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete);
 	void CalculatePlayerMovement(float JumpPref, float DistanceMoved);
 	void CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete);
+
+	void CalculateEnemyDensity();
 };

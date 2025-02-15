@@ -20,6 +20,8 @@ AC_LevelBuilderAI::AC_LevelBuilderAI()
     PlayerMovement = 0.0f;
     PlayerPreservation = 0.0f;
 
+    LevelGrammar = "";
+    EnemyDensity = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -58,6 +60,7 @@ void AC_LevelBuilderAI::LoadPrefabs(const FString& PrefabFolderPath)
 void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataList)
 {
     PrefabNames.Empty(); // Clear any existing data
+    PrefabNumbers.Empty();
     PrefabRatings.Empty();
 
     std::set<FString> AssetsToIgnore;
@@ -71,6 +74,7 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     AssetsToIgnore.insert("SM_MERGED_StaticMeshActor_UAID_8C554A400221CF2802_1244089197");
     AssetsToIgnore.insert("SM_EmptyHallway");
     AssetsToIgnore.insert("Box_7F096962");
+    AssetsToIgnore.insert("SM_test");
 
     for (const FAssetData& AssetData : AssetDataList)
     {
@@ -78,6 +82,25 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
         {
             FString PrefabName = AssetData.AssetName.ToString();
             PrefabNames.Add(PrefabName);
+
+            UE_LOG(LogTemp, Log, TEXT("Name: %s"), *PrefabName);
+
+            // Use regular expression to find the prefab number
+            FRegexPattern PrefabPattern(TEXT("SM_prefab(\\d+)_"));
+            FRegexMatcher PrefabMatcher(PrefabPattern, PrefabName);
+
+            if (PrefabMatcher.FindNext())
+            {
+                FString PrefabNumber = PrefabMatcher.GetCaptureGroup(1);
+                PrefabNumbers.Add(PrefabName, PrefabNumber);
+
+                UE_LOG(LogTemp, Log, TEXT("Number: %s"), *PrefabNumber);
+            }
+
+            else
+            {
+                UE_LOG(LogTemp, Log, TEXT("Prefab number not found"));
+            }
 
             // Initialize ratings array (e.g., with default values)
             static const TArray<int32> DefaultRatings = { 0, 0, 0, 0 };
@@ -212,7 +235,6 @@ void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float Distance
 
 FString AC_LevelBuilderAI::GenerateLevelGrammar()
 {
-    FString LevelGrammar;
     TArray<FString> PrefabPool = PrefabNames;
 
     while (PrefabPool.Num() > 0)
@@ -223,7 +245,7 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
         if (PrefabRatings[selectedPrefab][0] <= PlayerSkill && PrefabRatings[selectedPrefab][1] <= PlayerScore &&
             PrefabRatings[selectedPrefab][2] <= PlayerMovement && PrefabRatings[selectedPrefab][3] <= PlayerPreservation)
         {
-            LevelGrammar.Append(selectedPrefab + ",");
+            LevelGrammar.Append(PrefabNumbers[selectedPrefab] + ",");
             PrefabPool.RemoveAt(dieRoll);
 
             PlayerSkill -= PrefabRatings[selectedPrefab][0];
@@ -249,7 +271,21 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
         }
     }
 
+    if (LevelGrammar.Len() > 0)
+    {
+        LevelGrammar.RemoveAt(LevelGrammar.Len() - 1);
+    }
+
     UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
 
+    CalculateEnemyDensity();
+
     return LevelGrammar;
+}
+
+void AC_LevelBuilderAI::CalculateEnemyDensity()
+{
+    EnemyDensity = PlayerSkill + PlayerScore + PlayerMovement + PlayerPreservation;
+
+    UE_LOG(LogTemp, Log, TEXT("Enemy Density of Next Level: %.2f"), EnemyDensity);
 }
