@@ -10,13 +10,13 @@
                         "text": "'FARFilter::ClassNames': Class names are now represented by path names. Please use ClassPaths. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_LevelBuilderAI.cpp"
+                        "uri": "file:///C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Source/TutorialProject/C_LevelBuilderAI.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_LevelBuilderAI.cpp"
+                                    "uri": "file:///C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Source/TutorialProject/C_LevelBuilderAI.cpp"
                                 },
                                 "region": {
                                     "startLine": 50,
