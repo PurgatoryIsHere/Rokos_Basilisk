@@ -103,6 +103,11 @@ void AC_FirstPersonCharacter::TakeDamage(float Damage)
 	}
 }
 
+void AC_FirstPersonCharacter::UpdateHealth(float RemainingHealth)
+{
+	Health = RemainingHealth;
+}
+
 void AC_FirstPersonCharacter::UpdateShotsFired()
 {
 	ShotsFired += 1.0;
@@ -163,6 +168,20 @@ void AC_FirstPersonCharacter::UpdateIsDetected(bool isSeeingPlayer)
 void AC_FirstPersonCharacter::UpdateStealth()
 {
 	Stealth = TimeToComplete - DetectionTime;
+}
+
+TArray<float> AC_FirstPersonCharacter::GetStatsAsArray()
+{
+	PlayerStats.Add(Health);
+	PlayerStats.Add(Accuracy);
+	PlayerStats.Add(TimeToKill);
+	PlayerStats.Add(DistanceFromKill);
+	PlayerStats.Add(TimeToComplete);
+	PlayerStats.Add(JumpPref);
+	PlayerStats.Add(DistanceMoved);
+	PlayerStats.Add(Stealth);
+
+	return PlayerStats;
 }
 
 

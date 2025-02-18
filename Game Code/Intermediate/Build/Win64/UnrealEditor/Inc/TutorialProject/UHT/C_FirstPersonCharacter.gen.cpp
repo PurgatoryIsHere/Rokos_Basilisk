@@ -313,6 +313,51 @@ DEFINE_FUNCTION(AC_FirstPersonCharacter::execGetJumpPref)
 }
 // End Class AC_FirstPersonCharacter Function GetJumpPref
 
+// Begin Class AC_FirstPersonCharacter Function GetStatsAsArray
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics
+{
+	struct C_FirstPersonCharacter_eventGetStatsAsArray_Parms
+	{
+		TArray<float> ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Getter" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_FirstPersonCharacter_eventGetStatsAsArray_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::NewProp_ReturnValue_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "GetStatsAsArray", nullptr, nullptr, Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::C_FirstPersonCharacter_eventGetStatsAsArray_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::C_FirstPersonCharacter_eventGetStatsAsArray_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execGetStatsAsArray)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(TArray<float>*)Z_Param__Result=P_THIS->GetStatsAsArray();
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function GetStatsAsArray
+
 // Begin Class AC_FirstPersonCharacter Function GetStealth
 struct Z_Construct_UFunction_AC_FirstPersonCharacter_GetStealth_Statics
 {
@@ -560,6 +605,49 @@ DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateDistanceFromKill)
 }
 // End Class AC_FirstPersonCharacter Function UpdateDistanceFromKill
 
+// Begin Class AC_FirstPersonCharacter Function UpdateHealth
+struct Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics
+{
+	struct C_FirstPersonCharacter_eventUpdateHealth_Parms
+	{
+		float RemainingHealth;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Update" },
+		{ "ModuleRelativePath", "C_FirstPersonCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_RemainingHealth;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::NewProp_RemainingHealth = { "RemainingHealth", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_FirstPersonCharacter_eventUpdateHealth_Parms, RemainingHealth), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::NewProp_RemainingHealth,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_FirstPersonCharacter, nullptr, "UpdateHealth", nullptr, nullptr, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::C_FirstPersonCharacter_eventUpdateHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::C_FirstPersonCharacter_eventUpdateHealth_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_FirstPersonCharacter::execUpdateHealth)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_RemainingHealth);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdateHealth(Z_Param_RemainingHealth);
+	P_NATIVE_END;
+}
+// End Class AC_FirstPersonCharacter Function UpdateHealth
+
 // Begin Class AC_FirstPersonCharacter Function UpdateIsDetected
 struct Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateIsDetected_Statics
 {
@@ -783,12 +871,14 @@ void AC_FirstPersonCharacter::StaticRegisterNativesAC_FirstPersonCharacter()
 		{ "GetDistanceMoved", &AC_FirstPersonCharacter::execGetDistanceMoved },
 		{ "GetHealth", &AC_FirstPersonCharacter::execGetHealth },
 		{ "GetJumpPref", &AC_FirstPersonCharacter::execGetJumpPref },
+		{ "GetStatsAsArray", &AC_FirstPersonCharacter::execGetStatsAsArray },
 		{ "GetStealth", &AC_FirstPersonCharacter::execGetStealth },
 		{ "GetTimeToComplete", &AC_FirstPersonCharacter::execGetTimeToComplete },
 		{ "GetTimeToKill", &AC_FirstPersonCharacter::execGetTimeToKill },
 		{ "TakeDamage", &AC_FirstPersonCharacter::execTakeDamage },
 		{ "UpdateAccuracy", &AC_FirstPersonCharacter::execUpdateAccuracy },
 		{ "UpdateDistanceFromKill", &AC_FirstPersonCharacter::execUpdateDistanceFromKill },
+		{ "UpdateHealth", &AC_FirstPersonCharacter::execUpdateHealth },
 		{ "UpdateIsDetected", &AC_FirstPersonCharacter::execUpdateIsDetected },
 		{ "UpdateShotsFired", &AC_FirstPersonCharacter::execUpdateShotsFired },
 		{ "UpdateShotsHit", &AC_FirstPersonCharacter::execUpdateShotsHit },
@@ -877,12 +967,14 @@ struct Z_Construct_UClass_AC_FirstPersonCharacter_Statics
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetDistanceMoved, "GetDistanceMoved" }, // 3793923622
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetHealth, "GetHealth" }, // 2425182468
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetJumpPref, "GetJumpPref" }, // 4071807378
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetStatsAsArray, "GetStatsAsArray" }, // 2536160370
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetStealth, "GetStealth" }, // 3560031927
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToComplete, "GetTimeToComplete" }, // 3587344135
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_GetTimeToKill, "GetTimeToKill" }, // 1709936340
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_TakeDamage, "TakeDamage" }, // 3463837870
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateAccuracy, "UpdateAccuracy" }, // 477216252
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateDistanceFromKill, "UpdateDistanceFromKill" }, // 2845905192
+		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateHealth, "UpdateHealth" }, // 1040150265
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateIsDetected, "UpdateIsDetected" }, // 1821284321
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsFired, "UpdateShotsFired" }, // 3699157549
 		{ &Z_Construct_UFunction_AC_FirstPersonCharacter_UpdateShotsHit, "UpdateShotsHit" }, // 2116860451
@@ -958,14 +1050,14 @@ AC_FirstPersonCharacter::~AC_FirstPersonCharacter() {}
 // End Class AC_FirstPersonCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_FirstPersonCharacter, AC_FirstPersonCharacter::StaticClass, TEXT("AC_FirstPersonCharacter"), &Z_Registration_Info_UClass_AC_FirstPersonCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_FirstPersonCharacter), 4220491666U) },
+		{ Z_Construct_UClass_AC_FirstPersonCharacter, AC_FirstPersonCharacter::StaticClass, TEXT("AC_FirstPersonCharacter"), &Z_Registration_Info_UClass_AC_FirstPersonCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_FirstPersonCharacter), 113860178U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_3706961063(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_1684664972(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_FirstPersonCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

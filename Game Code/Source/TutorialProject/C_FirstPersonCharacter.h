@@ -87,6 +87,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetStealth() { return Stealth; }
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	TArray<float> GetStatsAsArray();
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void UpdateHealth(float RemainingHealth);
+
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateShotsFired();
 
@@ -130,6 +136,8 @@ private:
 	bool isDetected;
 	float DetectionTime;
 	float DetectionStartTime;
+
+	TArray<float> PlayerStats;
 
 	void MoveForward(float ActionValueY);
 	void MoveRight(float ActionValueX);

@@ -43,7 +43,7 @@ public:
 	void PrintPrefabInfo();
 
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
-	void CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth);
+	void CalculatePlayerStats(TArray<float> PlayerStats);
 
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	FString GenerateLevelGrammar();

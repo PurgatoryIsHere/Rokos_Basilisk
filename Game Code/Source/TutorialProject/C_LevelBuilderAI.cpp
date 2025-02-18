@@ -171,12 +171,12 @@ void AC_LevelBuilderAI::PrintPrefabInfo()
     }
 }
 
-void AC_LevelBuilderAI::CalculatePlayerStats(float Health, float Accuracy, float TimeToKill, float DistanceFromKill, float TimeToComplete, float JumpPref, float DistanceMoved, float Stealth)
+void AC_LevelBuilderAI::CalculatePlayerStats(TArray<float> PlayerStats)
 {
-    CalculatePlayerSkill(Health, Accuracy);
-    CalculatePlayerScore(TimeToKill, DistanceFromKill, TimeToComplete);
-    CalculatePlayerMovement(JumpPref, DistanceMoved);
-    CalculatePlayerPreservation(Health, DistanceFromKill, Stealth, TimeToComplete);
+    CalculatePlayerSkill(PlayerStats[0], PlayerStats[1]);
+    CalculatePlayerScore(PlayerStats[2], PlayerStats[3], PlayerStats[4]);
+    CalculatePlayerMovement(PlayerStats[5], PlayerStats[6]);
+    CalculatePlayerPreservation(PlayerStats[0], PlayerStats[3], PlayerStats[7], PlayerStats[4]);
 }
 
 void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
