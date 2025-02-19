@@ -37,10 +37,22 @@
     <Filter Include="Source\TutorialProject">
       <UniqueIdentifier>{4CE553E8-E69D-357B-B8BF-0342E416E254}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TutorialProject\BasiliskInstance.cpp">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TutorialProject\BasiliskInstance.h">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TutorialProject\C_Basic_AI.cpp">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TutorialProject\C_Basic_AI.h">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TutorialProject\C_BasiliskInstance.cpp">
+      <Filter>Source\TutorialProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TutorialProject\C_BasiliskInstance.h">
       <Filter>Source\TutorialProject</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TutorialProject\C_FirstPersonCharacter.cpp">

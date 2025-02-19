@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_basiliskinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_basiliskinstance.h",
+            "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basiliskinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -289,3 +289,13 @@ void AC_LevelBuilderAI::CalculateEnemyDensity()
 
     UE_LOG(LogTemp, Log, TEXT("Enemy Density of Next Level: %.2f"), EnemyDensity);
 }
+
+TArray<float> AC_LevelBuilderAI::GetPlayerRatingsAsArray()
+{
+    PlayerRatings.Add(PlayerSkill);
+    PlayerRatings.Add(PlayerScore);
+    PlayerRatings.Add(PlayerMovement);
+    PlayerRatings.Add(PlayerPreservation);
+
+    return PlayerRatings;
+}

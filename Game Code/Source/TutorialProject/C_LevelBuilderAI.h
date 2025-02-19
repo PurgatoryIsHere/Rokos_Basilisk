@@ -60,7 +60,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetPlayerPreservationRating() { return PlayerPreservation; };
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	TArray<float> GetPlayerRatingsAsArray();
+
 private:
+
+	TArray<float> PlayerRatings;
 
 	// Helper to process the assets found
 	void ProcessPrefabAssets(const TArray<FAssetData>& AssetDataList);
