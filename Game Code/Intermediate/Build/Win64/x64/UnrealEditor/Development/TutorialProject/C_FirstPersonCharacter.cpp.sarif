@@ -10,16 +10,16 @@
                         "text": "'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
+                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
+                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
                                 },
                                 "region": {
-                                    "startLine": 64,
+                                    "startLine": 65,
                                     "startColumn": 7
                                 }
                             }
@@ -32,16 +32,16 @@
                         "text": "'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
+                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Users/akhta/Capstone/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
+                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
                                 },
                                 "region": {
-                                    "startLine": 147,
+                                    "startLine": 152,
                                     "startColumn": 1
                                 }
                             }
@@ -67,10 +67,10 @@
                             "id": 1,
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h"
+                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h"
                                 },
                                 "region": {
-                                    "startLine": 42,
+                                    "startLine": 14,
                                     "startColumn": 7
                                 }
                             },
