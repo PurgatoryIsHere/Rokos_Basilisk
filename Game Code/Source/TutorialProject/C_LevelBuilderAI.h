@@ -63,6 +63,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	TArray<float> GetPlayerRatingsAsArray();
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetEnemyDensity() { return EnemyDensity; };
+
+
 private:
 
 	TArray<float> PlayerRatings;
