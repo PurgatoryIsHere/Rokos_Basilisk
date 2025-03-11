@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basic_ai.gen.cpp",
+        "Source": "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basic_ai.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
-            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\source\\tutorialproject\\c_basic_ai.h",
+            "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_basic_ai.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
@@ -36,7 +36,7 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\public\\charactermovementcomponentasync.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponentasync.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h",
-            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basic_ai.generated.h"
+            "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basic_ai.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

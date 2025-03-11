@@ -235,14 +235,14 @@ AC_Basic_AI::~AC_Basic_AI() {}
 // End Class AC_Basic_AI
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_chees_Documents_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AC_Basic_AI, AC_Basic_AI::StaticClass, TEXT("AC_Basic_AI"), &Z_Registration_Info_UClass_AC_Basic_AI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Basic_AI), 2102873980U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_284335796(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_chees_Documents_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_284335796(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_Users_chees_Documents_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_chees_Documents_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

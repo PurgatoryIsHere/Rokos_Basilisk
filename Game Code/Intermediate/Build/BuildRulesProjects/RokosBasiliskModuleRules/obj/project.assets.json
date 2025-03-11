@@ -6,30 +6,30 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     "net8.0": [
-      "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
-      "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
-      "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
-      "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+      "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EdgeN\\.nuget\\packages\\": {},
+    "C:\\Users\\chees\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Unreal Projects\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\RokosBasiliskModuleRules.csproj",
+      "projectUniqueName": "C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\RokosBasiliskModuleRules.csproj",
       "projectName": "RokosBasiliskModuleRules",
-      "projectPath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Unreal Projects\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\RokosBasiliskModuleRules.csproj",
-      "packagesPath": "C:\\Users\\EdgeN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Unreal Projects\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\obj\\",
+      "projectPath": "C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\RokosBasiliskModuleRules.csproj",
+      "packagesPath": "C:\\Users\\chees\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\EdgeN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chees\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -44,17 +44,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
-              "projectPath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
+            "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
+              "projectPath": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
             },
-            "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
-              "projectPath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
+            "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj": {
+              "projectPath": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj"
             },
-            "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
-              "projectPath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+            "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+              "projectPath": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
             },
-            "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
-              "projectPath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
+            "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+              "projectPath": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj"
             }
           }
         }
@@ -67,7 +67,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -98,8 +98,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -107,8 +107,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -116,8 +116,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -125,8 +125,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net8.0"
       ]

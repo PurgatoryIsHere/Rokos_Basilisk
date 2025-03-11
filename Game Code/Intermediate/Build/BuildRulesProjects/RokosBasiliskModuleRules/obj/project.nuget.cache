@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "RM4MQMwqVf0=",
+  "dgSpecHash": "+Et+qvzRSsU=",
   "success": false,
-  "projectFilePath": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Unreal Projects\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\RokosBasiliskModuleRules.csproj",
+  "projectFilePath": "C:\\Users\\chees\\Documents\\GitHub\\Rokos_Basilisk\\Game Code\\Intermediate\\Build\\BuildRulesProjects\\RokosBasiliskModuleRules\\RokosBasiliskModuleRules.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -17,8 +17,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -26,8 +26,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
@@ -35,8 +35,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\EdgeN\\OneDrive\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "message": "Unable to find project 'C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\chees\\Documents\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net8.0"
       ]

@@ -1,12 +1,12 @@
-"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Source\TutorialProject\C_LevelBuilderAI.cpp"
-/FI"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/FI"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Definitions.TutorialProject.h"
-/Yu"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/Fp"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
-/Fo"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.obj"
-/experimental:log "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.sarif"
-/sourceDependencies "C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.dep.json"
-@"C:\Users\EdgeN\OneDrive\Documents\Unreal Projects\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\TutorialProject.Shared.rsp"
+"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Source\TutorialProject\C_LevelBuilderAI.cpp"
+/FI"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Definitions.TutorialProject.h"
+/Yu"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.obj"
+/experimental:log "C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.sarif"
+/sourceDependencies "C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.dep.json"
+@"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\TutorialProject.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
