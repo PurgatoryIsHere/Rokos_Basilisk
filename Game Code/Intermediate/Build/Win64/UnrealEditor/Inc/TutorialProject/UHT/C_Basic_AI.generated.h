@@ -17,6 +17,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execUpdateTimeSurvived); \
 	DECLARE_FUNCTION(execGetTimeSurvived); \
+	DECLARE_FUNCTION(execKillField); \
 	DECLARE_FUNCTION(execTakeDamage);
 
 

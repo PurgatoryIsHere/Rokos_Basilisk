@@ -33,7 +33,6 @@ void AC_Basic_AI::Tick(float DeltaTime)
 	{
 		ElapsedTime = GetWorld()->GetTimeSeconds() - StartingTime;
 	}
-
 }
 
 // Called to bind functionality to input
@@ -61,6 +60,16 @@ void AC_Basic_AI::TakeDamage(float Damage)
 
 		UpdateTimeSurvived();
 	}
+}
+
+bool AC_Basic_AI::KillField(float ZComponent)
+{
+	if (ZComponent <= 2500)
+	{
+		TakeDamage(30);
+	}
+
+	return isDead;
 }
 
 void AC_Basic_AI::UpdateTimeSurvived()

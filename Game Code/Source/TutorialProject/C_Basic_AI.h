@@ -40,6 +40,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
+	UFUNCTION(BlueprintCallable, Category = "Damage")
+	bool KillField(float ZComponent);
+
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetTimeSurvived() { return TimeSurvived; };
 
