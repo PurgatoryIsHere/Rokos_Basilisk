@@ -75,6 +75,8 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     AssetsToIgnore.insert("SM_EmptyHallway");
     AssetsToIgnore.insert("Box_7F096962");
     AssetsToIgnore.insert("SM_test");
+    AssetsToIgnore.insert("SM_endPiece");
+
 
     for (const FAssetData& AssetData : AssetDataList)
     {
