@@ -273,10 +273,7 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
         }
     }
 
-    if (LevelGrammar.Len() > 0)
-    {
-        LevelGrammar.RemoveAt(LevelGrammar.Len() - 1);
-    }
+    LevelGrammar.Append("31");
 
     UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
 
