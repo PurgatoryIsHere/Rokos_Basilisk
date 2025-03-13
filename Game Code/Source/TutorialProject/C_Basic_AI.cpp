@@ -15,6 +15,8 @@ AC_Basic_AI::AC_Basic_AI()
 
 	StartingTime = 0.0f;
 	ElapsedTime = 0.0f;
+
+	KillFieldTriggered = false;
 }
 
 // Called when the game starts or when spawned
@@ -67,9 +69,10 @@ bool AC_Basic_AI::KillField(float ZComponent)
 	if (ZComponent <= 2500)
 	{
 		TakeDamage(30);
+		KillFieldTriggered = true;
 	}
 
-	return isDead;
+	return KillFieldTriggered;
 }
 
 void AC_Basic_AI::UpdateTimeSurvived()

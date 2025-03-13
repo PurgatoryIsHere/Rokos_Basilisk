@@ -53,4 +53,6 @@ private:
 
 	float StartingTime;
 	float ElapsedTime;
+
+	bool KillFieldTriggered;
 };
