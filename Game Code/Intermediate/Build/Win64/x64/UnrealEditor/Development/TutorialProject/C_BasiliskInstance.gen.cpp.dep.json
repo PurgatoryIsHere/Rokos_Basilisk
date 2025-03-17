@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basiliskinstance.gen.cpp",
+        "Source": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basiliskinstance.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
-            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\source\\tutorialproject\\c_basiliskinstance.h",
-            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basiliskinstance.generated.h"
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\game code\\source\\tutorialproject\\c_basiliskinstance.h",
+            "c:\\users\\edgen\\onedrive\\documents\\unreal projects\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_basiliskinstance.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
