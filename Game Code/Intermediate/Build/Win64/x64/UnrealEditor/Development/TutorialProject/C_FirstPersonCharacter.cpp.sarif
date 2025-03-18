@@ -10,13 +10,13 @@
                         "text": "'void AC_FirstPersonCharacter::TakeDamage(float)': member function does not override any base class virtual member function"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
+                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
+                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
                                 },
                                 "region": {
                                     "startLine": 65,
@@ -32,13 +32,13 @@
                         "text": "'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
+                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/Users/EdgeN/OneDrive/Documents/Unreal Projects/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
+                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_FirstPersonCharacter.h"
                                 },
                                 "region": {
                                     "startLine": 152,
