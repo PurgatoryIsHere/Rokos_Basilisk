@@ -75,6 +75,9 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     AssetsToIgnore.insert("SM_EmptyHallway");
     AssetsToIgnore.insert("Box_7F096962");
     AssetsToIgnore.insert("SM_test");
+    AssetsToIgnore.insert("SM_endPiece");
+    AssetsToIgnore.insert("SM_startingLevel");
+
 
     for (const FAssetData& AssetData : AssetDataList)
     {
@@ -271,10 +274,7 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
         }
     }
 
-    if (LevelGrammar.Len() > 0)
-    {
-        LevelGrammar.RemoveAt(LevelGrammar.Len() - 1);
-    }
+    LevelGrammar.Append("31");
 
     UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
 
@@ -285,7 +285,27 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
 
 void AC_LevelBuilderAI::CalculateEnemyDensity()
 {
-    EnemyDensity = PlayerSkill + PlayerScore + PlayerMovement + PlayerPreservation;
+    if (PlayerSkill > 10)
+    {
+        PlayerSkill /= 10;
+    }
+
+    if (PlayerScore > 10)
+    {
+        PlayerScore /= 10;
+    }
+
+    if (PlayerMovement > 10)
+    {
+        PlayerMovement /= 10;
+    }
+
+    if (PlayerPreservation > 10)
+    {
+        PlayerPreservation /= 10;
+    }
+
+    EnemyDensity = round(PlayerSkill + PlayerScore + PlayerMovement + PlayerPreservation);
 
     UE_LOG(LogTemp, Log, TEXT("Enemy Density of Next Level: %.2f"), EnemyDensity);
 }

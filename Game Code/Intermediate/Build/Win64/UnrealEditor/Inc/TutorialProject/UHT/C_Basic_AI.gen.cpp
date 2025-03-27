@@ -58,6 +58,58 @@ DEFINE_FUNCTION(AC_Basic_AI::execGetTimeSurvived)
 }
 // End Class AC_Basic_AI Function GetTimeSurvived
 
+// Begin Class AC_Basic_AI Function KillField
+struct Z_Construct_UFunction_AC_Basic_AI_KillField_Statics
+{
+	struct C_Basic_AI_eventKillField_Parms
+	{
+		float ZComponent;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Damage" },
+		{ "ModuleRelativePath", "C_Basic_AI.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ZComponent;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::NewProp_ZComponent = { "ZComponent", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_Basic_AI_eventKillField_Parms, ZComponent), METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((C_Basic_AI_eventKillField_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(C_Basic_AI_eventKillField_Parms), &Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::NewProp_ZComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_Basic_AI, nullptr, "KillField", nullptr, nullptr, Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::PropPointers), sizeof(Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::C_Basic_AI_eventKillField_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::C_Basic_AI_eventKillField_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AC_Basic_AI_KillField()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_Basic_AI_KillField_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_Basic_AI::execKillField)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_ZComponent);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->KillField(Z_Param_ZComponent);
+	P_NATIVE_END;
+}
+// End Class AC_Basic_AI Function KillField
+
 // Begin Class AC_Basic_AI Function TakeDamage
 struct Z_Construct_UFunction_AC_Basic_AI_TakeDamage_Statics
 {
@@ -137,6 +189,7 @@ void AC_Basic_AI::StaticRegisterNativesAC_Basic_AI()
 	UClass* Class = AC_Basic_AI::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "GetTimeSurvived", &AC_Basic_AI::execGetTimeSurvived },
+		{ "KillField", &AC_Basic_AI::execKillField },
 		{ "TakeDamage", &AC_Basic_AI::execTakeDamage },
 		{ "UpdateTimeSurvived", &AC_Basic_AI::execUpdateTimeSurvived },
 	};
@@ -176,6 +229,7 @@ struct Z_Construct_UClass_AC_Basic_AI_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AC_Basic_AI_GetTimeSurvived, "GetTimeSurvived" }, // 1745805027
+		{ &Z_Construct_UFunction_AC_Basic_AI_KillField, "KillField" }, // 3791280515
 		{ &Z_Construct_UFunction_AC_Basic_AI_TakeDamage, "TakeDamage" }, // 1026483923
 		{ &Z_Construct_UFunction_AC_Basic_AI_UpdateTimeSurvived, "UpdateTimeSurvived" }, // 3661232123
 	};
@@ -235,14 +289,14 @@ AC_Basic_AI::~AC_Basic_AI() {}
 // End Class AC_Basic_AI
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics
+struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_Basic_AI, AC_Basic_AI::StaticClass, TEXT("AC_Basic_AI"), &Z_Registration_Info_UClass_AC_Basic_AI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Basic_AI), 2102873980U) },
+		{ Z_Construct_UClass_AC_Basic_AI, AC_Basic_AI::StaticClass, TEXT("AC_Basic_AI"), &Z_Registration_Info_UClass_AC_Basic_AI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Basic_AI), 2701307555U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_284335796(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_177683327(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -14,7 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TUTORIALPROJECT_C_LevelBuilderAI_generated_h
 
-#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetEnemyDensity); \
 	DECLARE_FUNCTION(execGetPlayerRatingsAsArray); \
 	DECLARE_FUNCTION(execGetPlayerPreservationRating); \
 	DECLARE_FUNCTION(execGetPlayerMovementRating); \
@@ -26,7 +27,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execLoadPrefabs);
 
 
-#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC_LevelBuilderAI(); \
 	friend struct Z_Construct_UClass_AC_LevelBuilderAI_Statics; \
@@ -35,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AC_LevelBuilderAI)
 
 
-#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AC_LevelBuilderAI(AC_LevelBuilderAI&&); \
@@ -47,13 +48,13 @@ public: \
 	NO_API virtual ~AC_LevelBuilderAI();
 
 
-#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_9_PROLOG
-#define FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_GENERATED_BODY \
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_9_PROLOG
+#define FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,7 +62,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TUTORIALPROJECT_API UClass* StaticClass<class AC_LevelBuilderAI>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h
+#define CURRENT_FILE_ID FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

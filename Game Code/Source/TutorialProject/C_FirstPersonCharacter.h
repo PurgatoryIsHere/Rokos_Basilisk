@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "C_FirstPersonCharacter.generated.h"
 
 UCLASS()
@@ -139,9 +140,13 @@ private:
 
 	TArray<float> PlayerStats;
 
+	float SprintSpeedMultiplier;
+
 	void MoveForward(float ActionValueY);
 	void MoveRight(float ActionValueX);
 	void Jump();
+	void StartSprinting();
+	void StopSprinting();
 
 
 };

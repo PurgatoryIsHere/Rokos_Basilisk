@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TutorialProject-4739.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\BasiliskInstance.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_Basic_AI.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_FirstPersonCharacter.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\MyCharacter.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\TutorialProject.init.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\BasiliskInstance.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_Basic_AI.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_FirstPersonCharacter.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_LevelBuilderAI.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\MyCharacter.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\TutorialProject.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\PerModuleInline.gen.cpp.obj"
+"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Default.rc2.res"
+/OUT:"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\UnrealEditor-TutorialProject-4739.lib"

@@ -30,6 +30,9 @@ AC_FirstPersonCharacter::AC_FirstPersonCharacter()
 	isDetected = false;
 	DetectionTime = 0.0f;
 	DetectionStartTime = 0.0f;
+
+	GetCharacterMovement()->MaxWalkSpeed = 600.f;
+	SprintSpeedMultiplier = 2.0f;
 }
 
 // Called when the game starts or when spawned
@@ -68,22 +71,35 @@ void AC_FirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &AC_FirstPersonCharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction(TEXT("Sprint"), EInputEvent::IE_Pressed, this, &AC_FirstPersonCharacter::StartSprinting);
+	PlayerInputComponent->BindAction(TEXT("Sprint"), EInputEvent::IE_Released, this, &AC_FirstPersonCharacter::StopSprinting);
+
 }
 
 void AC_FirstPersonCharacter::MoveForward(float ActionValueY)
 {
-	AddMovementInput(GetActorForwardVector(), ActionValueY);
+	AddMovementInput(GetActorForwardVector(), (ActionValueY * SprintSpeedMultiplier));
 }
 
 void AC_FirstPersonCharacter::MoveRight(float ActionValueX)
 {
-	AddMovementInput(GetActorRightVector(), ActionValueX);
+	AddMovementInput(GetActorRightVector(), (ActionValueX * SprintSpeedMultiplier));
 }
 
 void AC_FirstPersonCharacter::Jump()
 {
 	Super::Jump();
 	JumpPref++;
+}
+
+void AC_FirstPersonCharacter::StartSprinting()
+{
+	GetCharacterMovement()->MaxWalkSpeed *= SprintSpeedMultiplier;
+}
+
+void AC_FirstPersonCharacter::StopSprinting()
+{
+	GetCharacterMovement()->MaxWalkSpeed /= SprintSpeedMultiplier; // Reset to normal speed
 }
 
 void AC_FirstPersonCharacter::TakeDamage(float Damage)
