@@ -8,6 +8,7 @@
 #include "HAL/FileManager.h"
 #include <set>
 #include <cmath>
+#include <stack>
 
 // Sets default values
 AC_LevelBuilderAI::AC_LevelBuilderAI()
@@ -19,11 +20,6 @@ AC_LevelBuilderAI::AC_LevelBuilderAI()
     PlayerScore = 0.0f;
     PlayerMovement = 0.0f;
     PlayerPreservation = 0.0f;
-
-    TempPlayerSkill = 0.0f;
-    TempPlayerScore = 0.0f;
-    TempPlayerMovement = 0.0f;
-    TempPlayerPreservation = 0.0f;
 
     LevelGrammar = "";
     EnemyDensity = 0.0f;
@@ -258,8 +254,8 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
 	if it is *above* those values, undoes the last selection, randomizes again, removing the undone selection from the pool.
 	Repeats until pool empty
     */
-    //Zane uses Grammar as a stack
-    stack<FString> GrammarStack;
+    //Zane uses Grammar as a stack OR NOT THANKS UNREAL
+    TArray<FString> GrammarStack;
     //Notable differences: If something doesn't fit, it goes back to optimize the last 2 prefabs to pick one that does perfectly
     //Also, does not actively prune prefabs that don't fit
 
@@ -282,13 +278,23 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
             PlayerScore += PrefabRatings[selectedPrefab][1];
             PlayerMovement += PrefabRatings[selectedPrefab][2];
             PlayerPreservation += PrefabRatings[selectedPrefab][3];
-            TestPrefabPool.remove(selectedPrefab);//removes the prefab that went overbudget from the pool
+            TestPrefabPool.Remove(selectedPrefab);//removes the prefab that went overbudget from the pool
             //Then, if this removes the last prefab (meaning we've tried all the options), it will pop the Stack
-            if (TestPrefabPool.Num() <= 0)
+            if (TestPrefabPool.Num() <= 0)//If the prefab pool is somehow empty when the grammar is checked
             {
-                overbudget = GrammarStack.pop();
-                //and then remove the overbudgetted prefab from the current level
-                TestPrefabPool.Remove(overbudget);
+                if (GrammarStack.Num() > 0)
+                {
+                    overbudget = GrammarStack.Last();
+                    GrammarStack.Remove(GrammarStack.Last());
+                    //and then remove the overbudgetted prefab from the current level
+                    TestPrefabPool.Remove(overbudget);
+                }
+                else
+                {
+                    PrefabPool.Empty();
+                }
+                
+                
 
                 //Theoretically, this means that the prefab combo 1, 3, with anything from 1 through 5 going overbudget
                 //means that prefab 3 gets removed, meaning a combo of 1, 4, 3 becomes possible, but still overbudget
@@ -297,28 +303,31 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
         else if (PlayerSkill  <= budgetForgiveness &&  PlayerScore <= budgetForgiveness &&
              PlayerMovement <= budgetForgiveness && PlayerPreservation <= budgetForgiveness)
         {
-            GrammarStack.push(selectedPrefab);
-            while (!GrammarStack.empty())
-            (
-                LevelGrammar.append(PrefabNumbers[GrammarStack.pop()] + ",")
-
-                LevelGrammar.Append("31");
-
-                UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
-
-                CalculateEnemyDensity();
-
-                return LevelGrammar;
-            )
+            GrammarStack.Add(selectedPrefab);
+            while (GrammarStack.Num() > 0)
+            {
+                selectedPrefab = GrammarStack.Last();
+                GrammarStack.Remove(GrammarStack.Last());
+                LevelGrammar.Append(PrefabNumbers[selectedPrefab] + ",");
+            }
+            PrefabPool.Empty();
+            
         }
         else//If that prefab is insufficient to complete the cycle, continue the cycle
         {
-            GrammarStack.push(selectedPrefab);
+            GrammarStack.Add(selectedPrefab);
         }
             
         
     }
 
+    LevelGrammar.Append("31");
+
+    UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
+
+    CalculateEnemyDensity();
+
+    return LevelGrammar;
     //3/26 implementation by Zane ends
 
     /*

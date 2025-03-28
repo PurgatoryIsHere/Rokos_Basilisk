@@ -10,13 +10,13 @@
                         "text": "'void AC_Basic_AI::TakeDamage(float)': member function does not override any base class virtual member function"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.cpp"
+                        "uri": "file:///C:/Users/chees/Documents/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.h"
+                                    "uri": "file:///C:/Users/chees/Documents/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.h"
                                 },
                                 "region": {
                                     "startLine": 41,
@@ -32,13 +32,13 @@
                         "text": "'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden"
                     },
                     "analysisTarget": {
-                        "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.cpp"
+                        "uri": "file:///C:/Users/chees/Documents/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.cpp"
                     },
                     "locations": [
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///C:/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.h"
+                                    "uri": "file:///C:/Users/chees/Documents/GitHub/Rokos_Basilisk/Game Code/Source/TutorialProject/C_Basic_AI.h"
                                 },
                                 "region": {
                                     "startLine": 58,
