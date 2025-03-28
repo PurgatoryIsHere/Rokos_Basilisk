@@ -32,6 +32,11 @@ public:
 	float PlayerMovement;
 	float PlayerPreservation;
 
+	float TempPlayerSkill;
+	float TempPlayerScore;
+	float TempPlayerMovement;
+	float TempPlayerPreservation;
+
 	FString LevelGrammar;
 
 	float EnemyDensity;

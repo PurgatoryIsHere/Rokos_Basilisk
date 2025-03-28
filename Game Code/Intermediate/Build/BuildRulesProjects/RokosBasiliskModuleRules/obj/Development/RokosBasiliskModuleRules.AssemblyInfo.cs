@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RokosBasiliskModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e883b7e74f053f084441243782e032be3ad7cef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53d43185c33554d77b5256f90f38cd23f012d3c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RokosBasiliskModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RokosBasiliskModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
