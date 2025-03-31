@@ -285,27 +285,32 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
 
 void AC_LevelBuilderAI::CalculateEnemyDensity()
 {
-    if (PlayerSkill > 10)
-    {
-        PlayerSkill /= 10;
+    if ((PlayerSkill == 0) && (PlayerScore == 0) && (PlayerMovement == 0) && (PlayerPreservation == 0)) {
+        EnemyDensity = 10;
     }
+    else {
+        if (PlayerSkill > 10)
+        {
+            PlayerSkill /= 10;
+        }
 
-    if (PlayerScore > 10)
-    {
-        PlayerScore /= 10;
+        if (PlayerScore > 10)
+        {
+            PlayerScore /= 10;
+        }
+
+        if (PlayerMovement > 10)
+        {
+            PlayerMovement /= 10;
+        }
+
+        if (PlayerPreservation > 10)
+        {
+            PlayerPreservation /= 10;
+        }
+
+        EnemyDensity = round(PlayerSkill + PlayerScore + PlayerMovement + PlayerPreservation);
     }
-
-    if (PlayerMovement > 10)
-    {
-        PlayerMovement /= 10;
-    }
-
-    if (PlayerPreservation > 10)
-    {
-        PlayerPreservation /= 10;
-    }
-
-    EnemyDensity = round(PlayerSkill + PlayerScore + PlayerMovement + PlayerPreservation);
 
     UE_LOG(LogTemp, Log, TEXT("Enemy Density of Next Level: %.2f"), EnemyDensity);
 }
