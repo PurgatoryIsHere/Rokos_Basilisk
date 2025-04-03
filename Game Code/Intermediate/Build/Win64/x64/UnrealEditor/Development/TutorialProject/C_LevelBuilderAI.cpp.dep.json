@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_levelbuilderai.cpp",
+        "Source": "c:\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_levelbuilderai.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "PCH": "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
-            "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
-            "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_levelbuilderai.h",
-            "c:\\users\\chees\\documents\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_levelbuilderai.generated.h",
+            "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\github\\rokos_basilisk\\game code\\source\\tutorialproject\\c_levelbuilderai.h",
+            "c:\\github\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorialproject\\uht\\c_levelbuilderai.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
