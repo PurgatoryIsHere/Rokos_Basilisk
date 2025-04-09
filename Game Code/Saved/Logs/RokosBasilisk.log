@@ -12333,3 +12333,1218 @@ Script Stack (4 frames) :
 [2025.04.09-04.09.15:767][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY_Auto0
 [2025.04.09-04.09.15:767][887]LogSavePackage: Moving '../../../../../../Users/akhta/Capstone/Rokos_Basilisk/Game Code/Saved/RANGED_BODY_Auto0C022C4054738BEB1043733AF65529918.tmp' to '../../../../../../Users/akhta/Capstone/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY_Auto0.uasset'
 [2025.04.09-04.09.15:769][887]LogFileHelpers: Auto-saving content packages took 0.019
+[2025.04.09-04.11.14:262][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11160.825195
+[2025.04.09-04.11.15:262][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.09-04.11.15:262][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11161.490234, Update Interval: 346.306946
+[2025.04.09-04.12.02:608][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.04.09-04.13.20:377][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.04.09-04.14.12:787][795]LogWorld: UWorld::CleanupWorld for World_150, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.14.12:787][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.14.12:863][795]LogWorld: UWorld::CleanupWorld for World_151, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.14.12:863][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.14.12:901][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.04.09-04.14.50:208][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.09-04.14.50:260][911]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY] ([2] browsable assets)...
+[2025.04.09-04.14.50:261][911]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RANGED_BODY_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RANGED_BODY_C_1542
+	Function /Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY.RANGED_BODY_C:ExecuteUbergraph_RANGED_BODY:0040
+[2025.04.09-04.14.50:261][911]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RANGED_BODY_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RANGED_BODY_C_1542
+	Function /Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY.RANGED_BODY_C:ExecuteUbergraph_RANGED_BODY:0040
+[2025.04.09-04.14.50:268][911]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY.RANGED_BODY]
+[2025.04.09-04.14.50:268][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY]
+[2025.04.09-04.14.50:280][911]LogSavePackage: Moving output files for package: /Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY
+[2025.04.09-04.14.50:281][911]LogSavePackage: Moving '../../../../../../Users/akhta/Capstone/Rokos_Basilisk/Game Code/Saved/RANGED_BODY0ED74A53424A2E3B9475C39798C65DA0.tmp' to '../../../../../../Users/akhta/Capstone/Rokos_Basilisk/Game Code/Content/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY.uasset'
+[2025.04.09-04.14.50:288][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.991 ms (total: 7.41 sec)
+[2025.04.09-04.14.50:343][911]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.09-04.14.50:343][911]LogContentValidation: Enabled validators:
+[2025.04.09-04.14.50:343][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.09-04.14.50:343][911]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.09-04.14.50:343][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.09-04.14.50:343][911]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.09-04.14.50:343][911]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.09-04.14.50:343][911]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.09-04.14.50:343][911]AssetCheck: /Game/Enemies/RangedEnemy/AnimationStuff/RANGED_BODY Validating asset
+[2025.04.09-04.14.51:359][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.04.09-04.14.52:726][ 96]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.09-04.14.52:741][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.09-04.14.52:741][ 96]LogStreaming: Display: FlushAsyncLoading(840): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.09-04.14.52:741][ 96]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.14.52:745][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003850s)
+[2025.04.09-04.14.52:745][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/StartingLevel.StartingLevel to /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel (0.003880s)
+[2025.04.09-04.14.52:769][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.04.09-04.14.52:773][ 96]LogChaosDD: Creating Chaos Debug Draw Scene for world StartingLevel
+[2025.04.09-04.14.52:775][ 96]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2025.04.09-04.14.52:776][ 96]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.09-04.14.52:776][ 96]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.09-04.14.52:776][ 96]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.09-04.14.52:776][ 96]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.09-04.14.52:776][ 96]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.09-04.14.52:776][ 96]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.09-04.14.52:778][ 96]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.09-04.14.52:796][ 96]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.09-04.14.52:796][ 96]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.09-04.14.52:796][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.09-04.14.52:796][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.09-04.14.52:797][ 96]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.04.09-04.14.52:797][ 96]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.04.09-04.14.52:799][ 96]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.04.09-04.14.52:799][ 96]LogInit: FAudioDevice initialized with ID 15.
+[2025.04.09-04.14.52:799][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.04.09-04.14.52:799][ 96]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartingLevel'.
+[2025.04.09-04.14.52:799][ 96]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.09-04.14.52:802][ 96]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.09-04.14.52:809][ 96]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2025.04.08-21.14.52
+[2025.04.09-04.14.52:813][ 96]LogWorld: Bringing up level for play took: 0.010392
+[2025.04.09-04.14.52:816][ 96]LogOnline: OSS: Created online subsystem instance for: :Context_176
+[2025.04.09-04.14.52:819][ 96]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.04.09-04.14.52:865][ 96]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.047 s
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: 
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "StaticMesh"
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: Stack: 
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa7a3ece99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2da453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2dabda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2ece3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00000223cb88045b UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00000223cb876b55 UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fab027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa51432e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa51410e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa520a9db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa520fb6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa5600ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa56012a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa53910716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa52195871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa53694144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa520e3068 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f3525 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4b61f749 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f4264 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4b63fe10 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4b6442d3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4b64389e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4aeb4622 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffa4bb43d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.14.52:865][ 96]LogOutputDevice: Error: [Callstack] 0x00007ff6db536b47 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ff6db5557ac UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ff6db55589a UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ff6db559114 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ff6db56bd04 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ff6db56f0ba UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffaf0dee8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: [Callstack] 0x00007ffaf283bf6c ntdll.dll!UnknownFunction []
+[2025.04.09-04.14.52:866][ 96]LogOutputDevice: Error: 
+[2025.04.09-04.14.52:874][ 96]LogStats:             FDebug::EnsureFailed -  0.055 s
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab30_modelingPlayingWithShapes
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 30
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab10_triangleObstacle
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 10
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab11_cross
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 11
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab12_ledge
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 12
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab13_ledgeTall
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 13
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab14_upAndDown
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 14
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab15_jumpForIt
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 15
+[2025.04.09-04.14.52:877][ 96]LogTemp: Name: SM_prefab16_arenaClimb
+[2025.04.09-04.14.52:877][ 96]LogTemp: Number: 16
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab17_arenaPit
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 17
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab18_arenaObstacles
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 18
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab19_arenaHall
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 19
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab1_shortHall
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 1
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab20_arenaEmpty
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 20
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab21_mazeSpiral
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 21
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab22_mazeStandard
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 22
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab23_mazeJump
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 23
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab24_mazeAGGGHHHHHH
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 24
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab25_mazeDontRush
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 25
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab26_modelingArch
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 26
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab27_modelingCylinderPit
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 27
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab28_spiralStairs
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 28
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab29_modelingPitTraverse
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 29
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab2_longHall
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 2
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab3_nHall
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 3
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab4_circle
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 4
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab5_circleObstacle
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 5
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab6_square
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 6
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab7_choosePath4
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 7
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab8_longWinding
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 8
+[2025.04.09-04.14.52:878][ 96]LogTemp: Name: SM_prefab9_triangle
+[2025.04.09-04.14.52:878][ 96]LogTemp: Number: 9
+[2025.04.09-04.14.52:878][ 96]LogTemp: Loaded 30 prefabs.
+[2025.04.09-04.14.52:878][ 96]LogTemp: Generated ratings for 30 prefabs.
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab Information:
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab30_modelingPlayingWithShapes | Ratings: [4, 5, 2, 3]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab10_triangleObstacle | Ratings: [6, 0, 1, 1]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab11_cross | Ratings: [7, 0, 0, 0]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab12_ledge | Ratings: [0, 6, 4, 3]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab13_ledgeTall | Ratings: [0, 7, 5, 4]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab14_upAndDown | Ratings: [0, 6, 3, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab15_jumpForIt | Ratings: [7, 5, 7, 8]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab16_arenaClimb | Ratings: [3, 0, 3, 3]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab17_arenaPit | Ratings: [5, 1, 4, 6]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab18_arenaObstacles | Ratings: [4, 4, 2, 6]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab19_arenaHall | Ratings: [6, 5, 5, 4]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab1_shortHall | Ratings: [0, 1, 1, 5]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab20_arenaEmpty | Ratings: [2, 1, 3, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab21_mazeSpiral | Ratings: [4, 3, 10, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab22_mazeStandard | Ratings: [8, 6, 9, 8]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab23_mazeJump | Ratings: [9, 7, 10, 9]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab24_mazeAGGGHHHHHH | Ratings: [10, 10, 10, 10]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab25_mazeDontRush | Ratings: [7, 5, 10, 8]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab26_modelingArch | Ratings: [4, 1, 6, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab27_modelingCylinderPit | Ratings: [5, 1, 9, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab28_spiralStairs | Ratings: [4, 4, 8, 3]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab29_modelingPitTraverse | Ratings: [7, 7, 10, 9]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab2_longHall | Ratings: [1, 3, 3, 6]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab3_nHall | Ratings: [4, 3, 3, 5]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab4_circle | Ratings: [2, 0, 2, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab5_circleObstacle | Ratings: [3, 0, 2, 4]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab6_square | Ratings: [2, 0, 3, 2]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab7_choosePath4 | Ratings: [2, 5, 4, 4]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab8_longWinding | Ratings: [4, 6, 6, 5]
+[2025.04.09-04.14.52:878][ 96]LogTemp: Prefab: SM_prefab9_triangle | Ratings: [6, 0, 1, 0]
+[2025.04.09-04.14.52:878][ 96]LogBlueprintUserMessages: [BP_FirstPersonGameMode_C_0] 12
+[2025.04.09-04.14.52:879][ 96]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.04.09-04.14.52:882][ 96]PIE: Server logged in
+[2025.04.09-04.14.52:883][ 96]PIE: Play in editor total start time 0.144 seconds.
+[2025.04.09-04.15.08:811][471]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.04.09-04.15.08:811][471]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.09-04.15.08:811][471]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.04.09-04.15.10:286][601]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.04.09-04.15.10:400][611]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/StartingLevel"
+[2025.04.09-04.15.10:400][611]LogNet: Browse: /Game/FirstPerson/Maps/StartingLevel
+[2025.04.09-04.15.10:400][611]LogLoad: LoadMap: /Game/FirstPerson/Maps/StartingLevel
+[2025.04.09-04.15.10:400][611]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.10:403][611]LogWorld: UWorld::CleanupWorld for StartingLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.15.10:404][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.15.10:468][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.09-04.15.10:475][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.04.09-04.15.10:481][611]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.10:485][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003712s)
+[2025.04.09-04.15.10:485][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/StartingLevel.StartingLevel to /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel (0.003753s)
+[2025.04.09-04.15.10:485][611]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartingLevel'.
+[2025.04.09-04.15.10:485][611]LogChaosDD: Creating Chaos Debug Draw Scene for world StartingLevel
+[2025.04.09-04.15.10:486][611]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2025.04.09-04.15.10:486][611]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.09-04.15.10:493][611]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2025.04.08-21.15.10
+[2025.04.09-04.15.10:497][611]LogWorld: Bringing up level for play took: 0.010386
+[2025.04.09-04.15.10:500][611]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.04.09-04.15.10:543][611]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.044 s
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: 
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "StaticMesh"
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: Stack: 
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: [Callstack] 0x00007ffa7a3ece99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2da453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.10:543][611]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2dabda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2ece3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00000223cb88045b UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00000223cb876b55 UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fab027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa51432e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa51410e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa520a9db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa520fb6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa5600ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa56012a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa53910716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa52195871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa53694144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa5353c05a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa534cff32 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa53573ad4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa4aeb4a63 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffa4bb43d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ff6db536b47 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ff6db5557ac UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ff6db55589a UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ff6db559114 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ff6db56bd04 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ff6db56f0ba UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffaf0dee8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: [Callstack] 0x00007ffaf283bf6c ntdll.dll!UnknownFunction []
+[2025.04.09-04.15.10:544][611]LogOutputDevice: Error: 
+[2025.04.09-04.15.10:549][611]LogStats:             FDebug::EnsureFailed -  0.049 s
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab30_modelingPlayingWithShapes
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 30
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab10_triangleObstacle
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 10
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab11_cross
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 11
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab12_ledge
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 12
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab13_ledgeTall
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 13
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab14_upAndDown
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 14
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab15_jumpForIt
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 15
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab16_arenaClimb
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 16
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab17_arenaPit
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 17
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab18_arenaObstacles
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 18
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab19_arenaHall
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 19
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab1_shortHall
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 1
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab20_arenaEmpty
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 20
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab21_mazeSpiral
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 21
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab22_mazeStandard
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 22
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab23_mazeJump
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 23
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab24_mazeAGGGHHHHHH
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 24
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab25_mazeDontRush
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 25
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab26_modelingArch
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 26
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab27_modelingCylinderPit
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 27
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab28_spiralStairs
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 28
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab29_modelingPitTraverse
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 29
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab2_longHall
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 2
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab3_nHall
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 3
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab4_circle
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 4
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab5_circleObstacle
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 5
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab6_square
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 6
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab7_choosePath4
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 7
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab8_longWinding
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 8
+[2025.04.09-04.15.10:552][611]LogTemp: Name: SM_prefab9_triangle
+[2025.04.09-04.15.10:552][611]LogTemp: Number: 9
+[2025.04.09-04.15.10:552][611]LogTemp: Loaded 30 prefabs.
+[2025.04.09-04.15.10:552][611]LogTemp: Generated ratings for 30 prefabs.
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab Information:
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab30_modelingPlayingWithShapes | Ratings: [4, 5, 2, 3]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab10_triangleObstacle | Ratings: [6, 0, 1, 1]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab11_cross | Ratings: [7, 0, 0, 0]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab12_ledge | Ratings: [0, 6, 4, 3]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab13_ledgeTall | Ratings: [0, 7, 5, 4]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab14_upAndDown | Ratings: [0, 6, 3, 2]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab15_jumpForIt | Ratings: [7, 5, 7, 8]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab16_arenaClimb | Ratings: [3, 0, 3, 3]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab17_arenaPit | Ratings: [5, 1, 4, 6]
+[2025.04.09-04.15.10:552][611]LogTemp: Prefab: SM_prefab18_arenaObstacles | Ratings: [4, 4, 2, 6]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab19_arenaHall | Ratings: [6, 5, 5, 4]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab1_shortHall | Ratings: [0, 1, 1, 5]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab20_arenaEmpty | Ratings: [2, 1, 3, 2]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab21_mazeSpiral | Ratings: [4, 3, 10, 2]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab22_mazeStandard | Ratings: [8, 6, 9, 8]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab23_mazeJump | Ratings: [9, 7, 10, 9]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab24_mazeAGGGHHHHHH | Ratings: [10, 10, 10, 10]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab25_mazeDontRush | Ratings: [7, 5, 10, 8]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab26_modelingArch | Ratings: [4, 1, 6, 2]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab27_modelingCylinderPit | Ratings: [5, 1, 9, 2]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab28_spiralStairs | Ratings: [4, 4, 8, 3]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab29_modelingPitTraverse | Ratings: [7, 7, 10, 9]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab2_longHall | Ratings: [1, 3, 3, 6]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab3_nHall | Ratings: [4, 3, 3, 5]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab4_circle | Ratings: [2, 0, 2, 2]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab5_circleObstacle | Ratings: [3, 0, 2, 4]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab6_square | Ratings: [2, 0, 3, 2]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab7_choosePath4 | Ratings: [2, 5, 4, 4]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab8_longWinding | Ratings: [4, 6, 6, 5]
+[2025.04.09-04.15.10:553][611]LogTemp: Prefab: SM_prefab9_triangle | Ratings: [6, 0, 1, 0]
+[2025.04.09-04.15.10:553][611]LogBlueprintUserMessages: [BP_FirstPersonGameMode_C_0] 12
+[2025.04.09-04.15.10:553][611]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.09-04.15.10:553][611]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.04.09-04.15.10:555][611]LogLoad: Took 0.155537 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_StartingLevel)
+[2025.04.09-04.15.10:555][611]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.16:246][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.15.16:246][120]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.16:247][120]LogWorld: UWorld::CleanupWorld for StartingLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.15.16:248][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.15.16:278][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.09-04.15.16:283][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.15.16:307][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.15.16:307][120]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.09-04.15.16:308][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.09-04.15.16:310][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.09-04.15.16:320][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.04.09-04.15.16:448][121]LogPlayLevel: Display: Destroying online subsystem :Context_176
+[2025.04.09-04.15.17:455][198]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.09-04.15.17:470][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.09-04.15.17:515][198]LogStreaming: Display: FlushAsyncLoading(841): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.09-04.15.17:515][198]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.17:519][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003772s)
+[2025.04.09-04.15.17:519][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/StartingLevel.StartingLevel to /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel (0.003810s)
+[2025.04.09-04.15.17:543][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.04.09-04.15.17:547][198]LogChaosDD: Creating Chaos Debug Draw Scene for world StartingLevel
+[2025.04.09-04.15.17:548][198]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2025.04.09-04.15.17:549][198]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.09-04.15.17:549][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.09-04.15.17:549][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.09-04.15.17:549][198]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.09-04.15.17:549][198]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.09-04.15.17:549][198]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.09-04.15.17:551][198]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.09-04.15.17:568][198]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.09-04.15.17:568][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.09-04.15.17:568][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.09-04.15.17:568][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.09-04.15.17:569][198]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.04.09-04.15.17:569][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.04.09-04.15.17:571][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.04.09-04.15.17:571][198]LogInit: FAudioDevice initialized with ID 16.
+[2025.04.09-04.15.17:571][198]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.04.09-04.15.17:571][198]LogAudio: Display: Audio Device (ID: 16) registered with world 'StartingLevel'.
+[2025.04.09-04.15.17:571][198]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.09-04.15.17:574][198]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.09-04.15.17:581][198]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2025.04.08-21.15.17
+[2025.04.09-04.15.17:585][198]LogWorld: Bringing up level for play took: 0.010197
+[2025.04.09-04.15.17:587][198]LogOnline: OSS: Created online subsystem instance for: :Context_177
+[2025.04.09-04.15.17:591][198]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.04.09-04.15.17:637][198]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.047 s
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: 
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "StaticMesh"
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: Stack: 
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa7a3ece99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2da453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2dabda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2ece3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00000223cb88045b UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00000223cb876b55 UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fab027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa51432e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa51410e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa520a9db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa520fb6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa5600ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa56012a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa53910716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa52195871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa53694144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa520e3068 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f3525 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4b61f749 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f4264 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4b63fe10 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4b6442d3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4b64389e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4aeb4622 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:637][198]LogOutputDevice: Error: [Callstack] 0x00007ffa4bb43d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ff6db536b47 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ff6db5557ac UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ff6db55589a UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ff6db559114 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ff6db56bd04 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ff6db56f0ba UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ffaf0dee8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: [Callstack] 0x00007ffaf283bf6c ntdll.dll!UnknownFunction []
+[2025.04.09-04.15.17:638][198]LogOutputDevice: Error: 
+[2025.04.09-04.15.17:640][198]LogStats:             FDebug::EnsureFailed -  0.050 s
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab30_modelingPlayingWithShapes
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 30
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab10_triangleObstacle
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 10
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab11_cross
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 11
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab12_ledge
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 12
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab13_ledgeTall
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 13
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab14_upAndDown
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 14
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab15_jumpForIt
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 15
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab16_arenaClimb
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 16
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab17_arenaPit
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 17
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab18_arenaObstacles
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 18
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab19_arenaHall
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 19
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab1_shortHall
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 1
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab20_arenaEmpty
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 20
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab21_mazeSpiral
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 21
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab22_mazeStandard
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 22
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab23_mazeJump
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 23
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab24_mazeAGGGHHHHHH
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 24
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab25_mazeDontRush
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 25
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab26_modelingArch
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 26
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab27_modelingCylinderPit
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 27
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab28_spiralStairs
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 28
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab29_modelingPitTraverse
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 29
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab2_longHall
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 2
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab3_nHall
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 3
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab4_circle
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 4
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab5_circleObstacle
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 5
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab6_square
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 6
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab7_choosePath4
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 7
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab8_longWinding
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 8
+[2025.04.09-04.15.17:643][198]LogTemp: Name: SM_prefab9_triangle
+[2025.04.09-04.15.17:643][198]LogTemp: Number: 9
+[2025.04.09-04.15.17:643][198]LogTemp: Loaded 30 prefabs.
+[2025.04.09-04.15.17:643][198]LogTemp: Generated ratings for 30 prefabs.
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab Information:
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab30_modelingPlayingWithShapes | Ratings: [4, 5, 2, 3]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab10_triangleObstacle | Ratings: [6, 0, 1, 1]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab11_cross | Ratings: [7, 0, 0, 0]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab12_ledge | Ratings: [0, 6, 4, 3]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab13_ledgeTall | Ratings: [0, 7, 5, 4]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab14_upAndDown | Ratings: [0, 6, 3, 2]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab15_jumpForIt | Ratings: [7, 5, 7, 8]
+[2025.04.09-04.15.17:643][198]LogTemp: Prefab: SM_prefab16_arenaClimb | Ratings: [3, 0, 3, 3]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab17_arenaPit | Ratings: [5, 1, 4, 6]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab18_arenaObstacles | Ratings: [4, 4, 2, 6]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab19_arenaHall | Ratings: [6, 5, 5, 4]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab1_shortHall | Ratings: [0, 1, 1, 5]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab20_arenaEmpty | Ratings: [2, 1, 3, 2]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab21_mazeSpiral | Ratings: [4, 3, 10, 2]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab22_mazeStandard | Ratings: [8, 6, 9, 8]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab23_mazeJump | Ratings: [9, 7, 10, 9]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab24_mazeAGGGHHHHHH | Ratings: [10, 10, 10, 10]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab25_mazeDontRush | Ratings: [7, 5, 10, 8]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab26_modelingArch | Ratings: [4, 1, 6, 2]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab27_modelingCylinderPit | Ratings: [5, 1, 9, 2]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab28_spiralStairs | Ratings: [4, 4, 8, 3]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab29_modelingPitTraverse | Ratings: [7, 7, 10, 9]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab2_longHall | Ratings: [1, 3, 3, 6]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab3_nHall | Ratings: [4, 3, 3, 5]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab4_circle | Ratings: [2, 0, 2, 2]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab5_circleObstacle | Ratings: [3, 0, 2, 4]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab6_square | Ratings: [2, 0, 3, 2]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab7_choosePath4 | Ratings: [2, 5, 4, 4]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab8_longWinding | Ratings: [4, 6, 6, 5]
+[2025.04.09-04.15.17:644][198]LogTemp: Prefab: SM_prefab9_triangle | Ratings: [6, 0, 1, 0]
+[2025.04.09-04.15.17:644][198]LogBlueprintUserMessages: [BP_FirstPersonGameMode_C_0] 12
+[2025.04.09-04.15.17:645][198]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.04.09-04.15.17:647][198]PIE: Server logged in
+[2025.04.09-04.15.17:649][198]PIE: Play in editor total start time 0.181 seconds.
+[2025.04.09-04.15.23:457][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.15.23:457][707]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.23:458][707]LogWorld: UWorld::CleanupWorld for StartingLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.15.23:459][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.15.23:464][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.09-04.15.23:471][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.15.23:493][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.15.23:494][707]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.09-04.15.23:494][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.09-04.15.23:496][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.09-04.15.23:505][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.04.09-04.15.23:630][708]LogPlayLevel: Display: Destroying online subsystem :Context_177
+[2025.04.09-04.15.42:466][248]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Characters/Mannequins/Animations/Manny/BodyBlendSpace.BodyBlendSpace
+[2025.04.09-04.15.42:466][248]LogChaosDD: Creating Chaos Debug Draw Scene for world World_162
+[2025.04.09-04.15.42:475][248]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_162:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.09-04.15.42:733][248]LogChaosDD: Creating Chaos Debug Draw Scene for world World_163
+[2025.04.09-04.15.57:729][451]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.09-04.15.57:743][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.09-04.15.57:765][451]LogStreaming: Display: FlushAsyncLoading(842): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.09-04.15.57:765][451]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.15.57:769][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003899s)
+[2025.04.09-04.15.57:769][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/StartingLevel.StartingLevel to /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel (0.003936s)
+[2025.04.09-04.15.57:817][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.04.09-04.15.57:823][451]LogChaosDD: Creating Chaos Debug Draw Scene for world StartingLevel
+[2025.04.09-04.15.57:825][451]LogPlayLevel: PIE: World Init took: (0.001679s)
+[2025.04.09-04.15.57:826][451]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.09-04.15.57:826][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.09-04.15.57:826][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.09-04.15.57:826][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.09-04.15.57:826][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.09-04.15.57:826][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.09-04.15.57:828][451]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.09-04.15.57:846][451]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.09-04.15.57:846][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.09-04.15.57:846][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.09-04.15.57:846][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.09-04.15.57:847][451]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.04.09-04.15.57:847][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.04.09-04.15.57:849][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.04.09-04.15.57:849][451]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.04.09-04.15.57:849][451]LogInit: FAudioDevice initialized with ID 17.
+[2025.04.09-04.15.57:849][451]LogAudio: Display: Audio Device (ID: 17) registered with world 'StartingLevel'.
+[2025.04.09-04.15.57:849][451]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.04.09-04.15.57:852][451]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.09-04.15.57:859][451]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2025.04.08-21.15.57
+[2025.04.09-04.15.57:863][451]LogWorld: Bringing up level for play took: 0.010741
+[2025.04.09-04.15.57:866][451]LogOnline: OSS: Created online subsystem instance for: :Context_180
+[2025.04.09-04.15.57:869][451]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.04.09-04.15.57:915][451]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.047 s
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: 
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "StaticMesh"
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: Stack: 
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa7a3ece99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2da453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2dabda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2ece3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00000223cb88045b UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00000223cb876b55 UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fab027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa51432e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa51410e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa520a9db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa520fb6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa5600ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa56012a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa53910716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa52195871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa53694144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:915][451]LogOutputDevice: Error: [Callstack] 0x00007ffa520e3068 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f3525 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4b61f749 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f4264 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4b63fe10 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4b6442d3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4b64389e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4aeb4622 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffa4bb43d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ff6db536b47 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ff6db5557ac UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ff6db55589a UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ff6db559114 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ff6db56bd04 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ff6db56f0ba UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffaf0dee8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: [Callstack] 0x00007ffaf283bf6c ntdll.dll!UnknownFunction []
+[2025.04.09-04.15.57:916][451]LogOutputDevice: Error: 
+[2025.04.09-04.15.57:923][451]LogStats:             FDebug::EnsureFailed -  0.055 s
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab30_modelingPlayingWithShapes
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 30
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab10_triangleObstacle
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 10
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab11_cross
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 11
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab12_ledge
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 12
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab13_ledgeTall
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 13
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab14_upAndDown
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 14
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab15_jumpForIt
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 15
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab16_arenaClimb
+[2025.04.09-04.15.57:926][451]LogTemp: Number: 16
+[2025.04.09-04.15.57:926][451]LogTemp: Name: SM_prefab17_arenaPit
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 17
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab18_arenaObstacles
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 18
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab19_arenaHall
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 19
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab1_shortHall
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 1
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab20_arenaEmpty
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 20
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab21_mazeSpiral
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 21
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab22_mazeStandard
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 22
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab23_mazeJump
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 23
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab24_mazeAGGGHHHHHH
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 24
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab25_mazeDontRush
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 25
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab26_modelingArch
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 26
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab27_modelingCylinderPit
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 27
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab28_spiralStairs
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 28
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab29_modelingPitTraverse
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 29
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab2_longHall
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 2
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab3_nHall
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 3
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab4_circle
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 4
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab5_circleObstacle
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 5
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab6_square
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 6
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab7_choosePath4
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 7
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab8_longWinding
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 8
+[2025.04.09-04.15.57:927][451]LogTemp: Name: SM_prefab9_triangle
+[2025.04.09-04.15.57:927][451]LogTemp: Number: 9
+[2025.04.09-04.15.57:927][451]LogTemp: Loaded 30 prefabs.
+[2025.04.09-04.15.57:927][451]LogTemp: Generated ratings for 30 prefabs.
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab Information:
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab30_modelingPlayingWithShapes | Ratings: [4, 5, 2, 3]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab10_triangleObstacle | Ratings: [6, 0, 1, 1]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab11_cross | Ratings: [7, 0, 0, 0]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab12_ledge | Ratings: [0, 6, 4, 3]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab13_ledgeTall | Ratings: [0, 7, 5, 4]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab14_upAndDown | Ratings: [0, 6, 3, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab15_jumpForIt | Ratings: [7, 5, 7, 8]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab16_arenaClimb | Ratings: [3, 0, 3, 3]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab17_arenaPit | Ratings: [5, 1, 4, 6]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab18_arenaObstacles | Ratings: [4, 4, 2, 6]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab19_arenaHall | Ratings: [6, 5, 5, 4]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab1_shortHall | Ratings: [0, 1, 1, 5]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab20_arenaEmpty | Ratings: [2, 1, 3, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab21_mazeSpiral | Ratings: [4, 3, 10, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab22_mazeStandard | Ratings: [8, 6, 9, 8]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab23_mazeJump | Ratings: [9, 7, 10, 9]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab24_mazeAGGGHHHHHH | Ratings: [10, 10, 10, 10]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab25_mazeDontRush | Ratings: [7, 5, 10, 8]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab26_modelingArch | Ratings: [4, 1, 6, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab27_modelingCylinderPit | Ratings: [5, 1, 9, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab28_spiralStairs | Ratings: [4, 4, 8, 3]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab29_modelingPitTraverse | Ratings: [7, 7, 10, 9]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab2_longHall | Ratings: [1, 3, 3, 6]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab3_nHall | Ratings: [4, 3, 3, 5]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab4_circle | Ratings: [2, 0, 2, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab5_circleObstacle | Ratings: [3, 0, 2, 4]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab6_square | Ratings: [2, 0, 3, 2]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab7_choosePath4 | Ratings: [2, 5, 4, 4]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab8_longWinding | Ratings: [4, 6, 6, 5]
+[2025.04.09-04.15.57:927][451]LogTemp: Prefab: SM_prefab9_triangle | Ratings: [6, 0, 1, 0]
+[2025.04.09-04.15.57:927][451]LogBlueprintUserMessages: [BP_FirstPersonGameMode_C_0] 12
+[2025.04.09-04.15.57:928][451]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.04.09-04.15.57:931][451]PIE: Server logged in
+[2025.04.09-04.15.57:932][451]PIE: Play in editor total start time 0.19 seconds.
+[2025.04.09-04.16.14:528][850]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.04.09-04.16.14:529][850]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.09-04.16.14:529][850]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.04.09-04.16.17:817][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.16.17:817][136]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.16.17:818][136]LogWorld: UWorld::CleanupWorld for StartingLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.16.17:819][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.16.17:849][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.09-04.16.17:856][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.16.17:879][136]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.09-04.16.17:879][136]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.04.09-04.16.17:879][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.04.09-04.16.17:881][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.04.09-04.16.17:885][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.16.17:891][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.04.09-04.16.18:015][137]LogPlayLevel: Display: Destroying online subsystem :Context_180
+[2025.04.09-04.17.59:768][591]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11566.302734
+[2025.04.09-04.17.59:930][605]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.09-04.17.59:930][605]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11566.453125, Update Interval: 307.434296
+[2025.04.09-04.23.47:455][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.09-04.23.47:517][942]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged] ([2] browsable assets)...
+[2025.04.09-04.23.47:525][942]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged.BP_Basic_AI_Ranged]
+[2025.04.09-04.23.47:525][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged]
+[2025.04.09-04.23.47:539][942]LogSavePackage: Moving output files for package: /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged
+[2025.04.09-04.23.47:540][942]LogSavePackage: Moving '../../../../../../Users/akhta/Capstone/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI_Ranged91FBE9384F7BDCB6C111D78517FFA058.tmp' to '../../../../../../Users/akhta/Capstone/Rokos_Basilisk/Game Code/Content/Enemies/RangedEnemy/BP_Basic_AI_Ranged.uasset'
+[2025.04.09-04.23.47:548][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.710 ms (total: 7.50 sec)
+[2025.04.09-04.23.47:601][942]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.09-04.23.47:601][942]LogContentValidation: Enabled validators:
+[2025.04.09-04.23.47:601][942]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.09-04.23.47:601][942]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.09-04.23.47:601][942]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.09-04.23.47:601][942]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.09-04.23.47:601][942]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.09-04.23.47:601][942]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.09-04.23.47:601][942]AssetCheck: /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged Validating asset
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'pelvis' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_03' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_04' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_05' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'hand_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'hand_r' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'foot_r' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'thigh_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'calf_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'foot_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_02' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'neck_01' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'neck_02' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'head' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.04.09-04.23.48:363][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'thigh_r' 
+[2025.04.09-04.23.48:364][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'calf_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'pelvis' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_03' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_04' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_05' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'hand_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'hand_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'foot_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'thigh_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'calf_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'foot_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'spine_02' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'neck_01' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'neck_02' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'head' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'thigh_r' 
+[2025.04.09-04.23.48:427][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_1 /Game/FirstPerson/Maps/StartingLevel.StartingLevel:PersistentLevel.BP_Basic_AI_Ranged_C_1.CharacterMesh0 Bone: 'calf_r' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'pelvis' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_03' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_04' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_05' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_l' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_r' 
+[2025.04.09-04.23.48:429][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_r' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_l' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_l' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_l' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_02' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_01' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_02' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'head' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_r' 
+[2025.04.09-04.23.48:430][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'pelvis' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_03' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_04' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_05' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_02' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_01' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_02' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'head' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_r' 
+[2025.04.09-04.23.48:431][  3]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_2:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_r' 
+[2025.04.09-04.23.48:473][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.04.09-04.23.49:845][ 86]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.09-04.23.49:861][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.09-04.23.49:896][ 86]LogStreaming: Display: FlushAsyncLoading(843): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.09-04.23.49:896][ 86]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.23.49:900][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003928s)
+[2025.04.09-04.23.49:900][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/StartingLevel.StartingLevel to /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel (0.003966s)
+[2025.04.09-04.23.49:924][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.04.09-04.23.49:937][ 86]LogChaosDD: Creating Chaos Debug Draw Scene for world StartingLevel
+[2025.04.09-04.23.49:939][ 86]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2025.04.09-04.23.49:940][ 86]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.09-04.23.49:940][ 86]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.09-04.23.49:940][ 86]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.09-04.23.49:940][ 86]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.09-04.23.49:940][ 86]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.09-04.23.49:940][ 86]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.09-04.23.49:943][ 86]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.09-04.23.49:960][ 86]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.09-04.23.49:960][ 86]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.09-04.23.49:960][ 86]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.09-04.23.49:960][ 86]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.09-04.23.49:961][ 86]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.04.09-04.23.49:961][ 86]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.04.09-04.23.49:963][ 86]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.04.09-04.23.49:963][ 86]LogInit: FAudioDevice initialized with ID 18.
+[2025.04.09-04.23.49:963][ 86]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.04.09-04.23.49:963][ 86]LogAudio: Display: Audio Device (ID: 18) registered with world 'StartingLevel'.
+[2025.04.09-04.23.49:963][ 86]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.04.09-04.23.49:965][ 86]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.04.09-04.23.49:973][ 86]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2025.04.08-21.23.49
+[2025.04.09-04.23.49:977][ 86]LogWorld: Bringing up level for play took: 0.010393
+[2025.04.09-04.23.49:979][ 86]LogOnline: OSS: Created online subsystem instance for: :Context_181
+[2025.04.09-04.23.49:982][ 86]LogOutputDevice: Warning: 
+
+Script Stack (4 frames) :
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ExecuteUbergraph_BP_LevelBuilderAI
+/Game/LevelBuilderAI/BP_LevelBuilderAI.BP_LevelBuilderAI_C.ReceiveBeginPlay
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ExecuteUbergraph_BP_FirstPersonGameMode
+/Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode_C.ReceiveBeginPlay
+
+[2025.04.09-04.23.50:029][ 86]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.047 s
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: 
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: Ensure condition failed: InFilter.ClassNames.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp] [Line: 3778] 
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: Asset Registry Filter using ClassNames instead of ClassPaths. First class name: "StaticMesh"
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: Stack: 
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa7a3ece99 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2da453 UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2dabda UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa7a2ece3a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00000223cb88045b UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00000223cb876b55 UnrealEditor-TutorialProject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fab027 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa51432e30 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa51410e81 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa520a9db1 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa520fb6d3 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa5600ef63 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa56012a16 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55f8f22c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55f9dc05 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8adc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd8f18 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd883c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55be0053 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa55fd842e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa51439137 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa513f1ed2 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa514034f4 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa53910716 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa52195871 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa53694144 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa520e3068 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f3525 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4b61f749 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4b5f4264 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4b63fe10 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4b6442d3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4b64389e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4aeb4622 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffa4bb43d76 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ff6db536b47 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ff6db5557ac UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ff6db55589a UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ff6db559114 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ff6db56bd04 UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ff6db56f0ba UnrealEditor.exe!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffaf0dee8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: [Callstack] 0x00007ffaf283bf6c ntdll.dll!UnknownFunction []
+[2025.04.09-04.23.50:029][ 86]LogOutputDevice: Error: 
+[2025.04.09-04.23.50:033][ 86]LogStats:             FDebug::EnsureFailed -  0.051 s
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab30_modelingPlayingWithShapes
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 30
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab10_triangleObstacle
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 10
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab11_cross
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 11
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab12_ledge
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 12
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab13_ledgeTall
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 13
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab14_upAndDown
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 14
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab15_jumpForIt
+[2025.04.09-04.23.50:036][ 86]LogTemp: Number: 15
+[2025.04.09-04.23.50:036][ 86]LogTemp: Name: SM_prefab16_arenaClimb
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 16
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab17_arenaPit
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 17
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab18_arenaObstacles
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 18
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab19_arenaHall
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 19
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab1_shortHall
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 1
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab20_arenaEmpty
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 20
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab21_mazeSpiral
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 21
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab22_mazeStandard
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 22
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab23_mazeJump
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 23
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab24_mazeAGGGHHHHHH
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 24
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab25_mazeDontRush
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 25
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab26_modelingArch
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 26
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab27_modelingCylinderPit
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 27
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab28_spiralStairs
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 28
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab29_modelingPitTraverse
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 29
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab2_longHall
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 2
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab3_nHall
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 3
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab4_circle
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 4
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab5_circleObstacle
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 5
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab6_square
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 6
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab7_choosePath4
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 7
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab8_longWinding
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 8
+[2025.04.09-04.23.50:037][ 86]LogTemp: Name: SM_prefab9_triangle
+[2025.04.09-04.23.50:037][ 86]LogTemp: Number: 9
+[2025.04.09-04.23.50:037][ 86]LogTemp: Loaded 30 prefabs.
+[2025.04.09-04.23.50:037][ 86]LogTemp: Generated ratings for 30 prefabs.
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab Information:
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab30_modelingPlayingWithShapes | Ratings: [4, 5, 2, 3]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab10_triangleObstacle | Ratings: [6, 0, 1, 1]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab11_cross | Ratings: [7, 0, 0, 0]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab12_ledge | Ratings: [0, 6, 4, 3]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab13_ledgeTall | Ratings: [0, 7, 5, 4]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab14_upAndDown | Ratings: [0, 6, 3, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab15_jumpForIt | Ratings: [7, 5, 7, 8]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab16_arenaClimb | Ratings: [3, 0, 3, 3]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab17_arenaPit | Ratings: [5, 1, 4, 6]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab18_arenaObstacles | Ratings: [4, 4, 2, 6]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab19_arenaHall | Ratings: [6, 5, 5, 4]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab1_shortHall | Ratings: [0, 1, 1, 5]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab20_arenaEmpty | Ratings: [2, 1, 3, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab21_mazeSpiral | Ratings: [4, 3, 10, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab22_mazeStandard | Ratings: [8, 6, 9, 8]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab23_mazeJump | Ratings: [9, 7, 10, 9]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab24_mazeAGGGHHHHHH | Ratings: [10, 10, 10, 10]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab25_mazeDontRush | Ratings: [7, 5, 10, 8]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab26_modelingArch | Ratings: [4, 1, 6, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab27_modelingCylinderPit | Ratings: [5, 1, 9, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab28_spiralStairs | Ratings: [4, 4, 8, 3]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab29_modelingPitTraverse | Ratings: [7, 7, 10, 9]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab2_longHall | Ratings: [1, 3, 3, 6]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab3_nHall | Ratings: [4, 3, 3, 5]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab4_circle | Ratings: [2, 0, 2, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab5_circleObstacle | Ratings: [3, 0, 2, 4]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab6_square | Ratings: [2, 0, 3, 2]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab7_choosePath4 | Ratings: [2, 5, 4, 4]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab8_longWinding | Ratings: [4, 6, 6, 5]
+[2025.04.09-04.23.50:037][ 86]LogTemp: Prefab: SM_prefab9_triangle | Ratings: [6, 0, 1, 0]
+[2025.04.09-04.23.50:037][ 86]LogBlueprintUserMessages: [BP_FirstPersonGameMode_C_0] 12
+[2025.04.09-04.23.50:038][ 86]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.04.09-04.23.50:041][ 86]PIE: Server logged in
+[2025.04.09-04.23.50:042][ 86]PIE: Play in editor total start time 0.183 seconds.
+[2025.04.09-04.23.59:571][862]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11926.043945
+[2025.04.09-04.23.59:725][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.09-04.23.59:725][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11926.188477, Update Interval: 356.334106
+[2025.04.09-04.24.12:421][947]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.04.09-04.24.12:421][947]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.09-04.24.12:422][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.04.09-04.24.13:041][999]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.04.09-04.24.13:666][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.24.13:666][ 48]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_StartingLevel
+[2025.04.09-04.24.13:667][ 48]LogWorld: UWorld::CleanupWorld for StartingLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.09-04.24.13:669][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.24.13:675][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.09-04.24.13:681][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.09-04.24.13:703][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.09-04.24.13:703][ 48]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.04.09-04.24.13:703][ 48]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.04.09-04.24.13:706][ 48]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.04.09-04.24.13:715][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.04.09-04.24.13:835][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_181
