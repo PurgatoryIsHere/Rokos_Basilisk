@@ -256,10 +256,10 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
     //Notable differences: If something doesn't fit, it goes back to optimize the last 2 prefabs to pick one that does perfectly
     //Also, does not actively prune prefabs that don't fit
 
-    PlayerSkill = 100.0f;
-    PlayerScore = 100.0f;
-    PlayerMovement = 100.0f;
-    PlayerPreservation = 100.0f;
+    //PlayerSkill = 100.0f;
+    //PlayerScore = 100.0f;
+    //PlayerMovement = 100.0f;
+    //PlayerPreservation = 100.0f;
 
     UE_LOG(LogTemp, Log, TEXT("STARTING PLAYER RATINGS"));
     UE_LOG(LogTemp, Log, TEXT("Player Skill Rating: %.2f"), PlayerSkill);
@@ -308,10 +308,10 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
                     }
 
                     overbudget = GrammarStack.Last();
-                    GrammarStack.Remove(overbudget);
+                    GrammarStack.RemoveAt(GrammarStack.Num() - 1);
 
                     //and then remove the overbudgetted prefab from the current level
-                    PrefabPool.Remove(overbudget);
+                    //PrefabPool.Remove(overbudget);
                 }
 
                 else
@@ -334,7 +334,7 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
             while (GrammarStack.Num() > 0)
             {
                 selectedPrefab = GrammarStack.Last();
-                GrammarStack.Remove(GrammarStack.Last());
+                GrammarStack.RemoveAt(GrammarStack.Num() - 1);
                 LevelGrammar.Append(PrefabNumbers[selectedPrefab] + ",");
             }
 
@@ -352,6 +352,18 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
             {
                 UE_LOG(LogTemp, Log, TEXT("List Item: %s"), *item);
             }
+        }
+    }
+
+    if (LevelGrammar.Equals("") && !GrammarStack.IsEmpty())
+    {
+        FString prefab = "";
+
+        while (!GrammarStack.IsEmpty())
+        {
+            prefab = GrammarStack.Last();
+            GrammarStack.RemoveAt(GrammarStack.Num() - 1);
+            LevelGrammar.Append(PrefabNumbers[prefab] + ",");
         }
     }
 
