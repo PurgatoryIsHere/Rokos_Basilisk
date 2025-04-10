@@ -12,6 +12,7 @@ AC_Basic_AI::AC_Basic_AI()
 	Health = 30.0f;
 	isDead = false;
 	TimeSurvived = 0.0f;
+	DamageDealt = 10.0f;
 
 	StartingTime = 0.0f;
 	ElapsedTime = 0.0f;
@@ -78,5 +79,29 @@ bool AC_Basic_AI::KillField(float ZComponent)
 void AC_Basic_AI::UpdateTimeSurvived()
 {
 	TimeSurvived = ElapsedTime;
+}
+
+void AC_Basic_AI::AdjustDifficultySettings(FString Difficulty)
+{
+	if (Difficulty.Equals("Easy"))
+	{
+		Health = 15.0f;
+		DamageDealt = 5.0f;
+		GetCharacterMovement()->MaxWalkSpeed = 400.0f;
+	}
+
+	else if(Difficulty.Equals("Normal"))
+	{
+		Health = 30.0f;
+		DamageDealt = 10.0f;
+		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	}
+
+	else if (Difficulty.Equals("Hard"))
+	{
+		Health = 45.0f;
+		DamageDealt = 50.0f;
+		GetCharacterMovement()->MaxWalkSpeed = 800.0f;
+	}
 }
 

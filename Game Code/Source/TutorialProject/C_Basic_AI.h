@@ -37,6 +37,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
 	float TimeSurvived;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Variables")
+	float DamageDealt;
+
 	UFUNCTION(BlueprintCallable, Category = "Damage")
 	void TakeDamage(float Damage);
 
@@ -46,8 +49,14 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetTimeSurvived() { return TimeSurvived; };
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetDamageDealt() { return DamageDealt; };
+
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateTimeSurvived();
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void AdjustDifficultySettings(FString Difficulty);
 
 private:
 
