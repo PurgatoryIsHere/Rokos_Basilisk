@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execUpdateTimeSurvived); \
 	DECLARE_FUNCTION(execGetDamageDealt); \
 	DECLARE_FUNCTION(execGetTimeSurvived); \
+	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execKillField); \
 	DECLARE_FUNCTION(execTakeDamage);
 

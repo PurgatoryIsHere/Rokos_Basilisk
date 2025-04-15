@@ -47,6 +47,9 @@ public:
 	bool KillField(float ZComponent);
 
 	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetHealth() { return Health; };
+
+	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetTimeSurvived() { return TimeSurvived; };
 
 	UFUNCTION(BlueprintCallable, Category = "Getter")
