@@ -9,7 +9,8 @@
 				"C:/GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/MainMenu/W_Difficulty.uasset",
 				"C:/GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/MainMenu/W_DifficultyText.uasset",
 				"C:/GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/MainMenu/W_MainMenu.uasset",
-				"C:/GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset"
+				"C:/GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset",
+				"C:/GitHub/Rokos_Basilisk/Game Code/Content/EnemySpawner/BP_ENEMYspawner.uasset"
 			]
 		}
 	]
