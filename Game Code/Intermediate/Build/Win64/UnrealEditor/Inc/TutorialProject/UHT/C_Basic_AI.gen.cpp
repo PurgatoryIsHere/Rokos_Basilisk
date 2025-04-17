@@ -354,12 +354,17 @@ struct Z_Construct_UClass_AC_Basic_AI_Statics
 		{ "Category", "Variables" },
 		{ "ModuleRelativePath", "C_Basic_AI.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HealthDropChance_MetaData[] = {
+		{ "Category", "Variables" },
+		{ "ModuleRelativePath", "C_Basic_AI.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
 	static void NewProp_isDead_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_isDead;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeSurvived;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageDealt;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_HealthDropChance;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -385,11 +390,13 @@ void Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_isDead_SetBit(void* Obj)
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_isDead = { "isDead", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AC_Basic_AI), &Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_isDead_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_isDead_MetaData), NewProp_isDead_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_TimeSurvived = { "TimeSurvived", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_Basic_AI, TimeSurvived), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimeSurvived_MetaData), NewProp_TimeSurvived_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_DamageDealt = { "DamageDealt", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_Basic_AI, DamageDealt), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DamageDealt_MetaData), NewProp_DamageDealt_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_HealthDropChance = { "HealthDropChance", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_Basic_AI, HealthDropChance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HealthDropChance_MetaData), NewProp_HealthDropChance_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Basic_AI_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_Health,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_isDead,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_TimeSurvived,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_DamageDealt,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Basic_AI_Statics::NewProp_HealthDropChance,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AC_Basic_AI_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AC_Basic_AI_Statics::DependentSingletons[])() = {
@@ -429,14 +436,14 @@ AC_Basic_AI::~AC_Basic_AI() {}
 // End Class AC_Basic_AI
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_Basic_AI, AC_Basic_AI::StaticClass, TEXT("AC_Basic_AI"), &Z_Registration_Info_UClass_AC_Basic_AI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Basic_AI), 3922845409U) },
+		{ Z_Construct_UClass_AC_Basic_AI, AC_Basic_AI::StaticClass, TEXT("AC_Basic_AI"), &Z_Registration_Info_UClass_AC_Basic_AI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Basic_AI), 2749995791U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_3359622070(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_3668682453(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_EdgeN_OneDrive_Documents_Unreal_Projects_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_Basic_AI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

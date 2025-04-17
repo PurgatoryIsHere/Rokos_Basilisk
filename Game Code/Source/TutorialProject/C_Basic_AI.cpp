@@ -13,6 +13,7 @@ AC_Basic_AI::AC_Basic_AI()
 	isDead = false;
 	TimeSurvived = 0.0f;
 	DamageDealt = 10.0f;
+	HealthDropChance = 5.0f;
 
 	StartingTime = 0.0f;
 	ElapsedTime = 0.0f;
@@ -88,6 +89,7 @@ void AC_Basic_AI::AdjustDifficultySettings(FString Difficulty)
 		Health = 15.0f;
 		DamageDealt = 5.0f;
 		GetCharacterMovement()->MaxWalkSpeed = 400.0f;
+		HealthDropChance = 10.0f;
 	}
 
 	else if (Difficulty.Equals("Normal"))
@@ -95,6 +97,7 @@ void AC_Basic_AI::AdjustDifficultySettings(FString Difficulty)
 		Health = 30.0f;
 		DamageDealt = 10.0f;
 		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+		HealthDropChance = 5.0f;
 	}
 
 	else if (Difficulty.Equals("Hard"))
@@ -102,5 +105,6 @@ void AC_Basic_AI::AdjustDifficultySettings(FString Difficulty)
 		Health = 45.0f;
 		DamageDealt = 50.0f;
 		GetCharacterMovement()->MaxWalkSpeed = 800.0f;
+		HealthDropChance = 1.0f;
 	}
 }
