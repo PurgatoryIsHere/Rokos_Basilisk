@@ -80,5 +80,5 @@ private:
 	void CalculatePlayerMovement(float JumpPref, float DistanceMoved);
 	void CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete);
 
-	void CalculateEnemyDensity();
+	void CalculateEnemyDensity(TArray<FString> GrammarStack);
 };

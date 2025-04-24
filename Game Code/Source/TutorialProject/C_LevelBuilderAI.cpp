@@ -329,6 +329,8 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
         {
             UE_LOG(LogTemp, Log, TEXT("CONSTRAINT ACHIEVED, APPENDING LEVEL GRAMMAR"));
             GrammarStack.Add(selectedPrefab);
+            //success case, calculates density
+            CalculateEnemyDensity(GrammarStack);
 
             while (GrammarStack.Num() > 0)
             {
@@ -357,6 +359,8 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
     if (LevelGrammar.Equals("") && !GrammarStack.IsEmpty())
     {
         FString prefab = "";
+        //fallback case, calculates enemy density
+        CalculateEnemyDensity(GrammarStack);
 
         while (!GrammarStack.IsEmpty())
         {
@@ -370,42 +374,22 @@ FString AC_LevelBuilderAI::GenerateLevelGrammar()
 
     UE_LOG(LogTemp, Log, TEXT("Next Level Grammar: %s"), *LevelGrammar);
 
-    CalculateEnemyDensity();
+    
 
     return LevelGrammar;
 }
-
-void AC_LevelBuilderAI::CalculateEnemyDensity()
+//calculates enemy desnity based on amount of prefabs made, to spread them out amongst the level
+//It uses the equation of Prefab count times 2, plus the player score divided by count.
+//effectively, this means that each prefab should have at least 2 enemies in it, plus more depending on player performance
+void AC_LevelBuilderAI::CalculateEnemyDensity(TArray<FString> GrammarStack)
 {
-    if ((PlayerSkill == 0) && (PlayerScore == 0) && (PlayerMovement == 0) && (PlayerPreservation == 0)) 
-    {
-        EnemyDensity = 10;
-    }
+    int count = 0;
+    for (FString item : GrammarStack)
+            {
+                count = count+1;
+            }
 
-    else 
-    {
-        if (PlayerSkill > 10)
-        {
-            PlayerSkill /= 10;
-        }
-
-        if (PlayerScore > 10)
-        {
-            PlayerScore /= 10;
-        }
-
-        if (PlayerMovement > 10)
-        {
-            PlayerMovement /= 10;
-        }
-
-        if (PlayerPreservation > 10)
-        {
-            PlayerPreservation /= 10;
-        }
-
-        EnemyDensity = round(PlayerSkill + PlayerScore + PlayerMovement + PlayerPreservation);
-    }
+    EnemyDensity = (count+count)+(PlayerScore/count);
 
     UE_LOG(LogTemp, Log, TEXT("Enemy Density of Next Level: %.2f"), EnemyDensity);
 }
