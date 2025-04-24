@@ -58,6 +58,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetDamageDealt() { return DamageDealt; };
 
+	UFUNCTION(BlueprintCallable, Category = "Getter")
+	float GetHealthDropChance() { return HealthDropChance; };
+
 	UFUNCTION(BlueprintCallable, Category = "Update")
 	void UpdateTimeSurvived();
 
