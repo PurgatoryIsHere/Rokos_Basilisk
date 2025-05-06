@@ -359,6 +359,36 @@ DEFINE_FUNCTION(AC_LevelBuilderAI::execGetPlayerSkillRating)
 }
 // End Class AC_LevelBuilderAI Function GetPlayerSkillRating
 
+// Begin Class AC_LevelBuilderAI Function KillButtonPressedToggle
+struct Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Update" },
+		{ "ModuleRelativePath", "C_LevelBuilderAI.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_LevelBuilderAI, nullptr, "KillButtonPressedToggle", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_LevelBuilderAI::execKillButtonPressedToggle)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->KillButtonPressedToggle();
+	P_NATIVE_END;
+}
+// End Class AC_LevelBuilderAI Function KillButtonPressedToggle
+
 // Begin Class AC_LevelBuilderAI Function LoadPrefabs
 struct Z_Construct_UFunction_AC_LevelBuilderAI_LoadPrefabs_Statics
 {
@@ -435,6 +465,36 @@ DEFINE_FUNCTION(AC_LevelBuilderAI::execPrintPrefabInfo)
 }
 // End Class AC_LevelBuilderAI Function PrintPrefabInfo
 
+// Begin Class AC_LevelBuilderAI Function RandomizePlayerStats
+struct Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "LevelBuilderAI" },
+		{ "ModuleRelativePath", "C_LevelBuilderAI.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC_LevelBuilderAI, nullptr, "RandomizePlayerStats", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats_Statics::Function_MetaDataParams), Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AC_LevelBuilderAI::execRandomizePlayerStats)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->RandomizePlayerStats();
+	P_NATIVE_END;
+}
+// End Class AC_LevelBuilderAI Function RandomizePlayerStats
+
 // Begin Class AC_LevelBuilderAI
 void AC_LevelBuilderAI::StaticRegisterNativesAC_LevelBuilderAI()
 {
@@ -448,8 +508,10 @@ void AC_LevelBuilderAI::StaticRegisterNativesAC_LevelBuilderAI()
 		{ "GetPlayerRatingsAsArray", &AC_LevelBuilderAI::execGetPlayerRatingsAsArray },
 		{ "GetPlayerScoreRating", &AC_LevelBuilderAI::execGetPlayerScoreRating },
 		{ "GetPlayerSkillRating", &AC_LevelBuilderAI::execGetPlayerSkillRating },
+		{ "KillButtonPressedToggle", &AC_LevelBuilderAI::execKillButtonPressedToggle },
 		{ "LoadPrefabs", &AC_LevelBuilderAI::execLoadPrefabs },
 		{ "PrintPrefabInfo", &AC_LevelBuilderAI::execPrintPrefabInfo },
+		{ "RandomizePlayerStats", &AC_LevelBuilderAI::execRandomizePlayerStats },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -476,8 +538,10 @@ struct Z_Construct_UClass_AC_LevelBuilderAI_Statics
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerRatingsAsArray, "GetPlayerRatingsAsArray" }, // 131653660
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerScoreRating, "GetPlayerScoreRating" }, // 4227888821
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_GetPlayerSkillRating, "GetPlayerSkillRating" }, // 2600313485
+		{ &Z_Construct_UFunction_AC_LevelBuilderAI_KillButtonPressedToggle, "KillButtonPressedToggle" }, // 1255364426
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_LoadPrefabs, "LoadPrefabs" }, // 487319879
 		{ &Z_Construct_UFunction_AC_LevelBuilderAI_PrintPrefabInfo, "PrintPrefabInfo" }, // 3929879533
+		{ &Z_Construct_UFunction_AC_LevelBuilderAI_RandomizePlayerStats, "RandomizePlayerStats" }, // 1336212487
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -522,14 +586,14 @@ AC_LevelBuilderAI::~AC_LevelBuilderAI() {}
 // End Class AC_LevelBuilderAI
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics
+struct Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_LevelBuilderAI, AC_LevelBuilderAI::StaticClass, TEXT("AC_LevelBuilderAI"), &Z_Registration_Info_UClass_AC_LevelBuilderAI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_LevelBuilderAI), 356606539U) },
+		{ Z_Construct_UClass_AC_LevelBuilderAI, AC_LevelBuilderAI::StaticClass, TEXT("AC_LevelBuilderAI"), &Z_Registration_Info_UClass_AC_LevelBuilderAI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_LevelBuilderAI), 2146992264U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_1288726864(TEXT("/Script/TutorialProject"),
-	Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_akhta_Capstone_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_4219620203(TEXT("/Script/TutorialProject"),
+	Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_Rokos_Basilisk_Game_Code_Source_TutorialProject_C_LevelBuilderAI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

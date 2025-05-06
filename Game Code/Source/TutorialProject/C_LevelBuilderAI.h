@@ -36,6 +36,8 @@ public:
 
 	float EnemyDensity;
 
+	bool KillButtonPressed;
+
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	void LoadPrefabs(const FString& PrefabFolderPath);
 
@@ -44,6 +46,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	void CalculatePlayerStats(TArray<float> PlayerStats);
+
+	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
+	void RandomizePlayerStats();
 
 	UFUNCTION(BlueprintCallable, Category = "LevelBuilderAI")
 	FString GenerateLevelGrammar();
@@ -65,6 +70,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Getter")
 	float GetEnemyDensity() { return EnemyDensity; };
+
+	UFUNCTION(BlueprintCallable, Category = "Update")
+	void KillButtonPressedToggle();
 
 
 private:

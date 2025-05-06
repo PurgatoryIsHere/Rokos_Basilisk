@@ -22,6 +22,8 @@ AC_LevelBuilderAI::AC_LevelBuilderAI()
 
     LevelGrammar = "";
     EnemyDensity = 0.0f;
+
+    KillButtonPressed = false;
 }
 
 // Called when the game starts or when spawned
@@ -182,10 +184,11 @@ void AC_LevelBuilderAI::CalculatePlayerStats(TArray<float> PlayerStats)
     CalculatePlayerPreservation(PlayerStats[0], PlayerStats[3], PlayerStats[7], PlayerStats[4]);
 }
 
+
 void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
 {
-    float NHealth = FMath::Clamp(Health / 100, 0.1f, 1.0f);
-    float NAccuracy = FMath::Clamp((Accuracy * 100) / 100, 0.1f, 1.0f);
+    float NHealth = FMath::Clamp(Health / 100, 0.01f, 1.0f);
+    float NAccuracy = FMath::Clamp((Accuracy * 100) / 100, 0.01f, 1.0f);
 
     float SkillCalculation = round((NHealth * 40.0f) + (NAccuracy * 60.0f));
 
@@ -197,9 +200,9 @@ void AC_LevelBuilderAI::CalculatePlayerSkill(float Health, float Accuracy)
 void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFromKill, float TimeToComplete)
 {
     // Normalize variables
-    float NTimeToKill = FMath::Clamp(TimeToKill / 30.0f, 0.1f, 1.0f);
-    float NDistanceFromKill = FMath::Clamp(DistanceFromKill / 2000.0f, 0.1f, 1.0f);
-    float NTimeToComplete = FMath::Clamp(TimeToComplete / 180.0f, 0.1f, 1.0f);
+    float NTimeToKill = FMath::Clamp(TimeToKill / 30.0f, 0.01f, 1.0f);
+    float NDistanceFromKill = FMath::Clamp(DistanceFromKill / 2000.0f, 0.01f, 1.0f);
+    float NTimeToComplete = FMath::Clamp(TimeToComplete / 180.0f, 0.01f, 1.0f);
 
     float ScoreCalculation = round((NTimeToKill * 25.0f) + (NDistanceFromKill * 25.0f) + (NTimeToComplete * 50.0f));
 
@@ -212,8 +215,8 @@ void AC_LevelBuilderAI::CalculatePlayerScore(float TimeToKill, float DistanceFro
 void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMoved)
 {
     // Normalize variables
-    float NJumpPref = FMath::Clamp(JumpPref / 10.0f, 0.1f, 1.0f);
-    float NDistanceMoved = FMath::Clamp(DistanceMoved / 10000.0f, 0.1f, 1.0f);
+    float NJumpPref = FMath::Clamp(JumpPref / 10.0f, 0.01f, 1.0f);
+    float NDistanceMoved = FMath::Clamp(DistanceMoved / 10000.0f, 0.01f, 1.0f);
 
     float MovementCalculation = round((NJumpPref * 30.0f) + (NDistanceMoved * 70.0f));
 
@@ -225,8 +228,8 @@ void AC_LevelBuilderAI::CalculatePlayerMovement(float JumpPref, float DistanceMo
 void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float DistanceFromKill, float Stealth, float TimeToComplete)
 {
     // Normalize variables
-    float NHealth = FMath::Clamp(Health / 100.0f, 0.1f, 1.0f);
-    float NDistanceFromKill = FMath::Clamp(DistanceFromKill / 2000.0f, 0.1f, 1.0f);
+    float NHealth = FMath::Clamp(Health / 100.0f, 0.01f, 1.0f);
+    float NDistanceFromKill = FMath::Clamp(DistanceFromKill / 2000.0f, 0.01f, 1.0f);
     float NStealth = FMath::Clamp(Stealth / TimeToComplete, 0.0f, 1.0f);
 
     float PreservationCalculation = round((NHealth * 40.0f) + (NDistanceFromKill * 25.0f) + (NStealth * 35.0f));
@@ -234,6 +237,19 @@ void AC_LevelBuilderAI::CalculatePlayerPreservation(float Health, float Distance
     PlayerPreservation = FMath::Clamp(PreservationCalculation, 1.0f, 100.0f);
 
     UE_LOG(LogTemp, Log, TEXT("Player Preservation Rating: %.2f"), PlayerPreservation);
+}
+
+void AC_LevelBuilderAI::RandomizePlayerStats()
+{
+    if (KillButtonPressed == true)
+    {
+        PlayerSkill = FMath::RandRange(50, 100);
+        PlayerScore = FMath::RandRange(50, 100);
+        PlayerMovement = FMath::RandRange(50, 100);
+        PlayerPreservation = FMath::RandRange(50, 100);
+    }
+
+    KillButtonPressed = false;
 }
 
 FString AC_LevelBuilderAI::GenerateLevelGrammar()
@@ -402,4 +418,9 @@ TArray<float> AC_LevelBuilderAI::GetPlayerRatingsAsArray()
     PlayerRatings.Add(PlayerPreservation);
 
     return PlayerRatings;
+}
+
+void AC_LevelBuilderAI::KillButtonPressedToggle()
+{
+    KillButtonPressed = true;
 }
