@@ -405,7 +405,7 @@ void AC_LevelBuilderAI::CalculateEnemyDensity(TArray<FString> GrammarStack)
                 count = count+1;
             }
 
-    EnemyDensity = (count+count)+(PlayerScore/count);
+    EnemyDensity = (count+count)+((PlayerSkill/10)*count);
 
     UE_LOG(LogTemp, Log, TEXT("Enemy Density of Next Level: %.2f"), EnemyDensity);
 }
