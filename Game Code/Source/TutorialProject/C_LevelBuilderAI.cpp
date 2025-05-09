@@ -79,6 +79,9 @@ void AC_LevelBuilderAI::ProcessPrefabAssets(const TArray<FAssetData>& AssetDataL
     AssetsToIgnore.insert("SM_test");
     AssetsToIgnore.insert("SM_endPiece");
     AssetsToIgnore.insert("SM_startingLevel");
+    AssetsToIgnore.insert("SM_prefab18_arenaObstacles");
+    AssetsToIgnore.insert("SM_prefab26_modelingArch");
+    AssetsToIgnore.insert("SM_prefab30_modelingPlayingWithShapes");
 
 
     for (const FAssetData& AssetData : AssetDataList)
@@ -141,7 +144,7 @@ void AC_LevelBuilderAI::AssignPrefabRatings()
     PrefabRatings["SM_prefab15_jumpForIt"] = { 7, 5, 7, 8 };
     PrefabRatings["SM_prefab16_arenaClimb"] = { 3, 4, 3, 3 };
     PrefabRatings["SM_prefab17_arenaPit"] = { 5, 3, 2, 6 };
-    PrefabRatings["SM_prefab18_arenaObstacles"] = { 4, 4, 2, 6 };
+    //PrefabRatings["SM_prefab18_arenaObstacles"] = { 4, 4, 2, 6 };
     PrefabRatings["SM_prefab19_arenaHall"] = { 6, 5, 4, 4 };
     PrefabRatings["SM_prefab20_arenaEmpty"] = { 2, 3, 3, 2 };
     PrefabRatings["SM_prefab21_mazeSpiral"] = { 4, 3, 10, 2 };
@@ -149,11 +152,11 @@ void AC_LevelBuilderAI::AssignPrefabRatings()
     PrefabRatings["SM_prefab23_mazeJump"] = { 9, 7, 9, 9 };
     PrefabRatings["SM_prefab24_mazeAGGGHHHHHH"] = { 10, 10, 10, 10 };
     PrefabRatings["SM_prefab25_mazeDontRush"] = { 7, 5, 8, 8 };
-    PrefabRatings["SM_prefab26_modelingArch"] = { 4, 4, 6, 2 };
+    //PrefabRatings["SM_prefab26_modelingArch"] = { 4, 4, 6, 2 };
     PrefabRatings["SM_prefab27_modelingCylinderPit"] = { 5, 3, 6, 2 };
     PrefabRatings["SM_prefab28_spiralStairs"] = { 4, 4, 5, 3 };
     PrefabRatings["SM_prefab29_modelingPitTraverse"] = { 7, 7, 7, 9 };
-    PrefabRatings["SM_prefab30_modelingPlayingWithShapes"] = { 4, 5, 2, 3 };
+    //PrefabRatings["SM_prefab30_modelingPlayingWithShapes"] = { 4, 5, 2, 3 };
 
     UE_LOG(LogTemp, Log, TEXT("Generated ratings for %d prefabs."), PrefabRatings.Num());
 }

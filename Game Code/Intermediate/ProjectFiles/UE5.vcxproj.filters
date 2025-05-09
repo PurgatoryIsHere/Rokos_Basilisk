@@ -10753,6 +10753,30 @@
     <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\LightWeightInstancesEditor\Resources\Icon128.png">
       <Filter>Plugins\LightWeightInstancesEditor\Resources</Filter>
     </None>
+    <Filter Include="Plugins\Marketplace">
+      <UniqueIdentifier>{1E520605-3A0C-397B-A124-81C6D67B82FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\AsyncLoac1ceae7b44acV11">
+      <UniqueIdentifier>{18B64111-448B-3EF5-A0A1-CC1DCC48CF61}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\AsyncLoadingScreen.uplugin">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources">
+      <UniqueIdentifier>{20AAB1C6-3B33-37F3-ABF0-058D115C2816}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources\Icon128.png">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources\Icon256.png">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources\Icon512.png">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources\Icon64.png">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Resources</Filter>
+    </None>
     <Filter Include="Plugins\Media">
       <UniqueIdentifier>{EFC0DBFF-6FDA-393C-AC79-85C04FCB8860}</UniqueIdentifier>
     </Filter>
@@ -187524,6 +187548,111 @@
     </Filter>
     <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public\LightWeightInstancesEditor.h">
       <Filter>Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source">
+      <UniqueIdentifier>{808EDF07-AC89-369E-96C7-6032FF97D6BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen">
+      <UniqueIdentifier>{77CF8432-C889-3891-A0C5-683A63924E5F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\AsyncLoadingScreen.Build.cs">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private">
+      <UniqueIdentifier>{C5F90E7C-0004-3FEC-BE11-6DB1E4AC0853}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\AsyncLoadingScreen.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\AsyncLoadingScreenLibrary.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\LoadingScreenSettings.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SBackgroundWidget.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SCenterLayout.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SClassicLayout.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SDualSidebarLayout.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SHorizontalLoadingWidget.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SLetterboxLayout.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SLoadingCompleteText.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SLoadingScreenLayout.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SLoadingWidget.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SSidebarLayout.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\STipWidget.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private\SVerticalLoadingWidget.cpp">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public">
+      <UniqueIdentifier>{811C5DE1-332D-3BAD-A5C6-F9BFFE89A9DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\AsyncLoadingScreen.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\AsyncLoadingScreenLibrary.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\LoadingScreenSettings.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SBackgroundWidget.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SCenterLayout.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SClassicLayout.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SDualSidebarLayout.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SHorizontalLoadingWidget.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SLetterboxLayout.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SLoadingCompleteText.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SLoadingScreenLayout.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SLoadingWidget.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SSidebarLayout.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\STipWidget.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public\SVerticalLoadingWidget.h">
+      <Filter>Plugins\Marketplace\AsyncLoac1ceae7b44acV11\Source\AsyncLoadingScreen\Public</Filter>
     </ClCompile>
     <Filter Include="Plugins\Media\AjaMedia\Source">
       <UniqueIdentifier>{DE248E0B-1A51-351E-A15C-AD2EE157DE63}</UniqueIdentifier>
