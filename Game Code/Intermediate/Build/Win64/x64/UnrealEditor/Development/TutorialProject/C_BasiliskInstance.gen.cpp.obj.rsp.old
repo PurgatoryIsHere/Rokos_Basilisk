@@ -1,12 +1,12 @@
-"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT\C_BasiliskInstance.gen.cpp"
-/FI"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/FI"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Definitions.TutorialProject.h"
-/Yu"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
-/Fp"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
-/Fo"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.obj"
-/experimental:log "C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.sarif"
-/sourceDependencies "C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.dep.json"
-@"C:\GitHub\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\TutorialProject.Shared.rsp"
+"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\UnrealEditor\Inc\TutorialProject\UHT\C_BasiliskInstance.gen.cpp"
+/FI"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\Definitions.TutorialProject.h"
+/Yu"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\TutorialProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.obj"
+/experimental:log "C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.sarif"
+/sourceDependencies "C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\C_BasiliskInstance.gen.cpp.dep.json"
+@"C:\Users\akhta\Capstone\Rokos_Basilisk\Game Code\Intermediate\Build\Win64\x64\UnrealEditor\Development\TutorialProject\TutorialProject.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
