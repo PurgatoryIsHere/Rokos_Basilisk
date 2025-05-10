@@ -1615,3 +1615,406 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.10-04.41.03:361][931]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
 [2025.05.10-04.41.03:378][932]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
 [2025.05.10-04.41.03:382][932]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.05.10-04.42.38:907][169]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 664.277893
+[2025.05.10-04.42.39:909][172]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-04.42.39:909][172]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 664.944580, Update Interval: 342.780243
+[2025.05.10-04.44.02:341][171]LogChaosDD: Creating Chaos Debug Draw Scene for world World_13
+[2025.05.10-04.44.03:585][258]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI
+[2025.05.10-04.44.03:590][258]LogChaosDD: Creating Chaos Debug Draw Scene for world World_14
+[2025.05.10-04.44.05:150][259]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2025.05.10-04.44.05:840][267]LogChaosDD: Creating Chaos Debug Draw Scene for world World_16
+[2025.05.10-04.44.35:387][ 78]LogSlate: Took 0.010939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.05.10-04.46.26:744][284]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.46.27:446][303]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.46.28:029][331]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.46.28:639][360]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.48.06:411][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2025.05.10-04.48.06:421][343]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/MainMenu/MainMenu' took 0.108
+[2025.05.10-04.48.06:423][343]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemies/EnemyAI/BP_Basic_AI] ([2] browsable assets)...
+[2025.05.10-04.48.06:427][343]LogChaosDD: Creating Chaos Debug Draw Scene for world World_17
+[2025.05.10-04.48.06:485][343]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI_C]
+[2025.05.10-04.48.06:491][343]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI]
+[2025.05.10-04.48.06:491][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/EnemyAI/BP_Basic_AI]
+[2025.05.10-04.48.06:525][343]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/EnemyAI/BP_Basic_AI_Auto1
+[2025.05.10-04.48.06:526][343]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI_Auto1B07512E245B788FB3DA3D1AB2AEDAA1A.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/Enemies/EnemyAI/BP_Basic_AI_Auto1.uasset'
+[2025.05.10-04.48.06:533][343]LogFileHelpers: Auto-saving content packages took 0.113
+[2025.05.10-04.48.19:495][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.05.10-04.48.29:818][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1015.187927
+[2025.05.10-04.48.29:973][693]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-04.48.29:973][693]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1015.325317, Update Interval: 303.376556
+[2025.05.10-04.49.08:416][161]LogEditorTransaction: Undo Change Number Pin Value
+[2025.05.10-04.49.09:404][200]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.51.34:559][ 57]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.51.35:139][ 69]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.51.35:649][ 93]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.51.36:255][123]LogEditorTransaction: Undo Paste clipboard contents
+[2025.05.10-04.51.55:384][439]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.51.55:920][447]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.51.56:478][471]LogEditorTransaction: Undo Paste clipboard contents
+[2025.05.10-04.52.50:839][684]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.52.51:696][718]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.53.38:415][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.05.10-04.53.46:889][155]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1332.249878
+[2025.05.10-04.53.47:030][166]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-04.53.47:030][166]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1332.379150, Update Interval: 310.514221
+[2025.05.10-04.54.24:435][ 28]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.56.07:248][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.05.10-04.56.09:732][905]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.05.10-04.56.09:776][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.05.10-04.56.11:394][905]LogSlate: Window 'Save Content' being destroyed
+[2025.05.10-04.56.11:403][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.10-04.56.11:479][905]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/EnemyAI/BP_Basic_AI] ([2] browsable assets)...
+[2025.05.10-04.56.11:541][905]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI]
+[2025.05.10-04.56.11:541][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/EnemyAI/BP_Basic_AI]
+[2025.05.10-04.56.11:541][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/EnemyAI/BP_Basic_AI" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset" SILENT=true
+[2025.05.10-04.56.11:561][905]LogSavePackage: Moving output files for package: /Game/Enemies/EnemyAI/BP_Basic_AI
+[2025.05.10-04.56.11:562][905]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AICF0315BE4002C3086CBFFCB13ECD1763.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset'
+[2025.05.10-04.56.11:581][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.077 ms (total: 606.510 ms)
+[2025.05.10-04.56.11:763][906]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.10-04.56.11:763][906]LogContentValidation: Enabled validators:
+[2025.05.10-04.56.11:764][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.10-04.56.11:764][906]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.10-04.56.11:764][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.10-04.56.11:764][906]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.10-04.56.11:764][906]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.10-04.56.11:764][906]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.10-04.56.11:764][906]AssetCheck: /Game/Enemies/EnemyAI/BP_Basic_AI Validating asset
+[2025.05.10-04.57.15:916][727]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.15:917][727]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.16:505][741]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.16:505][741]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.57.18:181][831]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.18:181][831]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.57.18:401][833]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.18:401][833]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.18:600][835]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.18:600][835]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.18:941][846]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.18:941][846]LogEditorTransaction: Undo Delete current selection
+[2025.05.10-04.57.19:140][848]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.19:140][848]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.19:344][849]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.19:344][849]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.19:543][850]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.19:543][850]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.57.19:740][851]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.19:740][851]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.57.19:816][851]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.19:816][851]LogEditorTransaction: Undo Delete current selection
+[2025.05.10-04.57.20:006][852]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:006][852]LogEditorTransaction: Undo Paste clipboard contents
+[2025.05.10-04.57.20:223][853]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:223][853]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.57.20:266][853]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:266][853]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.57.20:429][854]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:429][854]LogEditorTransaction: Undo Paste clipboard contents
+[2025.05.10-04.57.20:600][855]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:600][855]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.57.20:776][856]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:776][856]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-04.57.20:952][857]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.20:952][857]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.21:122][859]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.21:122][859]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.57.21:306][861]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.21:306][861]LogEditorTransaction: Undo Change Number Pin Value
+[2025.05.10-04.57.21:595][869]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.21:595][869]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.21:812][874]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.21:813][874]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.22:125][885]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.22:125][885]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.22:408][894]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.22:408][894]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.22:644][899]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.22:644][899]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.22:924][907]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.22:925][907]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.23:175][914]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.23:175][914]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.23:491][919]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.23:491][919]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.23:758][924]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.23:758][924]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.48:628][407]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.48:628][407]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.49:142][418]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.49:142][418]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.57.49:321][421]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.49:321][421]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.49:519][425]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.49:519][425]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.49:840][437]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.49:840][437]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.57.50:309][457]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.50:309][457]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.51:184][502]Cmd: TRANSACTION UNDO
+[2025.05.10-04.57.51:184][502]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.53:250][618]LogEditorTransaction: Undo Change Number Pin Value
+[2025.05.10-04.57.54:637][681]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.55:413][720]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.57.56:105][754]LogEditorTransaction: Undo Move Node
+[2025.05.10-04.57.56:781][787]LogEditorTransaction: Undo Add Node
+[2025.05.10-04.58.00:977][ 31]LogEditorTransaction: Undo Move Nodes
+[2025.05.10-04.58.02:128][ 80]LogEditorTransaction: Undo Change Parameter Type
+[2025.05.10-04.58.02:924][120]LogEditorTransaction: Undo Rename Variable
+[2025.05.10-04.58.03:776][163]LogEditorTransaction: Undo Add Variable
+[2025.05.10-04.58.08:093][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.05.10-04.58.14:527][782]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.05.10-04.58.14:562][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.05.10-04.58.15:778][782]LogSlate: Window 'Save Content' being destroyed
+[2025.05.10-04.58.15:788][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.10-04.58.15:866][782]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/EnemyAI/BP_Basic_AI] ([2] browsable assets)...
+[2025.05.10-04.58.15:908][782]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI]
+[2025.05.10-04.58.15:908][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/EnemyAI/BP_Basic_AI]
+[2025.05.10-04.58.15:908][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/EnemyAI/BP_Basic_AI" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset" SILENT=true
+[2025.05.10-04.58.15:923][782]LogSavePackage: Moving output files for package: /Game/Enemies/EnemyAI/BP_Basic_AI
+[2025.05.10-04.58.15:924][782]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AID1BB0B7841BC4952C749D3B7FA7E92EF.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset'
+[2025.05.10-04.58.15:937][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.596 ms (total: 754.106 ms)
+[2025.05.10-04.58.16:038][783]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.10-04.58.16:038][783]LogContentValidation: Enabled validators:
+[2025.05.10-04.58.16:038][783]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.10-04.58.16:038][783]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.10-04.58.16:038][783]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.10-04.58.16:038][783]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.10-04.58.16:038][783]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.10-04.58.16:038][783]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.10-04.58.16:038][783]AssetCheck: /Game/Enemies/EnemyAI/BP_Basic_AI Validating asset
+[2025.05.10-04.59.26:742][507]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1672.107666
+[2025.05.10-04.59.26:909][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-04.59.26:909][518]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1672.257935, Update Interval: 325.131989
+[2025.05.10-05.01.29:368][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.05.10-05.02.04:581][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.05.10-05.02.28:253][252]LogEditorTransaction: Undo Move Node
+[2025.05.10-05.02.28:538][255]LogEditorTransaction: Undo Move Node
+[2025.05.10-05.02.28:927][265]LogEditorTransaction: Undo Change String Pin Value
+[2025.05.10-05.02.29:377][282]LogEditorTransaction: Undo Create Pin Link
+[2025.05.10-05.02.29:895][303]LogEditorTransaction: Undo Add Node
+[2025.05.10-05.02.30:453][327]LogEditorTransaction: Undo Move Node
+[2025.05.10-05.02.30:978][349]LogEditorTransaction: Undo Move Node
+[2025.05.10-05.02.31:441][369]LogEditorTransaction: Undo Move Node
+[2025.05.10-05.02.31:934][391]LogEditorTransaction: Undo Add Node
+[2025.05.10-05.02.33:389][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.10-05.02.42:814][  0]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_BasiliskInstance.BP_BasiliskInstance
+[2025.05.10-05.02.42:814][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world World_18
+[2025.05.10-05.04.01:547][620]Cmd: TRANSACTION UNDO
+[2025.05.10-05.04.01:547][620]LogEditorTransaction: Undo Rename Variable
+[2025.05.10-05.04.02:075][631]Cmd: TRANSACTION UNDO
+[2025.05.10-05.04.02:075][631]LogEditorTransaction: Undo Add Variable
+[2025.05.10-05.04.04:637][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.05.10-05.04.11:454][158]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.11:454][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.11:465][158]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.11:465][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.11:545][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.05.10-05.04.16:149][426]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.16:149][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.16:157][426]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.16:157][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.16:252][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.05.10-05.04.17:668][510]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.17:668][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.17:777][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.05.10-05.04.19:455][609]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.19:455][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.19:464][609]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.10-05.04.19:465][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.10-05.04.19:553][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.05.10-05.04.27:064][ 53]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPerson/MainMenu/W_Difficulty.W_Difficulty
+[2025.05.10-05.04.27:066][ 53]LogChaosDD: Creating Chaos Debug Draw Scene for world World_19
+[2025.05.10-05.04.27:075][ 53]LogChaosDD: Creating Chaos Debug Draw Scene for world World_20
+[2025.05.10-05.05.09:504][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.05.10-05.05.23:801][345]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2029.168213
+[2025.05.10-05.05.24:019][353]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-05.05.24:019][354]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2029.340210, Update Interval: 321.555847
+[2025.05.10-05.06.40:256][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.05.10-05.08.10:577][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.05.10-05.11.24:292][ 86]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2389.668945
+[2025.05.10-05.11.24:460][ 96]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-05.11.24:460][ 96]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2389.821533, Update Interval: 316.644806
+[2025.05.10-05.12.54:995][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.05.10-05.12.54:997][409]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/MainMenu/MainMenu' took 0.029
+[2025.05.10-05.12.54:998][409]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BasiliskInstance] ([2] browsable assets)...
+[2025.05.10-05.12.54:998][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BasiliskInstance]
+[2025.05.10-05.12.54:998][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BasiliskInstance" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/BP_BasiliskInstance_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.05.10-05.12.55:001][409]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_BasiliskInstance_Auto2
+[2025.05.10-05.12.55:001][409]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_BasiliskInstance_Auto2F1C0F3074DB97D6B66D1B1961162D46E.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/BP_BasiliskInstance_Auto2.uasset'
+[2025.05.10-05.12.55:002][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/EnemyAI/BP_Basic_AI] ([2] browsable assets)...
+[2025.05.10-05.12.55:072][409]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI]
+[2025.05.10-05.12.55:072][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/EnemyAI/BP_Basic_AI]
+[2025.05.10-05.12.55:089][409]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/EnemyAI/BP_Basic_AI_Auto2
+[2025.05.10-05.12.55:089][409]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI_Auto29961007A4C5088AFDCF78AA7FC35B94A.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/Enemies/EnemyAI/BP_Basic_AI_Auto2.uasset'
+[2025.05.10-05.12.55:090][409]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/MainMenu/W_Difficulty] ([2] browsable assets)...
+[2025.05.10-05.12.55:097][409]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/FirstPerson/MainMenu/W_Difficulty.W_Difficulty]
+[2025.05.10-05.12.55:097][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/MainMenu/W_Difficulty]
+[2025.05.10-05.12.55:112][409]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/MainMenu/W_Difficulty_Auto2
+[2025.05.10-05.12.55:112][409]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/W_Difficulty_Auto2F9BBBB16465C33F992679D8C2BAD7EE2.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/Autosaves/Game/FirstPerson/MainMenu/W_Difficulty_Auto2.uasset'
+[2025.05.10-05.12.55:112][409]LogFileHelpers: Auto-saving content packages took 0.115
+[2025.05.10-05.13.19:217][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.05.10-05.13.48:765][554]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.05.10-05.13.48:799][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.05.10-05.13.51:827][554]LogSlate: Window 'Save Content' being destroyed
+[2025.05.10-05.13.51:842][554]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.10-05.13.51:913][554]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/EnemyAI/BP_Basic_AI] ([2] browsable assets)...
+[2025.05.10-05.13.52:005][554]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI]
+[2025.05.10-05.13.52:005][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/EnemyAI/BP_Basic_AI]
+[2025.05.10-05.13.52:005][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/EnemyAI/BP_Basic_AI" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset" SILENT=true
+[2025.05.10-05.13.52:022][554]LogSavePackage: Moving output files for package: /Game/Enemies/EnemyAI/BP_Basic_AI
+[2025.05.10-05.13.52:022][554]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI808318584BAAE191C4E1E590D0B3C53F.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset'
+[2025.05.10-05.13.52:023][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_BasiliskInstance] ([2] browsable assets)...
+[2025.05.10-05.13.52:023][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_BasiliskInstance]
+[2025.05.10-05.13.52:023][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_BasiliskInstance" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/BP_BasiliskInstance.uasset" SILENT=true
+[2025.05.10-05.13.52:025][554]LogSavePackage: Moving output files for package: /Game/BP_BasiliskInstance
+[2025.05.10-05.13.52:026][554]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_BasiliskInstanceDD54CE104E0B561D4B3872B95F367EF7.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/BP_BasiliskInstance.uasset'
+[2025.05.10-05.13.52:027][554]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/MainMenu/W_Difficulty] ([2] browsable assets)...
+[2025.05.10-05.13.52:027][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/MainMenu/W_Difficulty]
+[2025.05.10-05.13.52:027][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/MainMenu/W_Difficulty" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/MainMenu/W_Difficulty.uasset" SILENT=true
+[2025.05.10-05.13.52:042][554]LogSavePackage: Moving output files for package: /Game/FirstPerson/MainMenu/W_Difficulty
+[2025.05.10-05.13.52:042][554]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/W_Difficulty8B06941A4ED75FFA92E05E9266CB3545.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/FirstPerson/MainMenu/W_Difficulty.uasset'
+[2025.05.10-05.13.52:056][554]LogFileHelpers: InternalPromptForCheckoutAndSave took 213.588 ms (total: 967.694 ms)
+[2025.05.10-05.13.52:185][555]LogContentValidation: Display: Starting to validate 3 assets
+[2025.05.10-05.13.52:185][555]LogContentValidation: Enabled validators:
+[2025.05.10-05.13.52:185][555]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.10-05.13.52:185][555]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.10-05.13.52:185][555]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.10-05.13.52:185][555]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.10-05.13.52:185][555]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.10-05.13.52:185][555]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.10-05.13.52:185][555]AssetCheck: /Game/Enemies/EnemyAI/BP_Basic_AI Validating asset
+[2025.05.10-05.13.52:185][555]AssetCheck: /Game/BP_BasiliskInstance Validating asset
+[2025.05.10-05.13.52:186][555]AssetCheck: /Game/FirstPerson/MainMenu/W_Difficulty Validating asset
+[2025.05.10-05.15.27:006][570]LogChaosDD: Creating Chaos Debug Draw Scene for world World_22
+[2025.05.10-05.15.28:538][656]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged.BP_Basic_AI_Ranged
+[2025.05.10-05.15.28:539][656]LogChaosDD: Creating Chaos Debug Draw Scene for world World_23
+[2025.05.10-05.15.29:366][659]LogChaosDD: Creating Chaos Debug Draw Scene for world World_24
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'pelvis' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_03' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_04' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_05' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_l' 
+[2025.05.10-05.16.45:791][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_r' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_r' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_l' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_l' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_l' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_02' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_01' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_02' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'head' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_r' 
+[2025.05.10-05.16.45:792][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'pelvis' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_03' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_04' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_05' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_02' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_01' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_02' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'head' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_r' 
+[2025.05.10-05.16.45:793][173]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_r' 
+[2025.05.10-05.16.45:880][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.10-05.17.37:602][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2762.975342
+[2025.05.10-05.17.37:752][222]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.10-05.17.37:752][223]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2763.108643, Update Interval: 308.098999
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'pelvis' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_03' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_04' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_05' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_r' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_r' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_02' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_01' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_02' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'head' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_r' 
+[2025.05.10-05.18.03:631][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'pelvis' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_03' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_04' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_05' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'lowerarm_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'hand_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'foot_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'spine_02' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_01' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'neck_02' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'head' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'clavicle_l' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'upperarm_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'thigh_r' 
+[2025.05.10-05.18.03:633][759]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_Basic_AI_Ranged_C_0 /Engine/Transient.World_23:PersistentLevel.BP_Basic_AI_Ranged_C_0.CharacterMesh0 Bone: 'calf_r' 
+[2025.05.10-05.18.03:675][759]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2025.05.10-05.18.09:766][110]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.05.10-05.18.09:799][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.05.10-05.18.11:980][110]LogSlate: Window 'Save Content' being destroyed
+[2025.05.10-05.18.11:986][110]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2025.05.10-05.18.11:986][110]PIE: Warning: PIE failed because map save was canceled
+[2025.05.10-05.18.15:084][277]LogSlate: Window 'Message Log' being destroyed
+[2025.05.10-05.18.15:089][277]LogSlate: Window 'Message Log' being destroyed
+[2025.05.10-05.18.26:187][943]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2025.05.10-05.18.26:219][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.05.10-05.18.27:427][943]LogSlate: Window 'Save Content' being destroyed
+[2025.05.10-05.18.27:441][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.10-05.18.27:532][943]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/EnemyAI/BP_Basic_AI] ([2] browsable assets)...
+[2025.05.10-05.18.27:588][943]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/EnemyAI/BP_Basic_AI.BP_Basic_AI]
+[2025.05.10-05.18.27:588][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/EnemyAI/BP_Basic_AI]
+[2025.05.10-05.18.27:588][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/EnemyAI/BP_Basic_AI" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset" SILENT=true
+[2025.05.10-05.18.27:606][943]LogSavePackage: Moving output files for package: /Game/Enemies/EnemyAI/BP_Basic_AI
+[2025.05.10-05.18.27:607][943]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AID31EC390401EE87D3FE339A9353D335A.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/EnemyAI/BP_Basic_AI.uasset'
+[2025.05.10-05.18.27:608][943]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged] ([2] browsable assets)...
+[2025.05.10-05.18.27:617][943]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged.BP_Basic_AI_Ranged]
+[2025.05.10-05.18.27:617][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged]
+[2025.05.10-05.18.27:617][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged" FILE="../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/RangedEnemy/BP_Basic_AI_Ranged.uasset" SILENT=true
+[2025.05.10-05.18.27:637][943]LogSavePackage: Moving output files for package: /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged
+[2025.05.10-05.18.27:637][943]LogSavePackage: Moving '../../../../../../GitHub/Rokos_Basilisk/Game Code/Saved/BP_Basic_AI_Ranged8279D52A4646D414AE86C2AB699FA953.tmp' to '../../../../../../GitHub/Rokos_Basilisk/Game Code/Content/Enemies/RangedEnemy/BP_Basic_AI_Ranged.uasset'
+[2025.05.10-05.18.27:649][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 208.020 ms (total: 1.17 sec)
+[2025.05.10-05.18.27:758][944]LogContentValidation: Display: Starting to validate 2 assets
+[2025.05.10-05.18.27:758][944]LogContentValidation: Enabled validators:
+[2025.05.10-05.18.27:758][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.10-05.18.27:758][944]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.10-05.18.27:758][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.10-05.18.27:758][944]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.10-05.18.27:758][944]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.10-05.18.27:758][944]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.10-05.18.27:758][944]AssetCheck: /Game/Enemies/EnemyAI/BP_Basic_AI Validating asset
+[2025.05.10-05.18.27:758][944]AssetCheck: /Game/Enemies/RangedEnemy/BP_Basic_AI_Ranged Validating asset
+[2025.05.10-05.20.24:469][ 54]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPerson/MainMenu/W_DifficultyText.W_DifficultyText
+[2025.05.10-05.20.24:469][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world World_25
+[2025.05.10-05.20.24:480][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world World_26
