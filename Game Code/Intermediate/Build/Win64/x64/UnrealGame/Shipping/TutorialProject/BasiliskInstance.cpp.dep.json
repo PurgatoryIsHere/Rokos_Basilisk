@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\source\\tutorialproject\\basiliskinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\tutorialproject\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\tutorialproject\\definitions.tutorialproject.h",
+            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\source\\tutorialproject\\basiliskinstance.h",
+            "c:\\users\\akhta\\capstone\\rokos_basilisk\\game code\\intermediate\\build\\win64\\unrealgame\\inc\\tutorialproject\\uht\\basiliskinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
