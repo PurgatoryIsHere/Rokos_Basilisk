@@ -1,1 +1,3 @@
-Capstone
+Capstone Project: Roko's Basilisk
+
+Roko’s Basilisk is a first person shooter game with minor roguelike elements seeking to redefine player immersion by offering an adaptive, procedurally generated experience tailored to individual playstyles. The game employs constraint satisfaction techniques to analyze a number of performance statistics gathered at the end of each level to identify player strengths and weaknesses. This analysis guides the dynamic construction of subsequent levels, ensuring that each level challenges and evolves alongside the player. In conjunction with this, behaviour trees were created to guide the enemy combatants the player will be facing. These enemies will also have their own statistics adjusted in accordance to the player’s performance throughout the game. The result is a uniquely personalized gameplay experience where no two players, nor gameplay sessions, are ever identical.
